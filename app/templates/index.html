@@ -1,0 +1,24 @@
+<h2 class="mb-3">Cryptic Puzzles by Emily Cox & Henry Rathvon</h2>
+
+<div id="puzzles" class="list-group">
+  {% for puzzle in puzzles %}
+
+  <!-- Puzzle -->
+  <div id="puzzle-{{ puzzle.id }}" class="justify-content-start list-group-item">
+    <div class="row">
+
+      <!-- Puzzle Date -->
+      <div class="col col-sm-3 text-nowrap">
+        <code>{{ puzzle.date }}</code>
+      </div>
+
+      <!-- Puzzle Title -->
+      <div class="col col-sm-9">
+        <a href="/puzzles/{{ puzzle.id }}">{{ puzzle.title }}</a>
+      </div>
+
+    </div>
+
+  </div>
+  {% endfor %}
+</div>
