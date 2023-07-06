@@ -1,3 +1,8 @@
+var desc = false;
+var order = null;
+var query = null;
+
+// get a url via http
 function get(url) {
   var xmlHttp = new XMLHttpRequest();
   xmlHttp.open("GET", url, false);
@@ -11,6 +16,7 @@ function getJson(url) {
   return JSON.parse(response);
 }
 
+// get the data for all puzzles from the json file
 function getPuzzles() {
   return getJson("data.json");
 }

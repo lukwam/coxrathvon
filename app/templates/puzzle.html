@@ -4,7 +4,32 @@
 
 <hr>
 
-<p><a href="/solutions/{{ puzzle.id }}">Solution</a></p>
+{% if solution_url %}
+<!-- Solution Button -->
+<p>
+<button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#solutionModal">
+    View Solution
+</button>
+</p>
+
+<!-- Solution Modal -->
+<div class="modal fade" id="solutionModal" tabindex="-1" aria-labelledby="solutionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="solutionModalLabel">Solution for {{ puzzle.title }}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="{{ solution_url }}" class="border img-fluid mx-auto d-block" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 
 {% if image_url %}
 <img src="{{ image_url }}" class="border img-fluid mx-auto d-block" alt="">
@@ -23,10 +48,11 @@
 {% elif puzzle.publication == "wsj" %}
 <p>
     <small>
+    Copyright &copy; 2023 - Emily Cox & Henry Rathvon<br>
     Originally published in <b>The Wall Street Journal</b> on
     <b>{{ puzzle.date.strftime("%A, %B %d, %Y") }}</b>.<br>
 
-    Copyright &copy; 2023 - Emily Cox & Henry Rathvon
+
     </small>
 </p>
 {% endif %}

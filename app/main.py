@@ -21,6 +21,8 @@ def generate_signed_url(bucket_name, object_name, credentials):
     storage_client = storage.Client(credentials=credentials)
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(object_name)
+    if not blob.exists():
+        return None
     url = blob.generate_signed_url(
         version="v4",
         expiration=datetime.timedelta(minutes=15),
@@ -118,11 +120,18 @@ def puzzle(id):
         object_name=image_name,
         credentials=credentials,
     )
+    solution_name = f"{pub}/{id}_solution.png"
+    solution_url = generate_signed_url(
+        bucket_name="lukwam-hex-archive-images",
+        object_name=solution_name,
+        credentials=credentials,
+    )
     puzzle["date"] = datetime.datetime.strptime(puzzle["date"], "%Y-%m-%d")
     body = render_template(
         "puzzle.html",
         puzzle=puzzle,
         image_url=image_url,
+        solution_url=solution_url,
     )
     return render_theme(body, title=puzzle["title"])
 
