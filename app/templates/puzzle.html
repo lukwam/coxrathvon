@@ -7,7 +7,7 @@
 <p><a href="/solutions/{{ puzzle.id }}">Solution</a></p>
 
 {% if image_url %}
-<img src="{{ image_url }}" class="img-fluid" alt="">
+<img src="{{ image_url }}" class="border img-fluid mx-auto d-block" alt="">
 {% else %}
 <p>No image available.</p>
 {% endif %}
@@ -22,9 +22,11 @@
 </p>
 {% elif puzzle.publication == "wsj" %}
 <p>
-    <em><small>
+    <small>
     Originally published in <b>The Wall Street Journal</b> on
-    <b>{{ puzzle.date.strftime("%A, %B %d, %Y") }}</b>.
-    </small></em>
+    <b>{{ puzzle.date.strftime("%A, %B %d, %Y") }}</b>.<br>
+
+    Copyright &copy; 2023 - Emily Cox & Henry Rathvon
+    </small>
 </p>
 {% endif %}

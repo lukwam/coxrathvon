@@ -8,14 +8,26 @@
     <div class="row">
 
       <!-- Puzzle Date -->
-      <div class="col col-sm-3 text-nowrap">
+      <div class="col col-sm-2 justify-content-start text-nowrap me-3">
         <code>{{ puzzle.date }}</code>
       </div>
 
       <!-- Puzzle Title -->
-      <div class="col col-sm-9">
+      <div class="col d-flex justify-content-start">
         <a href="/puzzles/{{ puzzle.id }}">{{ puzzle.title }}</a>
       </div>
+
+      <!-- Puzzle Publication -->
+      <div class="col d-flex justify-content-end">
+        <div>
+        {% if puzzle.publication == "atlantic" %}
+        <span class="badge rounded-pill bg-primary">{{ puzzle.publication }}</span>
+        {% else %}
+        <span class="badge rounded-pill bg-success">{{ puzzle.publication }}</span>
+        {% endif %}
+        </div>
+      </div>
+
 
     </div>
 
