@@ -4,6 +4,7 @@ import json
 import os
 
 from flask import Flask
+from flask import make_response
 from flask import redirect
 from flask import render_template
 from flask import send_file
@@ -25,7 +26,7 @@ def generate_signed_url(bucket_name, object_name, credentials):
         return None
     url = blob.generate_signed_url(
         version="v4",
-        expiration=datetime.timedelta(minutes=15),
+        expiration=datetime.timedelta(minutes=60),
         method="GET",
     )
     return url
@@ -47,6 +48,16 @@ def get_data():
     with open("data.json") as f:
         data = json.load(f)
     return data
+
+
+def get_object(bucket_name, object_name):
+    """Return the given object from the given bucket."""
+    storage_client = storage.Client()
+    bucket = storage_client.get_bucket(bucket_name)
+    blob = bucket.blob(object_name)
+    if not blob.exists():
+        return None
+    return blob.download_as_bytes()
 
 
 def get_puzzle_by_id(id):
@@ -113,27 +124,70 @@ def puzzle(id):
     # get service account key and create credentials
     service_account_info = json.loads(get_secret("appengine-sa-key"))
     credentials = service_account.Credentials.from_service_account_info(service_account_info)
+
     pub = puzzle["publication"]
+
+    # generate signed url for the puzzle image
     image_name = f"{pub}/{id}_puzzle.png"
     image_url = generate_signed_url(
         bucket_name="lukwam-hex-archive-images",
         object_name=image_name,
         credentials=credentials,
     )
+
+    # generate signed url for the solution image
     solution_name = f"{pub}/{id}_solution.png"
     solution_url = generate_signed_url(
         bucket_name="lukwam-hex-archive-images",
         object_name=solution_name,
         credentials=credentials,
     )
+
+    # generate signed url for the solution image
+    pdf_name = f"{pub}/{id}_puzzle.pdf"
+    pdf_url = generate_signed_url(
+        bucket_name="lukwam-hex-archive",
+        object_name=pdf_name,
+        credentials=credentials,
+    )
+
+    # fix the date string to be an actual date
     puzzle["date"] = datetime.datetime.strptime(puzzle["date"], "%Y-%m-%d")
+
+    # generate the body
     body = render_template(
         "puzzle.html",
         puzzle=puzzle,
         image_url=image_url,
+        pdf_url=pdf_url,
         solution_url=solution_url,
     )
     return render_theme(body, title=puzzle["title"])
+
+
+@app.route("/puzzles/<id>/pdf")
+def puzzle_pdf(id):
+    """Return the pdf for the given puzzle."""
+    puzzle = get_puzzle_by_id(id)
+    if not puzzle:
+        return redirect("/")
+    date = puzzle["date"]
+    pub = puzzle["publication"]
+    title = puzzle["title"]
+
+    object_name = f"{pub}/{id}_puzzle.pdf"
+    image_binary = get_object("lukwam-hex-archive", object_name)
+    response = make_response(image_binary)
+    response.headers.set(
+        "Content-Type",
+        "image/jpeg",
+    )
+    response.headers.set(
+        "Content-Disposition",
+        "attachment",
+        filename=f"{date} {title}.pdf",
+    )
+    return response
 
 
 @app.route("/solutions/<id>")
