@@ -1,8 +1,14 @@
 <h2 class="mb-3">Cryptic Puzzles by Emily Cox & Henry Rathvon</h2>
 
+<!-- Search -->
+<div class="input-group mb-3">
+  <input type="text" class="form-control" onKeyUp="searchPuzzles();" onFocus="this.select();" placeholder="Search titles"
+    id="search-query" aria-label="Search titles" aria-describedby="search-query-button">
+  <!-- <button class="btn btn-outline-secondary" type="button" id="search-query-button">Search</button> -->
+</div>
+
 <div id="puzzles" class="list-group">
   {% for puzzle in puzzles %}
-
   <!-- Puzzle -->
   <div id="puzzle-{{ puzzle.id }}" class="justify-content-start list-group-item">
     <div class="row">
@@ -13,7 +19,7 @@
       </div>
 
       <!-- Puzzle Title -->
-      <div class="col d-flex justify-content-start">
+      <div class="col d-flex justify-content-start puzzle-title" data-title="{{ puzzle.title }}">
         <a href="/puzzles/{{ puzzle.id }}">{{ puzzle.title }}</a>
       </div>
 

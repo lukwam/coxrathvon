@@ -46,12 +46,13 @@ function getPuzzlesByYear() {
   return years;
 }
 
-function loadPuzzles() {
-  var data = getJson("data.json");
+function loadPuzzles(data=null) {
+  if (data == null) {
+    data = getJson("data.json");
+  }
   console.log("Puzzles: " + data.length);
 
   var puzzles = document.getElementById("puzzles");
-  // puzzles = filterPuzzles(puzzles);
   for (var i = 0; i < data.length; i++) {
     var li = document.createElement("li");
     var puzzle = data[i];
@@ -83,5 +84,25 @@ function loadPuzzles() {
     li.id = "puzzle-" + puzzle.id;
     li.classList.add("list-group-item")
     puzzles.appendChild(li);
+  }
+}
+
+// search puzzles
+function searchPuzzles() {
+  var query = document.getElementById("search-query");
+  console.log("Search query: " + query.value);
+
+  var titles = document.getElementsByClassName("puzzle-title");
+  for (var i = 0; i < titles.length; i++) {
+    var titleDiv = titles[i];
+    var title = titleDiv.dataset.title;
+    var puzzleDiv = titleDiv.parentElement.parentElement;
+    if (!query.value) {
+      puzzleDiv.style.display = "block";
+    } else if (title.toLowerCase().includes(query.value)) {
+      puzzleDiv.style.display = "block";
+    } else {
+      puzzleDiv.style.display = "none";
+    }
   }
 }
