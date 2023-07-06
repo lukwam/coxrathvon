@@ -89,17 +89,17 @@ function loadPuzzles(data=null) {
 
 // search puzzles
 function searchPuzzles() {
-  var query = document.getElementById("search-query");
-  console.log("Search query: " + query.value);
+  var query = document.getElementById("search-query").value.toLowerCase();
+  console.log("Search query: " + query);
 
   var titles = document.getElementsByClassName("puzzle-title");
   for (var i = 0; i < titles.length; i++) {
     var titleDiv = titles[i];
     var title = titleDiv.dataset.title;
     var puzzleDiv = titleDiv.parentElement.parentElement;
-    if (!query.value) {
+    if (!query) {
       puzzleDiv.style.display = "block";
-    } else if (title.toLowerCase().includes(query.value)) {
+    } else if (title.toLowerCase().includes(query)) {
       puzzleDiv.style.display = "block";
     } else {
       puzzleDiv.style.display = "none";
