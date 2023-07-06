@@ -51,6 +51,7 @@ function loadPuzzles() {
   console.log("Puzzles: " + data.length);
 
   var puzzles = document.getElementById("puzzles");
+  // puzzles = filterPuzzles(puzzles);
   for (var i = 0; i < data.length; i++) {
     var li = document.createElement("li");
     var puzzle = data[i];

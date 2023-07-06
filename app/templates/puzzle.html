@@ -38,21 +38,16 @@
 {% endif %}
 <hr>
 
-{% if puzzle.publication == "atlantic" %}
-<p>
-    <em><small>
+<!-- Copyright Notice -->
+Copyright &copy; 2023 - Emily Cox & Henry Rathvon</br>
+
+<!-- Original Publisher and Publish Date -->
+<p style="font-size: x-small;"><em>
+{%- if puzzle.publication == "atlantic" %}
     Originally published in the <b>{{ puzzle.issue }}</b> issue of
     <b>The Atlantic</b>.
-    </small></em>
-</p>
-{% elif puzzle.publication == "wsj" %}
-<p>
-    <small>
-    Copyright &copy; 2023 - Emily Cox & Henry Rathvon<br>
+{%- elif puzzle.publication == "wsj" %}
     Originally published in <b>The Wall Street Journal</b> on
     <b>{{ puzzle.date.strftime("%A, %B %d, %Y") }}</b>.<br>
-
-
-    </small>
-</p>
-{% endif %}
+{%- endif %}
+</em></p>
