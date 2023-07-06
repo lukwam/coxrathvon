@@ -7,6 +7,7 @@ from flask import Flask
 from flask import make_response
 from flask import redirect
 from flask import render_template
+from flask import request
 from flask import send_file
 
 from google.oauth2 import service_account
@@ -182,11 +183,12 @@ def puzzle_pdf(id):
         "Content-Type",
         "image/jpeg",
     )
-    response.headers.set(
-        "Content-Disposition",
-        "attachment",
-        filename=f"{date} {title}.pdf",
-    )
+    if request.args.get("download"):
+        response.headers.set(
+            "Content-Disposition",
+            "attachment",
+            filename=f"{date} {title}.pdf",
+        )
     return response
 
 
