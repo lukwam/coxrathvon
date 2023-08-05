@@ -5,8 +5,9 @@
 <hr>
 
 <div class="mb-3">
-    <!-- Puzzle Dropdown -->
+
     {% if pdf_url %}
+    <!-- Puzzle Dropdown -->
     <div class="btn-group">
         <div class="dropdown">
             <a class="btn btn-sm btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -16,6 +17,9 @@
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/puzzles/{{ puzzle.id }}/pdf?download=true">Download PDF</a></li>
                 <li><a class="dropdown-item" href="{{ pdf_url }}" target="_pdf">View PDF</a></li>
+                {% if puzzle.hexgrid and puzzle.hexgrid.settings.status == "published" -%}
+                <li><a class="dropdown-item" href="/puzzles/{{ puzzle.id }}/view">View Web</a></li>
+                {%- endif %}
             </ul>
         </div>
     </div>
@@ -47,6 +51,7 @@
         </div>
     </div>
     {% endif %}
+
 </div>
 
 {% if image_url %}

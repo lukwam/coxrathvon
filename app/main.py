@@ -1,7 +1,8 @@
-"""CoxRathvon"""
+"""CoxRathvon app."""
 import datetime
 import json
 import os
+import shutil
 
 from flask import Flask
 from flask import make_response
@@ -14,6 +15,8 @@ from google.oauth2 import service_account
 from google.cloud import firestore
 from google.cloud import secretmanager
 from google.cloud import storage
+
+from puzzle import Puzzle
 
 app = Flask(__name__)
 
@@ -46,7 +49,10 @@ def get_collection(collection, project=None):
 
 def get_data():
     """Return the data from the data.json file."""
-    with open("data.json") as f:
+    filename = "/tmp/data.json"
+    if not os.path.isfile(filename):
+        shutil.copy("data.json", filename)
+    with open(filename) as f:
         data = json.load(f)
     return data
 
@@ -85,6 +91,31 @@ def get_secret(secret_name):
         request={"name": name}
     )
     return response.payload.data.decode("UTF-8")
+
+
+def prepare_puzzle(id):
+    """Prepare a single puzzle."""
+    puzzle = get_puzzle_by_id(id)
+    if not puzzle:
+        return None
+
+    hexgrid = puzzle.get("hexgrid", {})
+    if not hexgrid:
+        return None
+
+    # prepare puzzle data
+    hexgrid["clues"] = hexgrid["clue_groups"]
+    hexgrid["date"] = datetime.datetime.strptime(hexgrid["date"], "%Y-%m-%d")
+    del hexgrid["clue_groups"]
+    del hexgrid["id"]
+
+    try:
+        hex = Puzzle(hexgrid)
+    except Exception as error:
+        print(f"ERROR: Failed to load puzzle: {error}")
+        return redirect(f"/puzzles/{id}")
+
+    return hex
 
 
 def render_theme(body, **kwargs):
@@ -192,6 +223,37 @@ def puzzle_pdf(id):
     return response
 
 
+@app.route("/puzzles/<id>/svg")
+@app.route("/solutions/<id>/svg")
+def puzzle_svg(id):
+    """Display an individual puzzle svg."""
+    puzzle = prepare_puzzle(id)
+    show_solution = False
+    if "/solutions/" in request.path:
+        show_solution = True
+    body = render_template(
+        "svg.html",
+        id=id,
+        puzzle=puzzle,
+        show_solution=show_solution,
+    )
+    headers = {"content-type": "image/svg+xml"}
+    return make_response(body, 200, headers)
+
+
+@app.route("/puzzles/<id>/view")
+def puzzle_view(id):
+    """Display an individual web puzzle."""
+    puzzle = prepare_puzzle(id)
+    body = render_template(
+        "web.html",
+        id=id,
+        puzzle=puzzle,
+    )
+    title = f"{puzzle.title} - Emily Cox & Henry Rathvon"
+    return render_theme(body, title=title)
+
+
 @app.route("/solutions/<id>")
 def solution(id):
     """Display an indidivual puzzle solution."""
@@ -221,6 +283,8 @@ def solution(id):
 @app.route("/data.json")
 def data():
     """Return the data.json file."""
+    if os.path.isfile("/tmp/data.json"):
+        return send_file("/tmp/data.json")
     return send_file("./data.json")
 
 
@@ -230,12 +294,24 @@ def script():
     return send_file("./script.js")
 
 
+@app.route("/style.css")
+def style():
+    """Return the style.css file."""
+    return send_file("./style.css")
+
+
 @app.route("/update")
 def update():
     """Update the data."""
     atlantic = 0
     wsj = 0
     puzzles = []
+
+    hexgrids = {}
+    for hex in get_collection("hexgrids", project="lukwam-hex"):
+        id = hex["id"]
+        hexgrids[id] = hex
+
     for item in get_collection("puzzles", project="lukwam-hex"):
         pub = item.get("pub")
         if pub not in [
@@ -258,6 +334,7 @@ def update():
             "year": int(year),
             "month": int(month),
             "day": int(day),
+            "hexgrid": hexgrids.get(item["id"])
         }
         puzzles.append(puzzle)
 
@@ -266,7 +343,7 @@ def update():
 
     puzzles = sorted(puzzles, key=lambda x: x["date"])
     output = json.dumps(puzzles, indent=2, sort_keys=True)
-    f = open("data.json", "w")
+    f = open("/tmp/data.json", "w")
     f.write(output)
     f.close()
 
