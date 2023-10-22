@@ -1,0 +1,52 @@
+/* .grid-contaier {} */
+
+.grid {
+  height: 80vmin;
+  width: 80vmin;
+}
+
+.grid-svg {
+  object-fit: contain;
+}
+
+/* .instructions {} */
+
+.clue-groups {
+  column-count: 1;
+  column-gap: 2em;
+}
+
+/* .clue-group {} */
+
+/* .clue-group-name {} */
+
+/* .clue {} */
+
+/* .clue-name {} */
+
+/* .clue-clue {} */
+
+
+@media (min-width: 720px) {
+  .clue-groups {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 960px) {
+  .clue-groups {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1140px) {
+  .clue-groups {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1320px) {
+  .clue-groups {
+    column-count: 4;
+  }
+}
