@@ -14,7 +14,7 @@
     <div class="row">
 
       <!-- Puzzle Date -->
-      <div class="col col-sm-2 justify-content-start text-nowrap me-3">
+      <div class="col col-sm-2 justify-content-start text-nowrap me-3" data-date="{{ puzzle.date }}">
         <code class="">{{ puzzle.date }}</code>
       </div>
 
@@ -24,12 +24,12 @@
       </div>
 
       <!-- Puzzle Publication -->
-      <div class="col d-flex justify-content-end">
+      <div class="col d-flex justify-content-end" data-publication="{{ puzzle.publication }}">
         <div>
         {% if puzzle.publication == "atlantic" %}
-        <span class="badge rounded-pill bg-primary">{{ puzzle.publication }}</span>
+        <span class="badge rounded-pill bg-primary">{{ puzzle.publication }} #{{ puzzle.number }}</span>
         {% else %}
-        <span class="badge rounded-pill bg-success">{{ puzzle.publication }}</span>
+        <span class="badge rounded-pill bg-success">{{ puzzle.publication }} #{{ puzzle.number }}</span>
         {% endif %}
         </div>
       </div>

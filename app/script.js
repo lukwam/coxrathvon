@@ -96,10 +96,20 @@ function searchPuzzles() {
   for (var i = 0; i < titles.length; i++) {
     var titleDiv = titles[i];
     var title = titleDiv.dataset.title;
+    var date = titleDiv.previousElementSibling.dataset.date;
+    var publication = titleDiv.nextElementSibling.dataset.publication;
     var puzzleDiv = titleDiv.parentElement.parentElement;
+    // display all puzzles if no query
     if (!query) {
       puzzleDiv.style.display = "block";
+    // display puzzles that match on title
     } else if (title.toLowerCase().includes(query)) {
+      puzzleDiv.style.display = "block";
+    // display puzzles that match on date
+    } else if (date.toLowerCase().includes(query)) {
+      puzzleDiv.style.display = "block";
+    // display puzzles that match on publication
+    } else if (publication.toLowerCase().includes(query)) {
       puzzleDiv.style.display = "block";
     } else {
       puzzleDiv.style.display = "none";

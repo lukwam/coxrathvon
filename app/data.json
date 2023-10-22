@@ -90,6 +90,26 @@
           "NONES|P|D|WHITE",
           "DOC|DRYSPELLS"
         ],
+        "solution_columns": [
+          ""
+        ],
+        "solution_rows": [
+          ""
+        ],
+        "solution_style": [
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
+        ],
         "style": [
           "____________",
           "____________",
@@ -109,6 +129,11 @@
             "background-color": "lightgrey",
             "shape": "shadesquare"
           },
+          ".": {
+            "background-color": "white",
+            "fill": "black",
+            "shape": "bullet"
+          },
           "@": {
             "background-color": "lightgrey",
             "fill": "lightgrey",
@@ -116,6 +141,10 @@
           },
           "O": {
             "shape": "circle"
+          },
+          "X": {
+            "shape": "x",
+            "stroke": "grey"
           }
         }
       },
@@ -152,6 +181,7 @@
     "id": "INwDMwpK834CbI0UGey6",
     "issue": "September 1977",
     "month": 9,
+    "number": "1",
     "publication": "atlantic",
     "title": "Short and Sweet",
     "year": 1977
@@ -290,6 +320,7 @@
     "id": "Ppzr5RW0ch0DmUAuvUUE",
     "issue": "October 1977",
     "month": 10,
+    "number": "2",
     "publication": "atlantic",
     "title": "Masquerade Ball",
     "year": 1977
@@ -422,6 +453,7 @@
     "id": "XdOBrjRxkFHqYZLAEWur",
     "issue": "November 1977",
     "month": 11,
+    "number": "3",
     "publication": "atlantic",
     "title": "Sixes and Sevens",
     "year": 1977
@@ -532,6 +564,7 @@
     "id": "PVYi9i1THphJlj7s57bK",
     "issue": "December 1977",
     "month": 12,
+    "number": "4",
     "publication": "atlantic",
     "title": "News Clippings",
     "year": 1977
@@ -709,6 +742,7 @@
     "id": "hDKqxGzA8kFcYttv1iaQ",
     "issue": "January 1978",
     "month": 1,
+    "number": "5",
     "publication": "atlantic",
     "title": "Eightsome Reels",
     "year": 1978
@@ -843,6 +877,7 @@
     "id": "yiSMJBD8gGhAMBzudjHP",
     "issue": "February 1978",
     "month": 2,
+    "number": "6",
     "publication": "atlantic",
     "title": "Disguise",
     "year": 1978
@@ -980,6 +1015,7 @@
     "id": "cXqwGpd1GStGeKYbkgJU",
     "issue": "March 1978",
     "month": 3,
+    "number": "7",
     "publication": "atlantic",
     "title": "Musical Chairs",
     "year": 1978
@@ -991,6 +1027,7 @@
     "id": "N0ZZAfkflRMIqk3zyrxS",
     "issue": "April 1978",
     "month": 4,
+    "number": "8",
     "publication": "atlantic",
     "title": "Vicious Circles",
     "year": 1978
@@ -1145,6 +1182,7 @@
     "id": "NrHB8UsdQXpqPPFBifWM",
     "issue": "May 1978",
     "month": 5,
+    "number": "9",
     "publication": "atlantic",
     "title": "Lines of Demarcation",
     "year": 1978
@@ -1284,6 +1322,7 @@
     "id": "DDGvIBpP2lp4wtuJtFSn",
     "issue": "June 1978",
     "month": 6,
+    "number": "10",
     "publication": "atlantic",
     "title": "Abecedarian Jigsaw",
     "year": 1978
@@ -1295,6 +1334,7 @@
     "id": "x0393UazsIKXSWN6eysA",
     "issue": "July 1978",
     "month": 7,
+    "number": "11",
     "publication": "atlantic",
     "title": "Drosswords",
     "year": 1978
@@ -1306,6 +1346,7 @@
     "id": "uPQ7Bd5KoNyl24nZ6zCo",
     "issue": "August 1978",
     "month": 8,
+    "number": "12",
     "publication": "atlantic",
     "title": "Back to Back",
     "year": 1978
@@ -1317,6 +1358,7 @@
     "id": "rPk1VMi1M9m6RHgImP2a",
     "issue": "September 1978",
     "month": 9,
+    "number": "13",
     "publication": "atlantic",
     "title": "Torn Clues",
     "year": 1978
@@ -1328,6 +1370,7 @@
     "id": "SYrDhhrvOn5rJ1Yku7E3",
     "issue": "October 1978",
     "month": 10,
+    "number": "14",
     "publication": "atlantic",
     "title": "Octaves",
     "year": 1978
@@ -1339,6 +1382,7 @@
     "id": "r5Lkr6JPIolZmTFzcqUT",
     "issue": "November 1978",
     "month": 11,
+    "number": "15",
     "publication": "atlantic",
     "title": "Decipherment",
     "year": 1978
@@ -1350,6 +1394,7 @@
     "id": "zRAlwCxFTkUjWvtnxZFG",
     "issue": "December 1978",
     "month": 12,
+    "number": "16",
     "publication": "atlantic",
     "title": "Starlights",
     "year": 1978
@@ -1361,6 +1406,7 @@
     "id": "G9JoPh8ePlyyx7WFVO5K",
     "issue": "January 1979",
     "month": 1,
+    "number": "17",
     "publication": "atlantic",
     "title": "Transmutation",
     "year": 1979
@@ -1372,6 +1418,7 @@
     "id": "cJ7dO8UK6Qy1dDDYAOoX",
     "issue": "February 1979",
     "month": 2,
+    "number": "18",
     "publication": "atlantic",
     "title": "Counterparts",
     "year": 1979
@@ -1525,6 +1572,7 @@
     "id": "k5W5DPrPAYQSz2glLXi3",
     "issue": "March 1979",
     "month": 3,
+    "number": "19",
     "publication": "atlantic",
     "title": "Crossword Puzzle",
     "year": 1979
@@ -1536,6 +1584,7 @@
     "id": "ewb624uypSdLtzqdIS7i",
     "issue": "April 1979",
     "month": 4,
+    "number": "20",
     "publication": "atlantic",
     "title": "Theme and Variations",
     "year": 1979
@@ -1547,6 +1596,7 @@
     "id": "LJeEWQ3henNPoDPTkfgp",
     "issue": "May 1979",
     "month": 5,
+    "number": "21",
     "publication": "atlantic",
     "title": "Misprints",
     "year": 1979
@@ -1558,6 +1608,7 @@
     "id": "pEW6Zg0vScIRRqIStnVs",
     "issue": "June 1979",
     "month": 6,
+    "number": "22",
     "publication": "atlantic",
     "title": "Mitosis",
     "year": 1979
@@ -1569,6 +1620,7 @@
     "id": "WDKSPc4fLumhfQqvUR4Q",
     "issue": "July 1979",
     "month": 7,
+    "number": "23",
     "publication": "atlantic",
     "title": "Shorthand I",
     "year": 1979
@@ -1580,6 +1632,7 @@
     "id": "QgKDWpadETdX9rgi1YeN",
     "issue": "August 1979",
     "month": 8,
+    "number": "24",
     "publication": "atlantic",
     "title": "Double Cross",
     "year": 1979
@@ -1591,6 +1644,7 @@
     "id": "eXd3mya0BkSDTrp9Tmzr",
     "issue": "September 1979",
     "month": 9,
+    "number": "25",
     "publication": "atlantic",
     "title": "Wrong Number",
     "year": 1979
@@ -1602,6 +1656,7 @@
     "id": "IwmbeIR9KCAcMvXBAGbv",
     "issue": "October 1979",
     "month": 10,
+    "number": "26",
     "publication": "atlantic",
     "title": "Traffic Jam",
     "year": 1979
@@ -1613,6 +1668,7 @@
     "id": "hbMhSecWPOx1D8chFG8m",
     "issue": "November 1979",
     "month": 11,
+    "number": "27",
     "publication": "atlantic",
     "title": "Animal Crackers",
     "year": 1979
@@ -1624,6 +1680,7 @@
     "id": "iITLJuQhBXgrXWfKlTSf",
     "issue": "December 1979",
     "month": 12,
+    "number": "28",
     "publication": "atlantic",
     "title": "Noel",
     "year": 1979
@@ -1635,6 +1692,7 @@
     "id": "AwKtJkUxKkMh657OC4aF",
     "issue": "January 1980",
     "month": 1,
+    "number": "29",
     "publication": "atlantic",
     "title": "Resolutions",
     "year": 1980
@@ -1646,6 +1704,7 @@
     "id": "HhmnAuaoqLUKc2B4Ewmq",
     "issue": "February 1980",
     "month": 2,
+    "number": "30",
     "publication": "atlantic",
     "title": "Spelling Bee",
     "year": 1980
@@ -1657,6 +1716,7 @@
     "id": "bBXVoCCybqnfHn9OZid3",
     "issue": "March 1980",
     "month": 3,
+    "number": "31",
     "publication": "atlantic",
     "title": "Dream Analysis",
     "year": 1980
@@ -1788,6 +1848,7 @@
     "id": "imrpBE8xpH4f7lTizRhq",
     "issue": "April 1980",
     "month": 4,
+    "number": "32",
     "publication": "atlantic",
     "title": "Post Mortem",
     "year": 1980
@@ -1799,6 +1860,7 @@
     "id": "YkDepZD7VkHZ8PXSwVnB",
     "issue": "May 1980",
     "month": 5,
+    "number": "33",
     "publication": "atlantic",
     "title": "Shadowboxing",
     "year": 1980
@@ -1810,6 +1872,7 @@
     "id": "A6eq8doldGar8zkMKdti",
     "issue": "June 1980",
     "month": 6,
+    "number": "34",
     "publication": "atlantic",
     "title": "Head-Hunting",
     "year": 1980
@@ -1821,6 +1884,7 @@
     "id": "R3KdxCqSz5rpp316kcLl",
     "issue": "July 1980",
     "month": 7,
+    "number": "35",
     "publication": "atlantic",
     "title": "Circle Dance",
     "year": 1980
@@ -1832,6 +1896,7 @@
     "id": "MwD76Qkm6A9D2u7yya1K",
     "issue": "August 1980",
     "month": 8,
+    "number": "36",
     "publication": "atlantic",
     "title": "Mixed Doubles",
     "year": 1980
@@ -1843,6 +1908,7 @@
     "id": "8l3rXTglGVtbrUE3bIRe",
     "issue": "September 1980",
     "month": 9,
+    "number": "37",
     "publication": "atlantic",
     "title": "Alphabetical Deletion",
     "year": 1980
@@ -1854,6 +1920,7 @@
     "id": "9p7fHQLwCk9cauz2WPDE",
     "issue": "October 1980",
     "month": 10,
+    "number": "38",
     "publication": "atlantic",
     "title": "Square Wheels",
     "year": 1980
@@ -1865,6 +1932,7 @@
     "id": "ZxmXJbG25WJmWgiETfln",
     "issue": "November 1980",
     "month": 11,
+    "number": "39",
     "publication": "atlantic",
     "title": "The Djintecs",
     "year": 1980
@@ -1876,6 +1944,7 @@
     "id": "dmr7iYLsZeoniXGKsNra",
     "issue": "December 1980",
     "month": 12,
+    "number": "40",
     "publication": "atlantic",
     "title": "Gift-Giving",
     "year": 1980
@@ -1887,6 +1956,7 @@
     "id": "cEvvdEJfodhhSK6ONTDj",
     "issue": "January 1981",
     "month": 1,
+    "number": "41",
     "publication": "atlantic",
     "title": "Schizogrammata",
     "year": 1981
@@ -1898,6 +1968,7 @@
     "id": "52N4JotDCCHTzqea7d6I",
     "issue": "February 1981",
     "month": 2,
+    "number": "42",
     "publication": "atlantic",
     "title": "TV Guide",
     "year": 1981
@@ -1909,6 +1980,7 @@
     "id": "LKHdEmv9HtuIyxGBJKLk",
     "issue": "March 1981",
     "month": 3,
+    "number": "43",
     "publication": "atlantic",
     "title": "Debarment",
     "year": 1981
@@ -1920,6 +1992,7 @@
     "id": "EkUS0wvSo9CA7YfAuCsn",
     "issue": "April 1981",
     "month": 4,
+    "number": "44",
     "publication": "atlantic",
     "title": "Pinwheel",
     "year": 1981
@@ -1931,6 +2004,7 @@
     "id": "IDol0uSTypjtFmkGjBuV",
     "issue": "May 1981",
     "month": 5,
+    "number": "45",
     "publication": "atlantic",
     "title": "Men of Art",
     "year": 1981
@@ -1942,6 +2016,7 @@
     "id": "rUMHEw6tshs2iszaOi6w",
     "issue": "June 1981",
     "month": 6,
+    "number": "46",
     "publication": "atlantic",
     "title": "Breaking In",
     "year": 1981
@@ -1953,6 +2028,7 @@
     "id": "mrzkWD6IK7AxbYb0cjGT",
     "issue": "July 1981",
     "month": 7,
+    "number": "47",
     "publication": "atlantic",
     "title": "Hidden Faces",
     "year": 1981
@@ -1964,6 +2040,7 @@
     "id": "MKhL9KfqlPdr5qmMwnlI",
     "issue": "August 1981",
     "month": 8,
+    "number": "48",
     "publication": "atlantic",
     "title": "Two In One",
     "year": 1981
@@ -1975,6 +2052,7 @@
     "id": "PGP3yNrOuQ5omPKg0JXb",
     "issue": "September 1981",
     "month": 9,
+    "number": "49",
     "publication": "atlantic",
     "title": "Across and Down",
     "year": 1981
@@ -1986,6 +2064,7 @@
     "id": "AzPVN1Zq9Ejaqp4ZLUUE",
     "issue": "October 1981",
     "month": 10,
+    "number": "50",
     "publication": "atlantic",
     "title": "Patchwork",
     "year": 1981
@@ -1997,6 +2076,7 @@
     "id": "7E0pqWzoV2SFA93EUBtA",
     "issue": "November 1981",
     "month": 11,
+    "number": "51",
     "publication": "atlantic",
     "title": "Letter Boxes",
     "year": 1981
@@ -2008,6 +2088,7 @@
     "id": "QO6dh9o3pJGkL9MZFZmj",
     "issue": "December 1981",
     "month": 12,
+    "number": "52",
     "publication": "atlantic",
     "title": "Acrostic",
     "year": 1981
@@ -2019,6 +2100,7 @@
     "id": "ubBIS12uEMHtS1xaXMuj",
     "issue": "January 1982",
     "month": 1,
+    "number": "53",
     "publication": "atlantic",
     "title": "Backfield in Motion",
     "year": 1982
@@ -2030,6 +2112,7 @@
     "id": "GzUXVwetga8ARsRFsQqa",
     "issue": "February 1982",
     "month": 2,
+    "number": "54",
     "publication": "atlantic",
     "title": "Couples",
     "year": 1982
@@ -2041,6 +2124,7 @@
     "id": "ieeKf54YGos0kLEUrV0c",
     "issue": "March 1982",
     "month": 3,
+    "number": "55",
     "publication": "atlantic",
     "title": "One-Armed Bandit",
     "year": 1982
@@ -2052,6 +2136,7 @@
     "id": "H1CillfWbDhXS7WIz0vm",
     "issue": "April 1982",
     "month": 4,
+    "number": "56",
     "publication": "atlantic",
     "title": "Carte Blanche",
     "year": 1982
@@ -2063,6 +2148,7 @@
     "id": "eQ8OQCPUV6MREsT2eUmE",
     "issue": "May 1982",
     "month": 5,
+    "number": "57",
     "publication": "atlantic",
     "title": "Figures of Speech",
     "year": 1982
@@ -2074,6 +2160,7 @@
     "id": "KVNkYLr6dNn8lm6deW37",
     "issue": "June 1982",
     "month": 6,
+    "number": "58",
     "publication": "atlantic",
     "title": "Cryptic Golf",
     "year": 1982
@@ -2085,6 +2172,7 @@
     "id": "Irn2ry7uADmaEkFJxGJi",
     "issue": "July 1982",
     "month": 7,
+    "number": "59",
     "publication": "atlantic",
     "title": "Number Puzzle",
     "year": 1982
@@ -2096,6 +2184,7 @@
     "id": "loSGrpuW4e8e1T3FPBEs",
     "issue": "August 1982",
     "month": 8,
+    "number": "60",
     "publication": "atlantic",
     "title": "Building Blocks",
     "year": 1982
@@ -2107,6 +2196,7 @@
     "id": "43yD5Hb5KHJEEsOaUiAQ",
     "issue": "September 1982",
     "month": 9,
+    "number": "61",
     "publication": "atlantic",
     "title": "Spinning Wheel",
     "year": 1982
@@ -2118,6 +2208,7 @@
     "id": "wObUa2u2weAePrYK2Mx3",
     "issue": "October 1982",
     "month": 10,
+    "number": "62",
     "publication": "atlantic",
     "title": "Dual Commitment",
     "year": 1982
@@ -2129,6 +2220,7 @@
     "id": "p43mQSK3VJYka56YBeB9",
     "issue": "November 1982",
     "month": 11,
+    "number": "63",
     "publication": "atlantic",
     "title": "Classified Ads",
     "year": 1982
@@ -2140,6 +2232,7 @@
     "id": "OY7l0HoxjN7hicAEdiXp",
     "issue": "December 1982",
     "month": 12,
+    "number": "64",
     "publication": "atlantic",
     "title": "Tree-Trimming",
     "year": 1982
@@ -2151,6 +2244,7 @@
     "id": "AEmhcaUZJI2AcjkjdSXb",
     "issue": "January 1983",
     "month": 1,
+    "number": "65",
     "publication": "atlantic",
     "title": "Bar-Hopping",
     "year": 1983
@@ -2162,6 +2256,7 @@
     "id": "KTDXBH1McfZj8P93nO2O",
     "issue": "February 1983",
     "month": 2,
+    "number": "66",
     "publication": "atlantic",
     "title": "From the Heart",
     "year": 1983
@@ -2173,6 +2268,7 @@
     "id": "QSf5lcqw14IctjQqpQbO",
     "issue": "March 1983",
     "month": 3,
+    "number": "67",
     "publication": "atlantic",
     "title": "Noah's Ark",
     "year": 1983
@@ -2184,6 +2280,7 @@
     "id": "g8j1pi07mfiF5ONslQ0v",
     "issue": "April 1983",
     "month": 4,
+    "number": "68",
     "publication": "atlantic",
     "title": "Bookshelves",
     "year": 1983
@@ -2195,6 +2292,7 @@
     "id": "URFWn4PnoEmvj1Fkdraa",
     "issue": "May 1983",
     "month": 5,
+    "number": "69",
     "publication": "atlantic",
     "title": "Cryptic Ping-Pong",
     "year": 1983
@@ -2318,6 +2416,7 @@
     "id": "8Pz1uDIE5TBp57QnGvMh",
     "issue": "June 1983",
     "month": 6,
+    "number": "70",
     "publication": "atlantic",
     "title": "Waste Recycling",
     "year": 1983
@@ -2329,6 +2428,7 @@
     "id": "FC6sGhinbQ7bmmA5Z0mP",
     "issue": "July 1983",
     "month": 7,
+    "number": "71",
     "publication": "atlantic",
     "title": "Quadrants",
     "year": 1983
@@ -2340,6 +2440,7 @@
     "id": "HCFdFBuhmrPSXmwY5XV0",
     "issue": "August 1983",
     "month": 8,
+    "number": "72",
     "publication": "atlantic",
     "title": "Asteroids",
     "year": 1983
@@ -2351,6 +2452,7 @@
     "id": "smf8Bhdoys2TY0U5BOmu",
     "issue": "September 1983",
     "month": 9,
+    "number": "73",
     "publication": "atlantic",
     "title": "Absolutely!",
     "year": 1983
@@ -2362,6 +2464,7 @@
     "id": "kDP1M6h1MOruzRwX2h65",
     "issue": "October 1983",
     "month": 10,
+    "number": "74",
     "publication": "atlantic",
     "title": "Diary of a Madman",
     "year": 1983
@@ -2373,6 +2476,7 @@
     "id": "ZABcZVUVKFBjLwfVkpm4",
     "issue": "November 1983",
     "month": 11,
+    "number": "75",
     "publication": "atlantic",
     "title": "Eights",
     "year": 1983
@@ -2384,6 +2488,7 @@
     "id": "ZFIhYGtgoExF5KnUp66d",
     "issue": "December 1983",
     "month": 12,
+    "number": "76",
     "publication": "atlantic",
     "title": "Medley",
     "year": 1983
@@ -2395,6 +2500,7 @@
     "id": "DJ5yu546pUBDDhrLtToB",
     "issue": "January 1984",
     "month": 1,
+    "number": "77",
     "publication": "atlantic",
     "title": "Acrostic",
     "year": 1984
@@ -2406,6 +2512,7 @@
     "id": "GKxC4PSpLq47TQw98MWc",
     "issue": "February 1984",
     "month": 2,
+    "number": "78",
     "publication": "atlantic",
     "title": "Hearts",
     "year": 1984
@@ -2417,6 +2524,7 @@
     "id": "WYe2gYrXEnnlgqMwjtEM",
     "issue": "March 1984",
     "month": 3,
+    "number": "79",
     "publication": "atlantic",
     "title": "Labyrinth",
     "year": 1984
@@ -2428,6 +2536,7 @@
     "id": "HQ18E5rUcNCViPdGJvqC",
     "issue": "April 1984",
     "month": 4,
+    "number": "80",
     "publication": "atlantic",
     "title": "Target Practice",
     "year": 1984
@@ -2439,6 +2548,7 @@
     "id": "2Yw9ndN0EFb4petBed9x",
     "issue": "May 1984",
     "month": 5,
+    "number": "81",
     "publication": "atlantic",
     "title": "Procrustean Bed",
     "year": 1984
@@ -2450,6 +2560,7 @@
     "id": "O0gFDWLbwf7jdCWWhw0Q",
     "issue": "June 1984",
     "month": 6,
+    "number": "82",
     "publication": "atlantic",
     "title": "Theme and Variations",
     "year": 1984
@@ -2461,6 +2572,7 @@
     "id": "epFDPfF1bLcEaZQGRwyj",
     "issue": "July 1984",
     "month": 7,
+    "number": "83",
     "publication": "atlantic",
     "title": "Garden Plot",
     "year": 1984
@@ -2472,6 +2584,7 @@
     "id": "xmJFUjVDVweKqgwsZxVU",
     "issue": "August 1984",
     "month": 8,
+    "number": "84",
     "publication": "atlantic",
     "title": "ABC",
     "year": 1984
@@ -2483,6 +2596,7 @@
     "id": "g9Om7vUmvLaBa7JYwYN0",
     "issue": "September 1984",
     "month": 9,
+    "number": "85",
     "publication": "atlantic",
     "title": "Puzzle Cube",
     "year": 1984
@@ -2609,6 +2723,7 @@
     "id": "T4PFFDe0cLuldhPqwkhf",
     "issue": "October 1984",
     "month": 10,
+    "number": "86",
     "publication": "atlantic",
     "title": "Trick or Treat",
     "year": 1984
@@ -2620,6 +2735,7 @@
     "id": "sMQnuFXy1AnsL9kHQCuR",
     "issue": "November 1984",
     "month": 11,
+    "number": "87",
     "publication": "atlantic",
     "title": "Party of Eight",
     "year": 1984
@@ -2785,6 +2901,7 @@
     "id": "TaOAXGXfDeFJEGqjGMpY",
     "issue": "December 1984",
     "month": 12,
+    "number": "88",
     "publication": "atlantic",
     "title": "Mountain Climbing",
     "year": 1984
@@ -2913,6 +3030,7 @@
     "id": "idwzdU6T6GTDvLwQvMSQ",
     "issue": "January 1985",
     "month": 1,
+    "number": "89",
     "publication": "atlantic",
     "title": "Laddergram",
     "year": 1985
@@ -2924,6 +3042,7 @@
     "id": "sqo1sReeFvfsR1qvGfW5",
     "issue": "February 1985",
     "month": 2,
+    "number": "90",
     "publication": "atlantic",
     "title": "Compound Words",
     "year": 1985
@@ -2935,6 +3054,7 @@
     "id": "ctmybGS2II2ToIxhICbU",
     "issue": "March 1985",
     "month": 3,
+    "number": "91",
     "publication": "atlantic",
     "title": "Guided Tour",
     "year": 1985
@@ -2946,6 +3066,7 @@
     "id": "gcOSAipSCYKOQUFqE6Gi",
     "issue": "April 1985",
     "month": 4,
+    "number": "92",
     "publication": "atlantic",
     "title": "Sixes and Sevens",
     "year": 1985
@@ -2957,6 +3078,7 @@
     "id": "zGDXdbCAsorkXY0nitGt",
     "issue": "May 1985",
     "month": 5,
+    "number": "93",
     "publication": "atlantic",
     "title": "Cross Reference",
     "year": 1985
@@ -2968,6 +3090,7 @@
     "id": "teDK3SucpunP7SP0bTyD",
     "issue": "June 1985",
     "month": 6,
+    "number": "94",
     "publication": "atlantic",
     "title": "Code-Breaking",
     "year": 1985
@@ -2979,6 +3102,7 @@
     "id": "1wdyw9AznpSz7jrPgE3e",
     "issue": "July 1985",
     "month": 7,
+    "number": "95",
     "publication": "atlantic",
     "title": "Acrostic",
     "year": 1985
@@ -2990,6 +3114,7 @@
     "id": "qjR38BuxpmxUMH9upNEt",
     "issue": "August 1985",
     "month": 8,
+    "number": "96",
     "publication": "atlantic",
     "title": "Double Cross",
     "year": 1985
@@ -3001,6 +3126,7 @@
     "id": "PP3OdgA808zwXadLU8b6",
     "issue": "September 1985",
     "month": 9,
+    "number": "97",
     "publication": "atlantic",
     "title": "Spoonerisms",
     "year": 1985
@@ -3012,6 +3138,7 @@
     "id": "0UqbePwO5onv43EpPq6d",
     "issue": "October 1985",
     "month": 10,
+    "number": "98",
     "publication": "atlantic",
     "title": "Go-Betweens",
     "year": 1985
@@ -3023,6 +3150,7 @@
     "id": "v7G0opsDDxsI0T8n9usv",
     "issue": "November 1985",
     "month": 11,
+    "number": "99",
     "publication": "atlantic",
     "title": "Missing Links",
     "year": 1985
@@ -3034,6 +3162,7 @@
     "id": "bo71tXDhSV7SapEwlXMP",
     "issue": "December 1985",
     "month": 12,
+    "number": "100",
     "publication": "atlantic",
     "title": "Starlights",
     "year": 1985
@@ -3045,6 +3174,7 @@
     "id": "FR4Mn19r3HB01VL2RpFQ",
     "issue": "January 1986",
     "month": 1,
+    "number": "101",
     "publication": "atlantic",
     "title": "Upstairs Downstairs",
     "year": 1986
@@ -3056,6 +3186,7 @@
     "id": "iQRJjC9flEKFMt0ueExp",
     "issue": "February 1986",
     "month": 2,
+    "number": "102",
     "publication": "atlantic",
     "title": "Sixism",
     "year": 1986
@@ -3067,6 +3198,7 @@
     "id": "afHainHfS4z1mtQqtzVV",
     "issue": "March 1986",
     "month": 3,
+    "number": "103",
     "publication": "atlantic",
     "title": "Pinwheel",
     "year": 1986
@@ -3078,6 +3210,7 @@
     "id": "oDcvaWcVoquGlWgvIMMx",
     "issue": "April 1986",
     "month": 4,
+    "number": "104",
     "publication": "atlantic",
     "title": "Animated Speech",
     "year": 1986
@@ -3202,6 +3335,7 @@
     "id": "ctJdh9ijXlzwyl5sTbs4",
     "issue": "May 1986",
     "month": 5,
+    "number": "105",
     "publication": "atlantic",
     "title": "Matched Set",
     "year": 1986
@@ -3213,6 +3347,7 @@
     "id": "ktjr3R5NtSi2AJcAI2QO",
     "issue": "June 1986",
     "month": 6,
+    "number": "106",
     "publication": "atlantic",
     "title": "Flow Chart",
     "year": 1986
@@ -3224,6 +3359,7 @@
     "id": "gNMr5XANSLfQuag5Lgt8",
     "issue": "July 1986",
     "month": 7,
+    "number": "107",
     "publication": "atlantic",
     "title": "Baseball Diamonds",
     "year": 1986
@@ -3374,6 +3510,7 @@
     "id": "bBLk9SdEYEodMLF6BeLM",
     "issue": "August 1986",
     "month": 8,
+    "number": "108",
     "publication": "atlantic",
     "title": "Slide Show",
     "year": 1986
@@ -3385,6 +3522,7 @@
     "id": "Jg5sxn4vaXM8WW94IdbY",
     "issue": "September 1986",
     "month": 9,
+    "number": "109",
     "publication": "atlantic",
     "title": "Solitaire",
     "year": 1986
@@ -3516,6 +3654,7 @@
     "id": "JbpffV75eUhWg6wWL8Lo",
     "issue": "October 1986",
     "month": 10,
+    "number": "110",
     "publication": "atlantic",
     "title": "As Romans Do",
     "year": 1986
@@ -3659,6 +3798,7 @@
     "id": "mpL9b3ZIIb7PR5G1ASuB",
     "issue": "November 1986",
     "month": 11,
+    "number": "111",
     "publication": "atlantic",
     "title": "Pairs",
     "year": 1986
@@ -3817,6 +3957,7 @@
     "id": "Atpbe8DhlRvU921WrRch",
     "issue": "December 1986",
     "month": 12,
+    "number": "112",
     "publication": "atlantic",
     "title": "Stocking Stuffers",
     "year": 1986
@@ -3828,6 +3969,7 @@
     "id": "KppKrbN7dUAMKbpxZCUi",
     "issue": "January 1987",
     "month": 1,
+    "number": "113",
     "publication": "atlantic",
     "title": "Patchwork",
     "year": 1987
@@ -3839,6 +3981,7 @@
     "id": "hEy7rI5R2MLwGjflgEnz",
     "issue": "February 1987",
     "month": 2,
+    "number": "114",
     "publication": "atlantic",
     "title": "The Name of the Game",
     "year": 1987
@@ -3850,6 +3993,7 @@
     "id": "8J4KuZwRRz0WXPbkbtYr",
     "issue": "March 1987",
     "month": 3,
+    "number": "115",
     "publication": "atlantic",
     "title": "Talk Show",
     "year": 1987
@@ -3990,6 +4134,7 @@
     "id": "mNb8ImCH3Rk9gJGh3UzM",
     "issue": "April 1987",
     "month": 4,
+    "number": "116",
     "publication": "atlantic",
     "title": "Code Pairs",
     "year": 1987
@@ -4001,6 +4146,7 @@
     "id": "YRYMxraFlmpKLZFn0OjZ",
     "issue": "May 1987",
     "month": 5,
+    "number": "117",
     "publication": "atlantic",
     "title": "Phases",
     "year": 1987
@@ -4012,6 +4158,7 @@
     "id": "YiC1Og0OUB4D9adoYGuX",
     "issue": "June 1987",
     "month": 6,
+    "number": "118",
     "publication": "atlantic",
     "title": "Hex",
     "year": 1987
@@ -4023,6 +4170,7 @@
     "id": "6snrEyCUTf67fPHoWZOV",
     "issue": "July 1987",
     "month": 7,
+    "number": "119",
     "publication": "atlantic",
     "title": "The Music Goes Round and Round",
     "year": 1987
@@ -4160,6 +4308,7 @@
     "id": "QyBch0TX7t6uZhLfitsG",
     "issue": "August 1987",
     "month": 8,
+    "number": "120",
     "publication": "atlantic",
     "title": "Coordination",
     "year": 1987
@@ -4300,6 +4449,7 @@
     "id": "oshuTKVddxBUTYVYj367",
     "issue": "September 1987",
     "month": 9,
+    "number": "121",
     "publication": "atlantic",
     "title": "Subtraction",
     "year": 1987
@@ -4311,6 +4461,7 @@
     "id": "rFRpOXK4x4GN6t0FxXmF",
     "issue": "October 1987",
     "month": 10,
+    "number": "122",
     "publication": "atlantic",
     "title": "Best Sellers",
     "year": 1987
@@ -4448,6 +4599,7 @@
     "id": "LatQqP6a3nCseNCBz4pa",
     "issue": "November 1987",
     "month": 11,
+    "number": "123",
     "publication": "atlantic",
     "title": "Connect the Dots",
     "year": 1987
@@ -4459,6 +4611,7 @@
     "id": "ltqSrANbJoHlCMqW0cCQ",
     "issue": "December 1987",
     "month": 12,
+    "number": "124",
     "publication": "atlantic",
     "title": "Segments",
     "year": 1987
@@ -4470,6 +4623,7 @@
     "id": "5XrW3lGpGof3DzTO7mFi",
     "issue": "January 1988",
     "month": 1,
+    "number": "125",
     "publication": "atlantic",
     "title": "At the Races",
     "year": 1988
@@ -4481,6 +4635,7 @@
     "id": "1bfafoPstMQ7mBfDkkQ8",
     "issue": "February 1988",
     "month": 2,
+    "number": "126",
     "publication": "atlantic",
     "title": "All Heart",
     "year": 1988
@@ -4628,6 +4783,7 @@
     "id": "k24QHYj9lGIqvYaI4ReH",
     "issue": "March 1988",
     "month": 3,
+    "number": "127",
     "publication": "atlantic",
     "title": "Word Square",
     "year": 1988
@@ -4639,6 +4795,7 @@
     "id": "bh4gysHsF1UiarN6u5Ho",
     "issue": "April 1988",
     "month": 4,
+    "number": "128",
     "publication": "atlantic",
     "title": "Magic",
     "year": 1988
@@ -4650,6 +4807,7 @@
     "id": "agpUtrUU8N5O1YUwkRW5",
     "issue": "May 1988",
     "month": 5,
+    "number": "129",
     "publication": "atlantic",
     "title": "Window Boxes",
     "year": 1988
@@ -4661,6 +4819,7 @@
     "id": "JKwNLxf9nD9XP7gAVCsK",
     "issue": "June 1988",
     "month": 6,
+    "number": "130",
     "publication": "atlantic",
     "title": "Traffic Jam",
     "year": 1988
@@ -4672,6 +4831,7 @@
     "id": "5g06nm6tGOr8XHnoPZ2s",
     "issue": "July 1988",
     "month": 7,
+    "number": "131",
     "publication": "atlantic",
     "title": "Split Decision",
     "year": 1988
@@ -4683,6 +4843,7 @@
     "id": "STmCO6Hbh1XgtBGQUPCU",
     "issue": "August 1988",
     "month": 8,
+    "number": "132",
     "publication": "atlantic",
     "title": "Forty-Niners",
     "year": 1988
@@ -4789,6 +4950,7 @@
     "id": "Q3metTq75v9ewH8Di2uo",
     "issue": "September 1988",
     "month": 9,
+    "number": "133",
     "publication": "atlantic",
     "title": "Left, Right, & Center",
     "year": 1988
@@ -4936,6 +5098,7 @@
     "id": "MT6HMR7jMUKTJjgdAEms",
     "issue": "October 1988",
     "month": 10,
+    "number": "134",
     "publication": "atlantic",
     "title": "Commoners",
     "year": 1988
@@ -4947,6 +5110,7 @@
     "id": "Gl5wN5DaalD0Urdgth5S",
     "issue": "November 1988",
     "month": 11,
+    "number": "135",
     "publication": "atlantic",
     "title": "Five and Ten",
     "year": 1988
@@ -5071,6 +5235,7 @@
     "id": "p6Cso96w94nSJ15aU14Y",
     "issue": "December 1988",
     "month": 12,
+    "number": "136",
     "publication": "atlantic",
     "title": "The Four Seasons",
     "year": 1988
@@ -5082,6 +5247,7 @@
     "id": "wnu99fnrJNGv5i6FSplQ",
     "issue": "January 1989",
     "month": 1,
+    "number": "137",
     "publication": "atlantic",
     "title": "Cryptic Slalom",
     "year": 1989
@@ -5093,6 +5259,7 @@
     "id": "aIel9MJiimc6c9BM7Np6",
     "issue": "February 1989",
     "month": 2,
+    "number": "138",
     "publication": "atlantic",
     "title": "Sounding Off",
     "year": 1989
@@ -5226,6 +5393,7 @@
     "id": "TqEFu3fMCmhkdvFlW3ib",
     "issue": "March 1989",
     "month": 3,
+    "number": "139",
     "publication": "atlantic",
     "title": "Egg Hunt",
     "year": 1989
@@ -5237,6 +5405,7 @@
     "id": "i9HizB8q0E3hvpSUjTyK",
     "issue": "April 1989",
     "month": 4,
+    "number": "140",
     "publication": "atlantic",
     "title": "Mosaic",
     "year": 1989
@@ -5248,6 +5417,7 @@
     "id": "6OD3neLSiBgf3GutTfMX",
     "issue": "May 1989",
     "month": 5,
+    "number": "141",
     "publication": "atlantic",
     "title": "Cross Checking",
     "year": 1989
@@ -5259,6 +5429,7 @@
     "id": "R0xycyFIP8sTaSQvbfE8",
     "issue": "June 1989",
     "month": 6,
+    "number": "142",
     "publication": "atlantic",
     "title": "Alphanagrams",
     "year": 1989
@@ -5270,6 +5441,7 @@
     "id": "ABzngoEX7wl5qY6KIQZg",
     "issue": "July 1989",
     "month": 7,
+    "number": "143",
     "publication": "atlantic",
     "title": "Stars and Stripes",
     "year": 1989
@@ -5281,6 +5453,7 @@
     "id": "zHkTTHbynbl3lUZfq3Mv",
     "issue": "August 1989",
     "month": 8,
+    "number": "144",
     "publication": "atlantic",
     "title": "Cryptic Golf",
     "year": 1989
@@ -5437,6 +5610,7 @@
     "id": "KrNzx9xCXCGhOi14fZHX",
     "issue": "September 1989",
     "month": 9,
+    "number": "145",
     "publication": "atlantic",
     "title": "Jigsaw",
     "year": 1989
@@ -5558,6 +5732,7 @@
     "id": "OWeBaYdiSkBLyhGmNQKi",
     "issue": "October 1989",
     "month": 10,
+    "number": "146",
     "publication": "atlantic",
     "title": "Waste Recycling",
     "year": 1989
@@ -5667,6 +5842,7 @@
     "id": "BO2174AJDQC3jmxsGWsG",
     "issue": "November 1989",
     "month": 11,
+    "number": "147",
     "publication": "atlantic",
     "title": "Cryptic Menu",
     "year": 1989
@@ -5678,6 +5854,7 @@
     "id": "AKYmZLqAqAVZ4qSGwo4j",
     "issue": "December 1989",
     "month": 12,
+    "number": "148",
     "publication": "atlantic",
     "title": "Decorations",
     "year": 1989
@@ -5689,6 +5866,7 @@
     "id": "gwvm7Vck8pkyw1deIi34",
     "issue": "January 1990",
     "month": 1,
+    "number": "149",
     "publication": "atlantic",
     "title": "In the Spirit",
     "year": 1990
@@ -5700,6 +5878,7 @@
     "id": "b2oqAtdj4t6a5M4xg0Ow",
     "issue": "February 1990",
     "month": 2,
+    "number": "150",
     "publication": "atlantic",
     "title": "Heart-to-Heart",
     "year": 1990
@@ -5711,6 +5890,7 @@
     "id": "RyRGVRWWP6Yj0UN25zAI",
     "issue": "March 1990",
     "month": 3,
+    "number": "151",
     "publication": "atlantic",
     "title": "Hidden Faces",
     "year": 1990
@@ -5722,6 +5902,7 @@
     "id": "pux5FPTYZcNeHKne98u7",
     "issue": "April 1990",
     "month": 4,
+    "number": "152",
     "publication": "atlantic",
     "title": "Getting Around",
     "year": 1990
@@ -5733,6 +5914,7 @@
     "id": "FDOgUKZBXLJWBQ2xJaEt",
     "issue": "May 1990",
     "month": 5,
+    "number": "153",
     "publication": "atlantic",
     "title": "X Marks the Spot",
     "year": 1990
@@ -5895,6 +6077,7 @@
     "id": "B76dVzyCdmDtaPx1wFC6",
     "issue": "June 1990",
     "month": 6,
+    "number": "154",
     "publication": "atlantic",
     "title": "Mystery Theater",
     "year": 1990
@@ -5906,6 +6089,7 @@
     "id": "JvTZ1J4lYl02eF2leSmk",
     "issue": "July 1990",
     "month": 7,
+    "number": "155",
     "publication": "atlantic",
     "title": "Going Too Far",
     "year": 1990
@@ -5917,6 +6101,7 @@
     "id": "ASsIO0e55NUJgyD5NlpH",
     "issue": "August 1990",
     "month": 8,
+    "number": "156",
     "publication": "atlantic",
     "title": "Quasicrystal",
     "year": 1990
@@ -6043,6 +6228,7 @@
     "id": "uvBcCelppf9HkSlBaRcB",
     "issue": "September 1990",
     "month": 9,
+    "number": "157",
     "publication": "atlantic",
     "title": "Twisting Route",
     "year": 1990
@@ -6187,6 +6373,7 @@
     "id": "zqyXVQ33LS031FXFi5r8",
     "issue": "October 1990",
     "month": 10,
+    "number": "158",
     "publication": "atlantic",
     "title": "Zip Code",
     "year": 1990
@@ -6198,6 +6385,7 @@
     "id": "6qAihzVpi8PHfjR6z7QF",
     "issue": "November 1990",
     "month": 11,
+    "number": "159",
     "publication": "atlantic",
     "title": "Trapdoors",
     "year": 1990
@@ -6209,6 +6397,7 @@
     "id": "J0nasYhBbzQFHZOmDccj",
     "issue": "December 1990",
     "month": 12,
+    "number": "160",
     "publication": "atlantic",
     "title": "Magic Act",
     "year": 1990
@@ -6342,6 +6531,7 @@
     "id": "fHmd6jVzrxWAbDDpE58y",
     "issue": "January 1991",
     "month": 1,
+    "number": "161",
     "publication": "atlantic",
     "title": "For Beginners",
     "year": 1991
@@ -6353,6 +6543,7 @@
     "id": "gWIjWCJjoQh4WkJhdnCG",
     "issue": "February 1991",
     "month": 2,
+    "number": "162",
     "publication": "atlantic",
     "title": "Heartbroken",
     "year": 1991
@@ -6364,6 +6555,7 @@
     "id": "gI6z5iNUpRN9LetWsotz",
     "issue": "March 1991",
     "month": 3,
+    "number": "163",
     "publication": "atlantic",
     "title": "Compact Disc",
     "year": 1991
@@ -6375,6 +6567,7 @@
     "id": "CMx9zTNGcgpVCSWWd5K7",
     "issue": "April 1991",
     "month": 4,
+    "number": "164",
     "publication": "atlantic",
     "title": "Offerings",
     "year": 1991
@@ -6503,6 +6696,7 @@
     "id": "DqEUAcXULAo10isjcl88",
     "issue": "May 1991",
     "month": 5,
+    "number": "165",
     "publication": "atlantic",
     "title": "Choice Words",
     "year": 1991
@@ -6514,6 +6708,7 @@
     "id": "Y4pHXCcuxZH8eeFlSBOV",
     "issue": "June 1991",
     "month": 6,
+    "number": "166",
     "publication": "atlantic",
     "title": "Word Links",
     "year": 1991
@@ -6653,6 +6848,7 @@
     "id": "j9oI3ZHOy2sTzBnO8Yes",
     "issue": "July 1991",
     "month": 7,
+    "number": "167",
     "publication": "atlantic",
     "title": "Kangaroos",
     "year": 1991
@@ -6761,6 +6957,7 @@
     "id": "LyhsrZVXmgoKd7fplnUc",
     "issue": "August 1991",
     "month": 8,
+    "number": "168",
     "publication": "atlantic",
     "title": "Rectangular",
     "year": 1991
@@ -6928,6 +7125,7 @@
     "id": "CfUHc8XxZicbLqug0OKL",
     "issue": "September 1991",
     "month": 9,
+    "number": "169",
     "publication": "atlantic",
     "title": "Mitosis",
     "year": 1991
@@ -7078,6 +7276,7 @@
     "id": "I68fCbo5OzmN0lQFUHOV",
     "issue": "October 1991",
     "month": 10,
+    "number": "170",
     "publication": "atlantic",
     "title": "Deduction",
     "year": 1991
@@ -7089,6 +7288,7 @@
     "id": "558vmoTA434XzDxXOxfr",
     "issue": "November 1991",
     "month": 11,
+    "number": "171",
     "publication": "atlantic",
     "title": "Knight's Moves",
     "year": 1991
@@ -7100,6 +7300,7 @@
     "id": "RVfLpDbOXIk3LcOjjVyA",
     "issue": "December 1991",
     "month": 12,
+    "number": "172",
     "publication": "atlantic",
     "title": "Boxed Set",
     "year": 1991
@@ -7231,6 +7432,7 @@
     "id": "lQ2RMwehqgDZBCsuMQB9",
     "issue": "January 1992",
     "month": 1,
+    "number": "173",
     "publication": "atlantic",
     "title": "Initiation",
     "year": 1992
@@ -7242,6 +7444,7 @@
     "id": "kHZN89r6eocdudkIg7Ql",
     "issue": "February 1992",
     "month": 2,
+    "number": "174",
     "publication": "atlantic",
     "title": "Valentine",
     "year": 1992
@@ -7386,6 +7589,7 @@
     "id": "IY6DSRcCV9cG73oegevs",
     "issue": "March 1992",
     "month": 3,
+    "number": "175",
     "publication": "atlantic",
     "title": "Borrowers and Lenders",
     "year": 1992
@@ -7397,6 +7601,7 @@
     "id": "Mcc1vflixWUxTUz5XRVj",
     "issue": "April 1992",
     "month": 4,
+    "number": "176",
     "publication": "atlantic",
     "title": "Wheel of Fortune",
     "year": 1992
@@ -7523,6 +7728,7 @@
     "id": "eNaVochePCiUdtsDpkuj",
     "issue": "May 1992",
     "month": 5,
+    "number": "177",
     "publication": "atlantic",
     "title": "Cutting the Cards",
     "year": 1992
@@ -7663,6 +7869,7 @@
     "id": "1irtCO6LesyJhexKnCvS",
     "issue": "June 1992",
     "month": 6,
+    "number": "178",
     "publication": "atlantic",
     "title": "Code Pairs",
     "year": 1992
@@ -7794,6 +8001,7 @@
     "id": "dioKXYBXiUOYptNai3qU",
     "issue": "July 1992",
     "month": 7,
+    "number": "179",
     "publication": "atlantic",
     "title": "Relay Race",
     "year": 1992
@@ -7805,6 +8013,7 @@
     "id": "r5HWpKei2SeIBkmfopQr",
     "issue": "August 1992",
     "month": 8,
+    "number": "180",
     "publication": "atlantic",
     "title": "Literal Interpretation",
     "year": 1992
@@ -7816,6 +8025,7 @@
     "id": "Sb9jXaEoAbaUuMLEUbzh",
     "issue": "September 1992",
     "month": 9,
+    "number": "181",
     "publication": "atlantic",
     "title": "Hex",
     "year": 1992
@@ -7997,6 +8207,7 @@
     "id": "GbAahXKlAMe713eAEC3C",
     "issue": "October 1992",
     "month": 10,
+    "number": "182",
     "publication": "atlantic",
     "title": "Amazement",
     "year": 1992
@@ -8008,6 +8219,7 @@
     "id": "1JO8kclCVlir2STBvoJ2",
     "issue": "November 1992",
     "month": 11,
+    "number": "183",
     "publication": "atlantic",
     "title": "Centerpiece",
     "year": 1992
@@ -8166,6 +8378,7 @@
     "id": "k4fQQwIoK0YwoKZaFu4t",
     "issue": "December 1992",
     "month": 12,
+    "number": "184",
     "publication": "atlantic",
     "title": "Wrap Session",
     "year": 1992
@@ -8177,6 +8390,7 @@
     "id": "P5OLC5eHnAaGTVhU1i43",
     "issue": "January 1993",
     "month": 1,
+    "number": "185",
     "publication": "atlantic",
     "title": "Something Different",
     "year": 1993
@@ -8287,6 +8501,7 @@
     "id": "GgQ8rZI61CH2kbB5aWmk",
     "issue": "February 1993",
     "month": 2,
+    "number": "186",
     "publication": "atlantic",
     "title": "Cryptic Valentine",
     "year": 1993
@@ -8298,6 +8513,7 @@
     "id": "9VHArzu7uZ2slnWW59c6",
     "issue": "March 1993",
     "month": 3,
+    "number": "187",
     "publication": "atlantic",
     "title": "Shooting Hoops",
     "year": 1993
@@ -8458,6 +8674,7 @@
     "id": "F9kXQMeDa4Jxkj0U0QnV",
     "issue": "April 1993",
     "month": 4,
+    "number": "188",
     "publication": "atlantic",
     "title": "Guessing Game",
     "year": 1993
@@ -8469,6 +8686,7 @@
     "id": "nRxRS6TS460RQ3W82yOC",
     "issue": "May 1993",
     "month": 5,
+    "number": "189",
     "publication": "atlantic",
     "title": "Connect the Dots",
     "year": 1993
@@ -8617,6 +8835,7 @@
     "id": "rs7G5le7vdtbGcM4h4AM",
     "issue": "June 1993",
     "month": 6,
+    "number": "190",
     "publication": "atlantic",
     "title": "Chain Reaction",
     "year": 1993
@@ -8628,6 +8847,7 @@
     "id": "okwQf1W7VptJe2PNSvIl",
     "issue": "July 1993",
     "month": 7,
+    "number": "191",
     "publication": "atlantic",
     "title": "Robin Hood",
     "year": 1993
@@ -8771,6 +8991,7 @@
     "id": "vVqEqfg0CExTaIv6JIr1",
     "issue": "August 1993",
     "month": 8,
+    "number": "192",
     "publication": "atlantic",
     "title": "Celestial Navigation",
     "year": 1993
@@ -8926,6 +9147,7 @@
     "id": "HlbPbuMKAFSkiuaEHzcw",
     "issue": "September 1993",
     "month": 9,
+    "number": "193",
     "publication": "atlantic",
     "title": "Crossword School",
     "year": 1993
@@ -9054,6 +9276,7 @@
     "id": "kr7xMw4LTquZuzre2pq9",
     "issue": "October 1993",
     "month": 10,
+    "number": "194",
     "publication": "atlantic",
     "title": "Haunted House",
     "year": 1993
@@ -9185,6 +9408,7 @@
     "id": "QFh833EQMpq3QZQONxjP",
     "issue": "November 1993",
     "month": 11,
+    "number": "195",
     "publication": "atlantic",
     "title": "Fast Thinking",
     "year": 1993
@@ -9196,6 +9420,7 @@
     "id": "HedTpeobqAhJW09qeFMV",
     "issue": "December 1993",
     "month": 12,
+    "number": "196",
     "publication": "atlantic",
     "title": "Puzzler's Gift",
     "year": 1993
@@ -9207,6 +9432,7 @@
     "id": "eTC815rojudOkk4bTeKg",
     "issue": "January 1994",
     "month": 1,
+    "number": "197",
     "publication": "atlantic",
     "title": "Theme and Variations",
     "year": 1994
@@ -9218,6 +9444,7 @@
     "id": "y8VblUsCpySzdqDFl9kP",
     "issue": "February 1994",
     "month": 2,
+    "number": "198",
     "publication": "atlantic",
     "title": "Comings and Goings",
     "year": 1994
@@ -9355,6 +9582,7 @@
     "id": "pPKokbDhi4WziwzlfP9u",
     "issue": "March 1994",
     "month": 3,
+    "number": "199",
     "publication": "atlantic",
     "title": "Crazy Eights",
     "year": 1994
@@ -9467,6 +9695,7 @@
     "id": "O46vqRCJQtbmkTIBue6g",
     "issue": "April 1994",
     "month": 4,
+    "number": "200",
     "publication": "atlantic",
     "title": "Secret Message",
     "year": 1994
@@ -9478,6 +9707,7 @@
     "id": "LN0YI5uruSLc17rgmJ8X",
     "issue": "May 1994",
     "month": 5,
+    "number": "201",
     "publication": "atlantic",
     "title": "Garden Plot",
     "year": 1994
@@ -9613,6 +9843,7 @@
     "id": "Aelz8dbGr6vE3pUHwUhX",
     "issue": "June 1994",
     "month": 6,
+    "number": "202",
     "publication": "atlantic",
     "title": "Shakedown",
     "year": 1994
@@ -9770,6 +10001,7 @@
     "id": "U4RKAV7IDu64qPQm02b1",
     "issue": "July 1994",
     "month": 7,
+    "number": "203",
     "publication": "atlantic",
     "title": "Marginal Thinking",
     "year": 1994
@@ -9781,6 +10013,7 @@
     "id": "OaksdTfbxqslDMvbpFQn",
     "issue": "August 1994",
     "month": 8,
+    "number": "204",
     "publication": "atlantic",
     "title": "Wrong Number",
     "year": 1994
@@ -9911,6 +10144,7 @@
     "id": "MdjwuotetWE6vY933x11",
     "issue": "September 1994",
     "month": 9,
+    "number": "205",
     "publication": "atlantic",
     "title": "The Best Policy",
     "year": 1994
@@ -9922,6 +10156,7 @@
     "id": "VF4L9LbDbBgVEky0IIJ4",
     "issue": "October 1994",
     "month": 10,
+    "number": "206",
     "publication": "atlantic",
     "title": "Changing Times",
     "year": 1994
@@ -9933,6 +10168,7 @@
     "id": "JbdcuGiDQbJ80PGE7DC5",
     "issue": "November 1994",
     "month": 11,
+    "number": "207",
     "publication": "atlantic",
     "title": "Seasonality",
     "year": 1994
@@ -10090,6 +10326,7 @@
     "id": "K6msV9ebsnLmP57xydrg",
     "issue": "December 1994",
     "month": 12,
+    "number": "208",
     "publication": "atlantic",
     "title": "Snow Job",
     "year": 1994
@@ -10101,6 +10338,7 @@
     "id": "KQHtLKivZKfoA6iqCsCV",
     "issue": "January 1995",
     "month": 1,
+    "number": "209",
     "publication": "atlantic",
     "title": "Janus-Faced",
     "year": 1995
@@ -10112,6 +10350,7 @@
     "id": "cwGan5Cz7Tkw3mMWKKUo",
     "issue": "February 1995",
     "month": 2,
+    "number": "210",
     "publication": "atlantic",
     "title": "Cryptic Personals",
     "year": 1995
@@ -10123,6 +10362,7 @@
     "id": "48LK4tYvZLF9TQizBwka",
     "issue": "March 1995",
     "month": 3,
+    "number": "211",
     "publication": "atlantic",
     "title": "Zip Code",
     "year": 1995
@@ -10134,6 +10374,7 @@
     "id": "QwllGwa7Y6CC0Qt79v53",
     "issue": "April 1995",
     "month": 4,
+    "number": "212",
     "publication": "atlantic",
     "title": "Smorgasbord",
     "year": 1995
@@ -10145,6 +10386,7 @@
     "id": "hOEN9YtDTBJ042Ixh1Ev",
     "issue": "May 1995",
     "month": 5,
+    "number": "213",
     "publication": "atlantic",
     "title": "Asteroids",
     "year": 1995
@@ -10156,6 +10398,7 @@
     "id": "Hn7qwYxpA6RnvFIa3Z3W",
     "issue": "June 1995",
     "month": 6,
+    "number": "214",
     "publication": "atlantic",
     "title": "Jigsaw",
     "year": 1995
@@ -10167,6 +10410,7 @@
     "id": "R4lnysqidd7SCrSiAoQ6",
     "issue": "July 1995",
     "month": 7,
+    "number": "215",
     "publication": "atlantic",
     "title": "Patchwork",
     "year": 1995
@@ -10178,6 +10422,7 @@
     "id": "x4PKCVboiuErmYx1vTZE",
     "issue": "August 1995",
     "month": 8,
+    "number": "216",
     "publication": "atlantic",
     "title": "Honeycomb",
     "year": 1995
@@ -10189,6 +10434,7 @@
     "id": "qSRJruS5j9biWIl5dV7B",
     "issue": "September 1995",
     "month": 9,
+    "number": "217",
     "publication": "atlantic",
     "title": "Fortunetelling",
     "year": 1995
@@ -10200,6 +10446,7 @@
     "id": "Zg85wWeNUsmSZ6756Zon",
     "issue": "October 1995",
     "month": 10,
+    "number": "218",
     "publication": "atlantic",
     "title": "Musical Chairs",
     "year": 1995
@@ -10211,6 +10458,7 @@
     "id": "06tiQfDawNb59bRlkWZe",
     "issue": "November 1995",
     "month": 11,
+    "number": "219",
     "publication": "atlantic",
     "title": "Keyholes",
     "year": 1995
@@ -10222,6 +10470,7 @@
     "id": "p5Q5VCFo61reZWy1jEIk",
     "issue": "December 1995",
     "month": 12,
+    "number": "220",
     "publication": "atlantic",
     "title": "What's in the Box?",
     "year": 1995
@@ -10233,6 +10482,7 @@
     "id": "Levc8QEUnpUiItWWvxaF",
     "issue": "January 1996",
     "month": 1,
+    "number": "221",
     "publication": "atlantic",
     "title": "Starting Block",
     "year": 1996
@@ -10244,6 +10494,7 @@
     "id": "wLkFLytlUClFK5hYlaHq",
     "issue": "February 1996",
     "month": 2,
+    "number": "222",
     "publication": "atlantic",
     "title": "Blankety-Blank",
     "year": 1996
@@ -10255,6 +10506,7 @@
     "id": "g5BNsAn632ZhNsVIPLU8",
     "issue": "March 1996",
     "month": 3,
+    "number": "223",
     "publication": "atlantic",
     "title": "Your Move",
     "year": 1996
@@ -10266,6 +10518,7 @@
     "id": "VFejlaUSHYM5HWkybk3f",
     "issue": "April 1996",
     "month": 4,
+    "number": "224",
     "publication": "atlantic",
     "title": "Combination Lock",
     "year": 1996
@@ -10277,6 +10530,7 @@
     "id": "h0UcliX4l9p8Aa618qLf",
     "issue": "May 1996",
     "month": 5,
+    "number": "225",
     "publication": "atlantic",
     "title": "Flower Cuttings",
     "year": 1996
@@ -10288,6 +10542,7 @@
     "id": "10z0yYsYnN9QoUo0YNYP",
     "issue": "June 1996",
     "month": 6,
+    "number": "226",
     "publication": "atlantic",
     "title": "Give Us a Break",
     "year": 1996
@@ -10299,6 +10554,7 @@
     "id": "Q1oY7H8kubBCQ9PDfRSA",
     "issue": "July 1996",
     "month": 7,
+    "number": "227",
     "publication": "atlantic",
     "title": "Target Practice",
     "year": 1996
@@ -10310,6 +10566,7 @@
     "id": "qHQh51jokHYNcKS9f4bS",
     "issue": "August 1996",
     "month": 8,
+    "number": "228",
     "publication": "atlantic",
     "title": "Rectangular",
     "year": 1996
@@ -10321,6 +10578,7 @@
     "id": "WVvyACD7zooOTxxhMI90",
     "issue": "September 1996",
     "month": 9,
+    "number": "229",
     "publication": "atlantic",
     "title": "Puzzle Warranty",
     "year": 1996
@@ -10332,6 +10590,7 @@
     "id": "II0oH83ot0ej96L0ritd",
     "issue": "October 1996",
     "month": 10,
+    "number": "230",
     "publication": "atlantic",
     "title": "Got a Match?",
     "year": 1996
@@ -10343,6 +10602,7 @@
     "id": "FJEgZRyqpCUM9tbyJePo",
     "issue": "November 1996",
     "month": 11,
+    "number": "231",
     "publication": "atlantic",
     "title": "Spoonerisms",
     "year": 1996
@@ -10354,6 +10614,7 @@
     "id": "HMdQtfV2xNR6PBLryCW7",
     "issue": "December 1996",
     "month": 12,
+    "number": "232",
     "publication": "atlantic",
     "title": "Snowflake",
     "year": 1996
@@ -10365,6 +10626,7 @@
     "id": "H3hzEnivZs71QUPfCCyO",
     "issue": "January 1997",
     "month": 1,
+    "number": "233",
     "publication": "atlantic",
     "title": "Word Square",
     "year": 1997
@@ -10376,6 +10638,7 @@
     "id": "HT2GjOXCNE4cCgUFn7cZ",
     "issue": "February 1997",
     "month": 2,
+    "number": "234",
     "publication": "atlantic",
     "title": "Left, Right, & Center",
     "year": 1997
@@ -10387,6 +10650,7 @@
     "id": "MmGXFrJUkR5JvplbP4Uf",
     "issue": "March 1997",
     "month": 3,
+    "number": "235",
     "publication": "atlantic",
     "title": "Dress Code",
     "year": 1997
@@ -10398,6 +10662,7 @@
     "id": "hJyCXdwvxh4OpeeoyTIU",
     "issue": "April 1997",
     "month": 4,
+    "number": "236",
     "publication": "atlantic",
     "title": "Treasure Map",
     "year": 1997
@@ -10518,6 +10783,7 @@
     "id": "MgroRzDEzxsKA0U8xOr7",
     "issue": "May 1997",
     "month": 5,
+    "number": "237",
     "publication": "atlantic",
     "title": "Slide Show",
     "year": 1997
@@ -10529,6 +10795,7 @@
     "id": "o5VhVpvL57GmkJe3LHtz",
     "issue": "June 1997",
     "month": 6,
+    "number": "238",
     "publication": "atlantic",
     "title": "Fortune Cookies",
     "year": 1997
@@ -10540,6 +10807,7 @@
     "id": "ErrPfH2G6PsmbD8o2kt6",
     "issue": "July 1997",
     "month": 7,
+    "number": "239",
     "publication": "atlantic",
     "title": "Celebrating the Fourth",
     "year": 1997
@@ -10551,6 +10819,7 @@
     "id": "4Lns97peq6qR9Co1klvz",
     "issue": "August 1997",
     "month": 8,
+    "number": "240",
     "publication": "atlantic",
     "title": "Scoreboard",
     "year": 1997
@@ -10562,6 +10831,7 @@
     "id": "5qdGc3YPqoPWiNr2Rhhy",
     "issue": "September 1997",
     "month": 9,
+    "number": "241",
     "publication": "atlantic",
     "title": "Double-Crossers",
     "year": 1997
@@ -10685,6 +10955,7 @@
     "id": "PSPzPSkG20GQagixDp3G",
     "issue": "October 1997",
     "month": 10,
+    "number": "242",
     "publication": "atlantic",
     "title": "Haunted House",
     "year": 1997
@@ -10696,6 +10967,7 @@
     "id": "PWzrSuShM2Ep3tDVSxax",
     "issue": "November 1997",
     "month": 11,
+    "number": "243",
     "publication": "atlantic",
     "title": "Chessboard",
     "year": 1997
@@ -10707,6 +10979,7 @@
     "id": "Cc651cjY2YwZBYE646th",
     "issue": "December 1997",
     "month": 12,
+    "number": "244",
     "publication": "atlantic",
     "title": "Cryptacrostic",
     "year": 1997
@@ -10718,6 +10991,7 @@
     "id": "1kPHiCp7jKpciqHalMOH",
     "issue": "January 1998",
     "month": 1,
+    "number": "245",
     "publication": "atlantic",
     "title": "Celebrating the First",
     "year": 1998
@@ -10729,6 +11003,7 @@
     "id": "WBNMXSVwV6GH55zIlgxg",
     "issue": "February 1998",
     "month": 2,
+    "number": "246",
     "publication": "atlantic",
     "title": "Step by Step",
     "year": 1998
@@ -10740,6 +11015,7 @@
     "id": "V2fFBmpyQdYqtarfec1x",
     "issue": "March 1998",
     "month": 3,
+    "number": "247",
     "publication": "atlantic",
     "title": "Marching Orders",
     "year": 1998
@@ -10751,6 +11027,7 @@
     "id": "bdE56KJ2FVCbOKDlTELs",
     "issue": "April 1998",
     "month": 4,
+    "number": "248",
     "publication": "atlantic",
     "title": "Three-Ring Circus",
     "year": 1998
@@ -10762,6 +11039,7 @@
     "id": "NfnUADMW3D0wWNTAa4oQ",
     "issue": "May 1998",
     "month": 5,
+    "number": "249",
     "publication": "atlantic",
     "title": "Picnic",
     "year": 1998
@@ -10773,6 +11051,7 @@
     "id": "B7aIMAynBiyXEDS6tyCF",
     "issue": "June 1998",
     "month": 6,
+    "number": "250",
     "publication": "atlantic",
     "title": "Guidelines",
     "year": 1998
@@ -10784,6 +11063,7 @@
     "id": "KoSWvEH0qSv3ICgqbHjn",
     "issue": "July 1998",
     "month": 7,
+    "number": "251",
     "publication": "atlantic",
     "title": "Nine-Hole Course",
     "year": 1998
@@ -10795,6 +11075,7 @@
     "id": "3N1l7m62TL7PSBFtIx1W",
     "issue": "August 1998",
     "month": 8,
+    "number": "252",
     "publication": "atlantic",
     "title": "In Common",
     "year": 1998
@@ -10806,6 +11087,7 @@
     "id": "SbffJlY10CpYUcByHeRD",
     "issue": "September 1998",
     "month": 9,
+    "number": "253",
     "publication": "atlantic",
     "title": "Service With a Smile",
     "year": 1998
@@ -10817,6 +11099,7 @@
     "id": "vGO60a7oreNlU1VuNuCJ",
     "issue": "October 1998",
     "month": 10,
+    "number": "254",
     "publication": "atlantic",
     "title": "Rite of Passage",
     "year": 1998
@@ -10828,6 +11111,7 @@
     "id": "gAl7SfSOpb5HpWtD8isN",
     "issue": "November 1998",
     "month": 11,
+    "number": "255",
     "publication": "atlantic",
     "title": "Back in the Labyrinth",
     "year": 1998
@@ -10839,6 +11123,7 @@
     "id": "O3wLQNGLAi1drO85Se68",
     "issue": "December 1998",
     "month": 12,
+    "number": "256",
     "publication": "atlantic",
     "title": "Criss-Crossing",
     "year": 1998
@@ -10850,6 +11135,7 @@
     "id": "DMKkznKSPlG7erxhR4GY",
     "issue": "January 1999",
     "month": 1,
+    "number": "257",
     "publication": "atlantic",
     "title": "Cross-Training",
     "year": 1999
@@ -10861,6 +11147,7 @@
     "id": "aolaE6qLonePkRM58ZxE",
     "issue": "February 1999",
     "month": 2,
+    "number": "258",
     "publication": "atlantic",
     "title": "Central Square",
     "year": 1999
@@ -10872,6 +11159,7 @@
     "id": "knfXqJrYyd9kXxHjMM7l",
     "issue": "March 1999",
     "month": 3,
+    "number": "259",
     "publication": "atlantic",
     "title": "Hide and Seek",
     "year": 1999
@@ -10883,6 +11171,7 @@
     "id": "E78oMtWTFtIZzdSOIzhN",
     "issue": "April 1999",
     "month": 4,
+    "number": "260",
     "publication": "atlantic",
     "title": "Mystery Box",
     "year": 1999
@@ -10894,6 +11183,7 @@
     "id": "5x9LFnAvSKkK19zSt3uG",
     "issue": "May 1999",
     "month": 5,
+    "number": "261",
     "publication": "atlantic",
     "title": "Lawbreakers",
     "year": 1999
@@ -10905,6 +11195,7 @@
     "id": "G09FlSKg8OeOhfG5V8PG",
     "issue": "June 1999",
     "month": 6,
+    "number": "262",
     "publication": "atlantic",
     "title": "Mismatches",
     "year": 1999
@@ -10916,6 +11207,7 @@
     "id": "3dnjkfBDMd3hceDUE94L",
     "issue": "July 1999",
     "month": 7,
+    "number": "263",
     "publication": "atlantic",
     "title": "Family Reunion",
     "year": 1999
@@ -10927,6 +11219,7 @@
     "id": "R5dnRtultqNaa3VmWwSw",
     "issue": "August 1999",
     "month": 8,
+    "number": "264",
     "publication": "atlantic",
     "title": "At the Movies",
     "year": 1999
@@ -10938,6 +11231,7 @@
     "id": "grC5b03TDLslpSu9RwoY",
     "issue": "September 1999",
     "month": 9,
+    "number": "265",
     "publication": "atlantic",
     "title": "Shakedown",
     "year": 1999
@@ -10949,6 +11243,7 @@
     "id": "Oxma6a2mGJL2U4iCTx8E",
     "issue": "October 1999",
     "month": 10,
+    "number": "266",
     "publication": "atlantic",
     "title": "Cycles",
     "year": 1999
@@ -10960,6 +11255,7 @@
     "id": "36B3xcsvXF7si0zjgWak",
     "issue": "November 1999",
     "month": 11,
+    "number": "267",
     "publication": "atlantic",
     "title": "Downsizing",
     "year": 1999
@@ -10971,6 +11267,7 @@
     "id": "IaOg98V0v5yupSRPfTkZ",
     "issue": "December 1999",
     "month": 12,
+    "number": "268",
     "publication": "atlantic",
     "title": "Windup",
     "year": 1999
@@ -10982,6 +11279,7 @@
     "id": "4NfrXWNTU2g1UbZrt7ek",
     "issue": "January 2000",
     "month": 1,
+    "number": "269",
     "publication": "atlantic",
     "title": "A River Runs Through It",
     "year": 2000
@@ -10993,6 +11291,7 @@
     "id": "BNKmrwvrFui8kE8m3Hkc",
     "issue": "February 2000",
     "month": 2,
+    "number": "270",
     "publication": "atlantic",
     "title": "Your Turn",
     "year": 2000
@@ -11004,6 +11303,7 @@
     "id": "840MbhgCiOp34B3KojcS",
     "issue": "March 2000",
     "month": 3,
+    "number": "271",
     "publication": "atlantic",
     "title": "Bright Prospects",
     "year": 2000
@@ -11015,6 +11315,7 @@
     "id": "4k5ZGr6L5km92nScclgR",
     "issue": "April 2000",
     "month": 4,
+    "number": "272",
     "publication": "atlantic",
     "title": "Message in a Bottle",
     "year": 2000
@@ -11026,6 +11327,7 @@
     "id": "1XMjckv4tWwvMe2zTMWi",
     "issue": "May 2000",
     "month": 5,
+    "number": "273",
     "publication": "atlantic",
     "title": "Cutting the Cards",
     "year": 2000
@@ -11037,6 +11339,7 @@
     "id": "tIC8VRzKx5RnFUchHD9G",
     "issue": "June 2000",
     "month": 6,
+    "number": "274",
     "publication": "atlantic",
     "title": "Cryptic Tennis",
     "year": 2000
@@ -11048,6 +11351,7 @@
     "id": "eZ9NdOOB2NOJrUUB6jeS",
     "issue": "July 2000",
     "month": 7,
+    "number": "275",
     "publication": "atlantic",
     "title": "Triangles",
     "year": 2000
@@ -11059,6 +11363,7 @@
     "id": "AoOwFuDB1RefXo6e64P4",
     "issue": "August 2000",
     "month": 8,
+    "number": "276",
     "publication": "atlantic",
     "title": "Partners",
     "year": 2000
@@ -11070,6 +11375,7 @@
     "id": "ORzStSQRQata3I38i2pZ",
     "issue": "September 2000",
     "month": 9,
+    "number": "277",
     "publication": "atlantic",
     "title": "Highlights",
     "year": 2000
@@ -11081,6 +11387,7 @@
     "id": "YfqSyfUErlqdzzsma7eo",
     "issue": "October 2000",
     "month": 10,
+    "number": "278",
     "publication": "atlantic",
     "title": "Whodunit",
     "year": 2000
@@ -11092,6 +11399,7 @@
     "id": "KQBYKrYwNkYbOs1YyFTp",
     "issue": "November 2000",
     "month": 11,
+    "number": "279",
     "publication": "atlantic",
     "title": "Puzzle Quote",
     "year": 2000
@@ -11103,6 +11411,7 @@
     "id": "FHEFLC58qnuTJsyTERPY",
     "issue": "December 2000",
     "month": 12,
+    "number": "280",
     "publication": "atlantic",
     "title": "Wraparound",
     "year": 2000
@@ -11114,6 +11423,7 @@
     "id": "6EiuyXU9OKs1lJywpmW6",
     "issue": "January 2001",
     "month": 1,
+    "number": "281",
     "publication": "atlantic",
     "title": "Resolution",
     "year": 2001
@@ -11125,6 +11435,7 @@
     "id": "7Yvhqamn6pgju0BCxHFv",
     "issue": "February 2001",
     "month": 2,
+    "number": "282",
     "publication": "atlantic",
     "title": "Sweet Sixteen",
     "year": 2001
@@ -11136,6 +11447,7 @@
     "id": "tAv5AqN4qcpxj6bbbL5y",
     "issue": "March 2001",
     "month": 3,
+    "number": "283",
     "publication": "atlantic",
     "title": "March Theme",
     "year": 2001
@@ -11147,6 +11459,7 @@
     "id": "7VQITruJwvBCnpGtmK1e",
     "issue": "April 2001",
     "month": 4,
+    "number": "284",
     "publication": "atlantic",
     "title": "Mystery Word",
     "year": 2001
@@ -11158,6 +11471,7 @@
     "id": "mND2b71wHwvJ514s32gb",
     "issue": "May 2001",
     "month": 5,
+    "number": "285",
     "publication": "atlantic",
     "title": "Craftwork",
     "year": 2001
@@ -11169,6 +11483,7 @@
     "id": "tWkrI4qAVcN5KbbZ4ord",
     "issue": "June 2001",
     "month": 6,
+    "number": "286",
     "publication": "atlantic",
     "title": "Private Boxes",
     "year": 2001
@@ -11180,6 +11495,7 @@
     "id": "3vfSu5f259rqU3xoTh3Y",
     "issue": "July/August 2001",
     "month": 7,
+    "number": "287",
     "publication": "atlantic",
     "title": "Faces",
     "year": 2001
@@ -11191,6 +11507,7 @@
     "id": "GMDIu7Ja4w1FqUJOIvCG",
     "issue": "September 2001",
     "month": 9,
+    "number": "288",
     "publication": "atlantic",
     "title": "Half and Half",
     "year": 2001
@@ -11202,6 +11519,7 @@
     "id": "R3zf6LK26bSz8AIe8cGK",
     "issue": "October 2001",
     "month": 10,
+    "number": "289",
     "publication": "atlantic",
     "title": "Rock Climbing",
     "year": 2001
@@ -11213,6 +11531,7 @@
     "id": "gTMS9WOa9ja4dKe7BZF1",
     "issue": "November 2001",
     "month": 11,
+    "number": "290",
     "publication": "atlantic",
     "title": "Full Course",
     "year": 2001
@@ -11224,6 +11543,7 @@
     "id": "o3F4Bk207JpesO9JA92p",
     "issue": "December 2001",
     "month": 12,
+    "number": "291",
     "publication": "atlantic",
     "title": "Presents",
     "year": 2001
@@ -11235,6 +11555,7 @@
     "id": "CPXoiMlaYtISdmtzPQWp",
     "issue": "January 2002",
     "month": 1,
+    "number": "292",
     "publication": "atlantic",
     "title": "Book Reviews",
     "year": 2002
@@ -11246,6 +11567,7 @@
     "id": "Q3ctiZYBslQAZl51JfBx",
     "issue": "February 2002",
     "month": 2,
+    "number": "293",
     "publication": "atlantic",
     "title": "Common Bond",
     "year": 2002
@@ -11257,6 +11579,7 @@
     "id": "ecrnjkdiOPDc5vXdG2rg",
     "issue": "March 2002",
     "month": 3,
+    "number": "294",
     "publication": "atlantic",
     "title": "Working Overtime",
     "year": 2002
@@ -11268,6 +11591,7 @@
     "id": "lW8UjxyyDhv2NLEuaWk3",
     "issue": "April 2002",
     "month": 4,
+    "number": "295",
     "publication": "atlantic",
     "title": "Loops",
     "year": 2002
@@ -11279,6 +11603,7 @@
     "id": "ka9WwuhbyQuHpXVFKiNs",
     "issue": "May 2002",
     "month": 5,
+    "number": "296",
     "publication": "atlantic",
     "title": "Compact Disc",
     "year": 2002
@@ -11290,6 +11615,7 @@
     "id": "I1Vh3upDK007h3Cxmv0N",
     "issue": "June 2002",
     "month": 6,
+    "number": "297",
     "publication": "atlantic",
     "title": "Layers",
     "year": 2002
@@ -11301,6 +11627,7 @@
     "id": "p93rra5tJxBrEmd37uyj",
     "issue": "July/August 2002",
     "month": 7,
+    "number": "298",
     "publication": "atlantic",
     "title": "Lost in the Funhouse",
     "year": 2002
@@ -11312,6 +11639,7 @@
     "id": "6m6lkpS4Vcdq1OFsPWIx",
     "issue": "September 2002",
     "month": 9,
+    "number": "299",
     "publication": "atlantic",
     "title": "Sign of the Times",
     "year": 2002
@@ -11323,6 +11651,7 @@
     "id": "o4OsmYWvmpizicvChD1T",
     "issue": "October 2002",
     "month": 10,
+    "number": "300",
     "publication": "atlantic",
     "title": "Wisecracks",
     "year": 2002
@@ -11334,6 +11663,7 @@
     "id": "XRwSfeLnX1SIoHyBVjmY",
     "issue": "November 2002",
     "month": 11,
+    "number": "301",
     "publication": "atlantic",
     "title": "Gridiron",
     "year": 2002
@@ -11345,6 +11675,7 @@
     "id": "T9ns1fs4Kx5bgNib43TZ",
     "issue": "December 2002",
     "month": 12,
+    "number": "302",
     "publication": "atlantic",
     "title": "Crystal Ball",
     "year": 2002
@@ -11356,6 +11687,7 @@
     "id": "MT15g9kakZ6911EjZPtP",
     "issue": "January/February 2003",
     "month": 1,
+    "number": "303",
     "publication": "atlantic",
     "title": "Target Practice",
     "year": 2003
@@ -11367,6 +11699,7 @@
     "id": "kwrn4qUqxwU9n1o2gS48",
     "issue": "March 2003",
     "month": 3,
+    "number": "304",
     "publication": "atlantic",
     "title": "Games",
     "year": 2003
@@ -11378,6 +11711,7 @@
     "id": "PgPH2xaiGh1UjoqMEd4E",
     "issue": "April 2003",
     "month": 4,
+    "number": "305",
     "publication": "atlantic",
     "title": "Circular Logic",
     "year": 2003
@@ -11389,6 +11723,7 @@
     "id": "WicwdoZEMXfOWdeVhaKm",
     "issue": "May 2003",
     "month": 5,
+    "number": "306",
     "publication": "atlantic",
     "title": "Treasure Island",
     "year": 2003
@@ -11400,6 +11735,7 @@
     "id": "rjSwBygzDu5bKwadG4lD",
     "issue": "June 2003",
     "month": 6,
+    "number": "307",
     "publication": "atlantic",
     "title": "Standouts",
     "year": 2003
@@ -11411,6 +11747,7 @@
     "id": "mDayJBJsFb0gjtEtguhg",
     "issue": "July/August 2003",
     "month": 7,
+    "number": "308",
     "publication": "atlantic",
     "title": "Word Magic",
     "year": 2003
@@ -11422,6 +11759,7 @@
     "id": "tp70QAn2TeJvlVmkyUdg",
     "issue": "September 2003",
     "month": 9,
+    "number": "309",
     "publication": "atlantic",
     "title": "Spoonerfest",
     "year": 2003
@@ -11562,6 +11900,7 @@
     "id": "yUf5u9Lx6JshkYzELr9q",
     "issue": "October 2003",
     "month": 10,
+    "number": "310",
     "publication": "atlantic",
     "title": "Mystery Theater",
     "year": 2003
@@ -11573,6 +11912,7 @@
     "id": "IdAsFyVb4PbkbmMu55QX",
     "issue": "November 2003",
     "month": 11,
+    "number": "311",
     "publication": "atlantic",
     "title": "Floor Plan",
     "year": 2003
@@ -11584,6 +11924,7 @@
     "id": "IKq1UQ8XhPJDICEg7k2X",
     "issue": "December 2003",
     "month": 12,
+    "number": "312",
     "publication": "atlantic",
     "title": "Gift Array",
     "year": 2003
@@ -11595,6 +11936,7 @@
     "id": "OJZeTJOcTPQ9MdcqFmT4",
     "issue": "January/February 2004",
     "month": 1,
+    "number": "313",
     "publication": "atlantic",
     "title": "Eights",
     "year": 2004
@@ -11606,6 +11948,7 @@
     "id": "5LLY5pFxT4UZZFuZFQAh",
     "issue": "March 2004",
     "month": 3,
+    "number": "314",
     "publication": "atlantic",
     "title": "Radio Daze",
     "year": 2004
@@ -11617,6 +11960,7 @@
     "id": "UrclOSqlihZvhiZdJgR3",
     "issue": "April 2004",
     "month": 4,
+    "number": "315",
     "publication": "atlantic",
     "title": "Help Wanted",
     "year": 2004
@@ -11628,6 +11972,7 @@
     "id": "opGlfcQo5yznaxTmiNZh",
     "issue": "May 2004",
     "month": 5,
+    "number": "316",
     "publication": "atlantic",
     "title": "Magic Rings",
     "year": 2004
@@ -11639,6 +11984,7 @@
     "id": "TnZ9aslSxbjS7jtHK51z",
     "issue": "June 2004",
     "month": 6,
+    "number": "317",
     "publication": "atlantic",
     "title": "Graphic Arts",
     "year": 2004
@@ -11650,6 +11996,7 @@
     "id": "MeJzDFpvdWfXzHg1uPmh",
     "issue": "July/August 2004",
     "month": 7,
+    "number": "318",
     "publication": "atlantic",
     "title": "Room With a View",
     "year": 2004
@@ -11661,6 +12008,7 @@
     "id": "D2uVdLCFA48ao7xyGOFR",
     "issue": "September 2004",
     "month": 9,
+    "number": "319",
     "publication": "atlantic",
     "title": "Chain Links",
     "year": 2004
@@ -11807,6 +12155,7 @@
     "id": "48jXI8SUmWA0NCiIADat",
     "issue": "October 2004",
     "month": 10,
+    "number": "320",
     "publication": "atlantic",
     "title": "Cryptic Journey",
     "year": 2004
@@ -11818,6 +12167,7 @@
     "id": "0Aw0vuT4oumw98YHH7qr",
     "issue": "November 2004",
     "month": 11,
+    "number": "321",
     "publication": "atlantic",
     "title": "Leapfrog",
     "year": 2004
@@ -11829,6 +12179,7 @@
     "id": "J2Lp2c4R23d2SJd0z8zR",
     "issue": "December 2004",
     "month": 12,
+    "number": "322",
     "publication": "atlantic",
     "title": "Cryptic Buffet",
     "year": 2004
@@ -11840,6 +12191,7 @@
     "id": "Hm5u9eZB9hV8q3OUIDLT",
     "issue": "January/February 2005",
     "month": 1,
+    "number": "323",
     "publication": "atlantic",
     "title": "What's What",
     "year": 2005
@@ -11851,6 +12203,7 @@
     "id": "DZDBseZoK6tHPbGSNFef",
     "issue": "March 2005",
     "month": 3,
+    "number": "324",
     "publication": "atlantic",
     "title": "Cloverleaf",
     "year": 2005
@@ -11862,6 +12215,7 @@
     "id": "7v5ugsWggJkp54LieBFb",
     "issue": "April 2005",
     "month": 4,
+    "number": "325",
     "publication": "atlantic",
     "title": "Running the Gamut",
     "year": 2005
@@ -11873,6 +12227,7 @@
     "id": "WyByGuXuJHzqmsAz78ey",
     "issue": "May 2005",
     "month": 5,
+    "number": "326",
     "publication": "atlantic",
     "title": "Sightseeing",
     "year": 2005
@@ -11884,6 +12239,7 @@
     "id": "6Ynh7TAxk2NXImkeYYtT",
     "issue": "June 2005",
     "month": 6,
+    "number": "327",
     "publication": "atlantic",
     "title": "Central Intelligence",
     "year": 2005
@@ -11895,6 +12251,7 @@
     "id": "49ybwv3bPfiLSfIia6VJ",
     "issue": "July/August 2005",
     "month": 7,
+    "number": "328",
     "publication": "atlantic",
     "title": "Code Pairs",
     "year": 2005
@@ -11906,6 +12263,7 @@
     "id": "mFibF0o0q32FWFRTrlG4",
     "issue": "September 2005",
     "month": 9,
+    "number": "329",
     "publication": "atlantic",
     "title": "Lost and Found",
     "year": 2005
@@ -11917,6 +12275,7 @@
     "id": "ZH84QSrI3vOBt1iqGXLG",
     "issue": "October 2005",
     "month": 10,
+    "number": "330",
     "publication": "atlantic",
     "title": "Alien Invasion",
     "year": 2005
@@ -11928,6 +12287,7 @@
     "id": "MVvFJ98uhMUdVBem15oZ",
     "issue": "November 2005",
     "month": 11,
+    "number": "331",
     "publication": "atlantic",
     "title": "Our Cryptic Hobby",
     "year": 2005
@@ -11939,6 +12299,7 @@
     "id": "ltCzPd8JDgSZ7C28vMrE",
     "issue": "December 2005",
     "month": 12,
+    "number": "332",
     "publication": "atlantic",
     "title": "Cryptic Recipe",
     "year": 2005
@@ -11950,6 +12311,7 @@
     "id": "4tV77b3Ny3C1vf4KqcOd",
     "issue": "January/February 2006",
     "month": 1,
+    "number": "333",
     "publication": "atlantic",
     "title": "Mysterious Island",
     "year": 2006
@@ -11961,6 +12323,7 @@
     "id": "ZHijBlpbNnDHpH7kAp1D",
     "issue": "March 2006",
     "month": 3,
+    "number": "334",
     "publication": "atlantic",
     "title": "Twofers",
     "year": 2006
@@ -11972,6 +12335,7 @@
     "id": "npKU8s9Qd7pPGPiYsBCb",
     "issue": "April 2006",
     "month": 4,
+    "number": "335",
     "publication": "atlantic",
     "title": "Box Set",
     "year": 2006
@@ -11983,6 +12347,7 @@
     "id": "tGkGtxflhJcHlUMVwvwH",
     "issue": "May 2006",
     "month": 5,
+    "number": "336",
     "publication": "atlantic",
     "title": "Peace of the Puzzle",
     "year": 2006
@@ -11994,6 +12359,7 @@
     "id": "ebGFrogxeVSGXf4mkain",
     "issue": "June 2006",
     "month": 6,
+    "number": "337",
     "publication": "atlantic",
     "title": "What's My Line?",
     "year": 2006
@@ -12005,6 +12371,7 @@
     "id": "pnc9pCkUVjCrTiVnN0xI",
     "issue": "July/August 2006",
     "month": 7,
+    "number": "338",
     "publication": "atlantic",
     "title": "Dinner With the Crypps",
     "year": 2006
@@ -12016,6 +12383,7 @@
     "id": "S1zQd9daUtETqjPKOfsm",
     "issue": "September 2006",
     "month": 9,
+    "number": "339",
     "publication": "atlantic",
     "title": "Hex Sign",
     "year": 2006
@@ -12027,6 +12395,7 @@
     "id": "BN1157SlykJys2Cm1Dfn",
     "issue": "October 2006",
     "month": 10,
+    "number": "340",
     "publication": "atlantic",
     "title": "Box Scores",
     "year": 2006
@@ -12038,6 +12407,7 @@
     "id": "8ZFkteeV24AfqbWhBlOX",
     "issue": "November 2006",
     "month": 11,
+    "number": "341",
     "publication": "atlantic",
     "title": "Connect the Dots",
     "year": 2006
@@ -12049,6 +12419,7 @@
     "id": "gujMvR9VJNGkUWR4OScr",
     "issue": "December 2006",
     "month": 12,
+    "number": "342",
     "publication": "atlantic",
     "title": "Minding Your P's and Q's",
     "year": 2006
@@ -12060,6 +12431,7 @@
     "id": "1phNu4yRKIDKDcHmn0jn",
     "issue": "January/February 2007",
     "month": 1,
+    "number": "343",
     "publication": "atlantic",
     "title": "Obstacle Course",
     "year": 2007
@@ -12071,6 +12443,7 @@
     "id": "3qcNvqZgukJ3U56EUjqo",
     "issue": "March 2007",
     "month": 3,
+    "number": "344",
     "publication": "atlantic",
     "title": "Three Trains Running",
     "year": 2007
@@ -12082,6 +12455,7 @@
     "id": "8AxU1OIRHnvSImlaMncY",
     "issue": "April 2007",
     "month": 4,
+    "number": "345",
     "publication": "atlantic",
     "title": "Cryptax Collection",
     "year": 2007
@@ -12093,6 +12467,7 @@
     "id": "hFGUv6Tss3ACl9tRTXCr",
     "issue": "May 2007",
     "month": 5,
+    "number": "346",
     "publication": "atlantic",
     "title": "Flower Show",
     "year": 2007
@@ -12104,6 +12479,7 @@
     "id": "fX2jAZZIPKlzd7Pf08K7",
     "issue": "June 2007",
     "month": 6,
+    "number": "347",
     "publication": "atlantic",
     "title": "The Bottom Line",
     "year": 2007
@@ -12115,6 +12491,7 @@
     "id": "pCcJLpaoVeL1m4yHWacV",
     "issue": "July/August 2007",
     "month": 7,
+    "number": "348",
     "publication": "atlantic",
     "title": "Fishbowl",
     "year": 2007
@@ -12126,6 +12503,7 @@
     "id": "THm4xNjjs9P78VqacEOP",
     "issue": "September 2007",
     "month": 9,
+    "number": "349",
     "publication": "atlantic",
     "title": "A Hard Act to Follow",
     "year": 2007
@@ -12137,6 +12515,7 @@
     "id": "z22AeoKupLYjzKVsf73N",
     "issue": "October 2007",
     "month": 10,
+    "number": "350",
     "publication": "atlantic",
     "title": "Jigsaw",
     "year": 2007
@@ -12148,6 +12527,7 @@
     "id": "bhma4EyDI1M0xAREn7bZ",
     "issue": "November 2007",
     "month": 11,
+    "number": "351",
     "publication": "atlantic",
     "title": "Web Service",
     "year": 2007
@@ -12159,6 +12539,7 @@
     "id": "dI0VbfVHvh8Ho9lrO3MK",
     "issue": "December 2007",
     "month": 12,
+    "number": "352",
     "publication": "atlantic",
     "title": "Getting Into the Spirit",
     "year": 2007
@@ -12170,6 +12551,7 @@
     "id": "OiBAq4D2hgJlF5cSTKPK",
     "issue": "January/February 2008",
     "month": 1,
+    "number": "353",
     "publication": "atlantic",
     "title": "Togetherness",
     "year": 2008
@@ -12181,6 +12563,7 @@
     "id": "0BSxTu0AiCdtQ7469KN5",
     "issue": "March 2008",
     "month": 3,
+    "number": "354",
     "publication": "atlantic",
     "title": "Crossers",
     "year": 2008
@@ -12192,6 +12575,7 @@
     "id": "eQgv20gjiaINNFfxTvje",
     "issue": "April 2008",
     "month": 4,
+    "number": "355",
     "publication": "atlantic",
     "title": "Self-Explanatory",
     "year": 2008
@@ -12203,6 +12587,7 @@
     "id": "cSskDQWRs7MicxRy5jcg",
     "issue": "May 2008",
     "month": 5,
+    "number": "356",
     "publication": "atlantic",
     "title": "Cryptic Crossword",
     "year": 2008
@@ -12214,6 +12599,7 @@
     "id": "M13TOFagFpXSTAcMbFxu",
     "issue": "June 2008",
     "month": 6,
+    "number": "357",
     "publication": "atlantic",
     "title": "Def Jam",
     "year": 2008
@@ -12225,6 +12611,7 @@
     "id": "26nI0fgReA337upIYoyB",
     "issue": "July/August 2008",
     "month": 7,
+    "number": "358",
     "publication": "atlantic",
     "title": "Pool Puzzle",
     "year": 2008
@@ -12236,6 +12623,7 @@
     "id": "DFPV2LUOsfpQaoL2xASc",
     "issue": "September 2008",
     "month": 9,
+    "number": "359",
     "publication": "atlantic",
     "title": "Zip Code",
     "year": 2008
@@ -12247,6 +12635,7 @@
     "id": "8ItQLhwR3krEsbaaMifb",
     "issue": "October 2008",
     "month": 10,
+    "number": "360",
     "publication": "atlantic",
     "title": "Tools of the Trade",
     "year": 2008
@@ -12258,6 +12647,7 @@
     "id": "PV4563mdtMmlbifl7HiV",
     "issue": "November 2008",
     "month": 11,
+    "number": "361",
     "publication": "atlantic",
     "title": "Obedience School",
     "year": 2008
@@ -12269,6 +12659,7 @@
     "id": "37pqo3R7fX7AjRJfWqKN",
     "issue": "December 2008",
     "month": 12,
+    "number": "362",
     "publication": "atlantic",
     "title": "Wraparound",
     "year": 2008
@@ -12280,6 +12671,7 @@
     "id": "3OV7FbQKgdnTUJT3oxdy",
     "issue": "January/February 2009",
     "month": 1,
+    "number": "363",
     "publication": "atlantic",
     "title": "Categories",
     "year": 2009
@@ -12291,6 +12683,7 @@
     "id": "xBl2zhejByFBGOswYGIX",
     "issue": "March 2009",
     "month": 3,
+    "number": "364",
     "publication": "atlantic",
     "title": "Double or Nothing",
     "year": 2009
@@ -12302,6 +12695,7 @@
     "id": "SUmIbeRoKMbadeia0XbS",
     "issue": "April 2009",
     "month": 4,
+    "number": "365",
     "publication": "atlantic",
     "title": "Trash Collection",
     "year": 2009
@@ -12313,6 +12707,7 @@
     "id": "7OaHlLN1vOAGm05DpgOa",
     "issue": "May 2009",
     "month": 5,
+    "number": "366",
     "publication": "atlantic",
     "title": "Last Resort",
     "year": 2009
@@ -12324,6 +12719,7 @@
     "id": "umCOnDUG45wChdvOLvHm",
     "issue": "June 2009",
     "month": 6,
+    "number": "367",
     "publication": "atlantic",
     "title": "Splitsville",
     "year": 2009
@@ -12335,6 +12731,7 @@
     "id": "10pxEzetUuPMXRPRfuzW",
     "issue": "July/August 2009",
     "month": 7,
+    "number": "368",
     "publication": "atlantic",
     "title": "Home Game",
     "year": 2009
@@ -12346,6 +12743,7 @@
     "id": "qAceGKaTcixYVyRnLpj4",
     "issue": "September 2009",
     "month": 9,
+    "number": "369",
     "publication": "atlantic",
     "title": "Magic Show",
     "year": 2009
@@ -12357,6 +12755,7 @@
     "id": "e1yGpevzPekWkC6YKHT8",
     "issue": "October 2009",
     "month": 10,
+    "number": "370",
     "publication": "atlantic",
     "title": "Sections",
     "year": 2009
@@ -12368,6 +12767,7 @@
     "id": "NauJ2g0wgOIF5hAy3Tk0",
     "issue": "",
     "month": 1,
+    "number": "1",
     "publication": "wsj",
     "title": "Relocation",
     "year": 2010
@@ -12523,6 +12923,7 @@
     "id": "Jh7eN0GbVxBjRu3QK1b6",
     "issue": "",
     "month": 2,
+    "number": "2",
     "publication": "wsj",
     "title": "Matchmaking",
     "year": 2010
@@ -12534,6 +12935,7 @@
     "id": "40WyQFyr2yEasIb06eyN",
     "issue": "",
     "month": 3,
+    "number": "3",
     "publication": "wsj",
     "title": "What Goes Around",
     "year": 2010
@@ -12545,6 +12947,7 @@
     "id": "goxJ3RZDlwBvXgT7scpf",
     "issue": "",
     "month": 4,
+    "number": "4",
     "publication": "wsj",
     "title": "Circular Files",
     "year": 2010
@@ -12556,6 +12959,7 @@
     "id": "xSn0JvHQOkXk5VUFJSZN",
     "issue": "",
     "month": 5,
+    "number": "5",
     "publication": "wsj",
     "title": "What's In the Box?",
     "year": 2010
@@ -12567,6 +12971,7 @@
     "id": "006tB6HtuIYCqL4FyRje",
     "issue": "",
     "month": 6,
+    "number": "6",
     "publication": "wsj",
     "title": "Merger Mania",
     "year": 2010
@@ -12578,6 +12983,7 @@
     "id": "WhhnECt7686ENBGdINMg",
     "issue": "",
     "month": 7,
+    "number": "7",
     "publication": "wsj",
     "title": "Keyholes",
     "year": 2010
@@ -12589,6 +12995,7 @@
     "id": "ZjTaDkEBVw5IiE3puERQ",
     "issue": "",
     "month": 7,
+    "number": "8",
     "publication": "wsj",
     "title": "Board Meeting",
     "year": 2010
@@ -12600,6 +13007,7 @@
     "id": "0brdK9FWx9yFFTLR9iHp",
     "issue": "",
     "month": 8,
+    "number": "9",
     "publication": "wsj",
     "title": "Digital Guide",
     "year": 2010
@@ -12754,6 +13162,7 @@
     "id": "6ySIfR0BowHgCteqnWQB",
     "issue": "",
     "month": 9,
+    "number": "10",
     "publication": "wsj",
     "title": "Outsiders",
     "year": 2010
@@ -12765,6 +13174,7 @@
     "id": "QoJ25MlkIPGcgkllsLlA",
     "issue": "",
     "month": 10,
+    "number": "11",
     "publication": "wsj",
     "title": "Seasonal Song",
     "year": 2010
@@ -12776,6 +13186,7 @@
     "id": "teOkd1tSTRCXXPBj6PTY",
     "issue": "",
     "month": 11,
+    "number": "12",
     "publication": "wsj",
     "title": "Conversions",
     "year": 2010
@@ -12787,6 +13198,7 @@
     "id": "8x6bMahyYd6qjp1FEZ1r",
     "issue": "",
     "month": 12,
+    "number": "13",
     "publication": "wsj",
     "title": "Starlights",
     "year": 2010
@@ -12798,6 +13210,7 @@
     "id": "SkZ2aRu2UDbfzyOo0taY",
     "issue": "",
     "month": 1,
+    "number": "14",
     "publication": "wsj",
     "title": "Mixed Doubles",
     "year": 2011
@@ -12809,6 +13222,7 @@
     "id": "KCPkl7grsklklTxFK4d3",
     "issue": "",
     "month": 2,
+    "number": "15",
     "publication": "wsj",
     "title": "Picture This",
     "year": 2011
@@ -12820,6 +13234,7 @@
     "id": "Sfgy1VFATf5JBhUx61Tl",
     "issue": "",
     "month": 3,
+    "number": "16",
     "publication": "wsj",
     "title": "Word Square",
     "year": 2011
@@ -12831,6 +13246,7 @@
     "id": "e48YbnJOe2QGOYmlUqA2",
     "issue": "",
     "month": 4,
+    "number": "17",
     "publication": "wsj",
     "title": "Piggy Bank",
     "year": 2011
@@ -12842,6 +13258,7 @@
     "id": "atbhLfgxFHk3TypeuDda",
     "issue": "",
     "month": 5,
+    "number": "18",
     "publication": "wsj",
     "title": "Message In A Bottle",
     "year": 2011
@@ -12853,6 +13270,7 @@
     "id": "HKLtb3xOSi1xEf8rjMOu",
     "issue": "",
     "month": 6,
+    "number": "19",
     "publication": "wsj",
     "title": "A Long and Winding Road",
     "year": 2011
@@ -13008,6 +13426,7 @@
     "id": "qMGm9QjxRi4kx1jAvhv6",
     "issue": "",
     "month": 7,
+    "number": "20",
     "publication": "wsj",
     "title": "Pinwheel",
     "year": 2011
@@ -13019,6 +13438,7 @@
     "id": "HvKysaoXljgp488l2UuS",
     "issue": "",
     "month": 8,
+    "number": "21",
     "publication": "wsj",
     "title": "Cryptic Golf",
     "year": 2011
@@ -13030,6 +13450,7 @@
     "id": "epRnVwrUgtXBLdk6xys4",
     "issue": "",
     "month": 9,
+    "number": "22",
     "publication": "wsj",
     "title": "Loops",
     "year": 2011
@@ -13041,6 +13462,7 @@
     "id": "AxAXDPsfoarjd9j2RY4r",
     "issue": "",
     "month": 10,
+    "number": "23",
     "publication": "wsj",
     "title": "Asteroids",
     "year": 2011
@@ -13052,6 +13474,7 @@
     "id": "0P9YjqWW65H6pk13l2j8",
     "issue": "",
     "month": 11,
+    "number": "24",
     "publication": "wsj",
     "title": "Eights",
     "year": 2011
@@ -13063,6 +13486,7 @@
     "id": "dtHxJuQ0SPCh6EEGAwWF",
     "issue": "",
     "month": 12,
+    "number": "25",
     "publication": "wsj",
     "title": "Stuck Up",
     "year": 2011
@@ -13258,6 +13682,7 @@
     "id": "yD4dm5jgzbpAkuV4lWtS",
     "issue": "",
     "month": 12,
+    "number": "26",
     "publication": "wsj",
     "title": "X's and O's",
     "year": 2011
@@ -13269,6 +13694,7 @@
     "id": "FXZNyJ0qnaEL9Jyw6qZA",
     "issue": "",
     "month": 1,
+    "number": "27",
     "publication": "wsj",
     "title": "Anagrammania",
     "year": 2012
@@ -13280,6 +13706,7 @@
     "id": "ed8bfVF2aB7b0BCuGfJL",
     "issue": "",
     "month": 2,
+    "number": "28",
     "publication": "wsj",
     "title": "Slide Show",
     "year": 2012
@@ -13291,6 +13718,7 @@
     "id": "ie5iO29MLKxsKkn0hT2e",
     "issue": "",
     "month": 3,
+    "number": "29",
     "publication": "wsj",
     "title": "Common Sense",
     "year": 2012
@@ -13302,6 +13730,7 @@
     "id": "QXPyMt64hlYj6ScIJbf8",
     "issue": "",
     "month": 4,
+    "number": "30",
     "publication": "wsj",
     "title": "Ecopuzzle",
     "year": 2012
@@ -13313,6 +13742,7 @@
     "id": "MwgdeqZzxJ2iezakdr7S",
     "issue": "",
     "month": 5,
+    "number": "31",
     "publication": "wsj",
     "title": "Primary Concerns",
     "year": 2012
@@ -13324,6 +13754,7 @@
     "id": "fvOLpx8iwkky3A9GW2no",
     "issue": "",
     "month": 6,
+    "number": "32",
     "publication": "wsj",
     "title": "Roundabout",
     "year": 2012
@@ -13335,6 +13766,7 @@
     "id": "yjEQO8JqDVhLTQnZKbLm",
     "issue": "",
     "month": 7,
+    "number": "33",
     "publication": "wsj",
     "title": "Five-Day Forecast",
     "year": 2012
@@ -13346,6 +13778,7 @@
     "id": "laysUHtht2lolXOwDlWR",
     "issue": "",
     "month": 8,
+    "number": "34",
     "publication": "wsj",
     "title": "Finish Line",
     "year": 2012
@@ -13357,6 +13790,7 @@
     "id": "lODgWT98VyvuP0ggDtDw",
     "issue": "",
     "month": 9,
+    "number": "35",
     "publication": "wsj",
     "title": "Shakedown",
     "year": 2012
@@ -13368,6 +13802,7 @@
     "id": "fL6buVIXIsboZvaNAoIz",
     "issue": "",
     "month": 10,
+    "number": "36",
     "publication": "wsj",
     "title": "Connect the Dots",
     "year": 2012
@@ -13379,6 +13814,7 @@
     "id": "PebIS467wcXuIlN1zCIF",
     "issue": "",
     "month": 11,
+    "number": "37",
     "publication": "wsj",
     "title": "Missing Links",
     "year": 2012
@@ -13390,6 +13826,7 @@
     "id": "c46VwgfaPjQrqwJLNkUg",
     "issue": "",
     "month": 12,
+    "number": "38",
     "publication": "wsj",
     "title": "Patchwork",
     "year": 2012
@@ -13401,6 +13838,7 @@
     "id": "P3TNLEJnvpJLx0GXI4Fh",
     "issue": "",
     "month": 12,
+    "number": "39",
     "publication": "wsj",
     "title": "Snowflake",
     "year": 2012
@@ -13412,6 +13850,7 @@
     "id": "zJ1t87Kks2G1KnmzUVpW",
     "issue": "",
     "month": 1,
+    "number": "40",
     "publication": "wsj",
     "title": "Surprise",
     "year": 2013
@@ -13423,6 +13862,7 @@
     "id": "hjh9pazZXJaTqvUC1KKP",
     "issue": "",
     "month": 2,
+    "number": "41",
     "publication": "wsj",
     "title": "Musical Chairs",
     "year": 2013
@@ -13434,6 +13874,7 @@
     "id": "QgI2W9h957bAcE5q9Ba8",
     "issue": "",
     "month": 3,
+    "number": "42",
     "publication": "wsj",
     "title": "What's My Line?",
     "year": 2013
@@ -13445,6 +13886,7 @@
     "id": "TRI5XvyTmJo7fzt31YfQ",
     "issue": "",
     "month": 4,
+    "number": "43",
     "publication": "wsj",
     "title": "Crossword Kit",
     "year": 2013
@@ -13456,6 +13898,7 @@
     "id": "QCZi8BSOeLes7HFbdkz8",
     "issue": "",
     "month": 5,
+    "number": "44",
     "publication": "wsj",
     "title": "Pyramid Scheme",
     "year": 2013
@@ -13467,6 +13910,7 @@
     "id": "bXtlKRd8HFLRgzXJ2Y8G",
     "issue": "",
     "month": 6,
+    "number": "45",
     "publication": "wsj",
     "title": "Loose Ends",
     "year": 2013
@@ -13478,6 +13922,7 @@
     "id": "CvHFAN46A7AutRWjd3Nc",
     "issue": "",
     "month": 6,
+    "number": "46",
     "publication": "wsj",
     "title": "Fireworks",
     "year": 2013
@@ -13489,6 +13934,7 @@
     "id": "nzqVM2Mb0T9WtW7N1QGi",
     "issue": "",
     "month": 8,
+    "number": "47",
     "publication": "wsj",
     "title": "Jigsaw",
     "year": 2013
@@ -13500,6 +13946,7 @@
     "id": "kiDXY0geDJ1xgr6l0mwf",
     "issue": "",
     "month": 9,
+    "number": "48",
     "publication": "wsj",
     "title": "Alphabet Soup",
     "year": 2013
@@ -13511,6 +13958,7 @@
     "id": "zhuVkpE9jwR1Q3clAzy4",
     "issue": "",
     "month": 10,
+    "number": "49",
     "publication": "wsj",
     "title": "High Frequency",
     "year": 2013
@@ -13522,6 +13970,7 @@
     "id": "atRXLeODeacdUglzj3cA",
     "issue": "",
     "month": 11,
+    "number": "50",
     "publication": "wsj",
     "title": "Choices",
     "year": 2013
@@ -13533,6 +13982,7 @@
     "id": "TBZBDxkkbqAnCvbjxz6D",
     "issue": "",
     "month": 11,
+    "number": "51",
     "publication": "wsj",
     "title": "In The Shop",
     "year": 2013
@@ -13544,6 +13994,7 @@
     "id": "spu7z60qcBf75nYIrXVb",
     "issue": "",
     "month": 12,
+    "number": "52",
     "publication": "wsj",
     "title": "Windup",
     "year": 2013
@@ -13555,6 +14006,7 @@
     "id": "JrVTgPPqYKMgGdMFb0RZ",
     "issue": "",
     "month": 1,
+    "number": "53",
     "publication": "wsj",
     "title": "For Starters",
     "year": 2014
@@ -13566,6 +14018,7 @@
     "id": "jyxgIcLMchLx13tgeW5f",
     "issue": "",
     "month": 2,
+    "number": "54",
     "publication": "wsj",
     "title": "Featured Event",
     "year": 2014
@@ -13577,6 +14030,7 @@
     "id": "hd4S13I28TiTBUK5SFxy",
     "issue": "",
     "month": 3,
+    "number": "55",
     "publication": "wsj",
     "title": "Omission Statement",
     "year": 2014
@@ -13588,6 +14042,7 @@
     "id": "FrHP5slNLVnTlzWbcq7T",
     "issue": "",
     "month": 4,
+    "number": "56",
     "publication": "wsj",
     "title": "Egg Hunt",
     "year": 2014
@@ -13599,6 +14054,7 @@
     "id": "ENRgzC0n9fHH3UKIhaHt",
     "issue": "",
     "month": 5,
+    "number": "57",
     "publication": "wsj",
     "title": "Rebuses",
     "year": 2014
@@ -13610,6 +14066,7 @@
     "id": "6q4QecjbowPrCsZGvyO5",
     "issue": "",
     "month": 6,
+    "number": "58",
     "publication": "wsj",
     "title": "Flower Cuttings",
     "year": 2014
@@ -13621,6 +14078,7 @@
     "id": "KeXMMEdEHwp2vpo3vL5e",
     "issue": "",
     "month": 7,
+    "number": "59",
     "publication": "wsj",
     "title": "Family Reunion",
     "year": 2014
@@ -13632,6 +14090,7 @@
     "id": "2Y9Rs91tahnFem6ZFmkD",
     "issue": "",
     "month": 8,
+    "number": "60",
     "publication": "wsj",
     "title": "Target Range",
     "year": 2014
@@ -13643,6 +14102,7 @@
     "id": "hqjEiuz8rDySSSWqDN0T",
     "issue": "",
     "month": 9,
+    "number": 61,
     "publication": "wsj",
     "title": "Outbreak",
     "year": 2014
@@ -13654,6 +14114,7 @@
     "id": "5lCcIui5OLsZ3dOeIIRB",
     "issue": "",
     "month": 10,
+    "number": 62,
     "publication": "wsj",
     "title": "Special Delivery",
     "year": 2014
@@ -13665,6 +14126,7 @@
     "id": "iqVST2RwRVGqJNRuEOwx",
     "issue": "",
     "month": 11,
+    "number": 63,
     "publication": "wsj",
     "title": "Spoonermania",
     "year": 2014
@@ -13676,6 +14138,7 @@
     "id": "qAX3DzkUXufZokQZ3uIL",
     "issue": "",
     "month": 11,
+    "number": 64,
     "publication": "wsj",
     "title": "Laddergram",
     "year": 2014
@@ -13687,6 +14150,7 @@
     "id": "jRPfHQM4N3PhHeTonDEh",
     "issue": "",
     "month": 12,
+    "number": 65,
     "publication": "wsj",
     "title": "Twenty-Six Out",
     "year": 2014
@@ -13698,6 +14162,7 @@
     "id": "xvIqStzxVnEQ8yKoluzw",
     "issue": "",
     "month": 1,
+    "number": 66,
     "publication": "wsj",
     "title": "Guidelines",
     "year": 2015
@@ -13709,6 +14174,7 @@
     "id": "1IxiEZ4WVat54IJJuPJn",
     "issue": "",
     "month": 2,
+    "number": 67,
     "publication": "wsj",
     "title": "Weather Update",
     "year": 2015
@@ -13720,6 +14186,7 @@
     "id": "nW2tWguNDrjZSWid7xL3",
     "issue": "",
     "month": 3,
+    "number": 68,
     "publication": "wsj",
     "title": "March Madness",
     "year": 2015
@@ -13731,6 +14198,7 @@
     "id": "bayYFCq2vrZccQj35baJ",
     "issue": "",
     "month": 4,
+    "number": 69,
     "publication": "wsj",
     "title": "Minor Adjustments",
     "year": 2015
@@ -13742,6 +14210,7 @@
     "id": "WFbeWnCIyQ8Z6gLPlRdG",
     "issue": "",
     "month": 5,
+    "number": 70,
     "publication": "wsj",
     "title": "Spring Cleaning",
     "year": 2015
@@ -13753,6 +14222,7 @@
     "id": "j0y0J7RKYSZusVatNy2P",
     "issue": "",
     "month": 6,
+    "number": 71,
     "publication": "wsj",
     "title": "2 for Two",
     "year": 2015
@@ -13764,6 +14234,7 @@
     "id": "d8vG3WInOc9Db6KlGLx4",
     "issue": "",
     "month": 7,
+    "number": 72,
     "publication": "wsj",
     "title": "The Seven Cryptic Dwarfs",
     "year": 2015
@@ -13775,6 +14246,7 @@
     "id": "a9PMYZcg6uqaEUkXtr5W",
     "issue": "",
     "month": 8,
+    "number": 73,
     "publication": "wsj",
     "title": "Code Pairs",
     "year": 2015
@@ -13786,6 +14258,7 @@
     "id": "gpNm5DD46uReR5iMTmja",
     "issue": "",
     "month": 9,
+    "number": 74,
     "publication": "wsj",
     "title": "What's What",
     "year": 2015
@@ -13958,6 +14431,7 @@
     "id": "r8MLtQFl342pNaNAklEr",
     "issue": "",
     "month": 10,
+    "number": "75",
     "publication": "wsj",
     "title": "Mystery Theater",
     "year": 2015
@@ -13969,6 +14443,7 @@
     "id": "1FvZPn2oqHeEdIpt0KsK",
     "issue": "",
     "month": 11,
+    "number": 76,
     "publication": "wsj",
     "title": "Double Take",
     "year": 2015
@@ -13980,6 +14455,7 @@
     "id": "zsayYdNsMZGIoopOHI07",
     "issue": "",
     "month": 12,
+    "number": 77,
     "publication": "wsj",
     "title": "Cloverleaf",
     "year": 2015
@@ -13991,6 +14467,7 @@
     "id": "fqd7jmvHuGts3ImjZKDl",
     "issue": "",
     "month": 1,
+    "number": 78,
     "publication": "wsj",
     "title": "Ups and Downs",
     "year": 2016
@@ -14002,6 +14479,7 @@
     "id": "q5sQqTqExRpKqMOcUya4",
     "issue": "",
     "month": 1,
+    "number": 79,
     "publication": "wsj",
     "title": "Sandwich Shop",
     "year": 2016
@@ -14013,6 +14491,7 @@
     "id": "U5wYOJczENAuswYyLBKp",
     "issue": "",
     "month": 2,
+    "number": 80,
     "publication": "wsj",
     "title": "Pairings",
     "year": 2016
@@ -14024,6 +14503,7 @@
     "id": "kzdahc3sBXLJhlbEkJi5",
     "issue": "",
     "month": 3,
+    "number": 81,
     "publication": "wsj",
     "title": "Shooting Hoops",
     "year": 2016
@@ -14035,6 +14515,7 @@
     "id": "tFBbKzhl3q3h2CkgtH8d",
     "issue": "",
     "month": 4,
+    "number": 82,
     "publication": "wsj",
     "title": "Correspondence",
     "year": 2016
@@ -14046,6 +14527,7 @@
     "id": "rnzHelaLfzTkOhQutGEw",
     "issue": "",
     "month": 5,
+    "number": 83,
     "publication": "wsj",
     "title": "Rimshot",
     "year": 2016
@@ -14057,6 +14539,7 @@
     "id": "wvIaIi7bGHYosh3K1aod",
     "issue": "",
     "month": 6,
+    "number": 84,
     "publication": "wsj",
     "title": "Conflict Resolution",
     "year": 2016
@@ -14068,6 +14551,7 @@
     "id": "pjfSa4u3lCHDO6veDV9C",
     "issue": "",
     "month": 7,
+    "number": 85,
     "publication": "wsj",
     "title": "Inner Circle",
     "year": 2016
@@ -14079,6 +14563,7 @@
     "id": "KobPCg4mWNlwZy4eRGrI",
     "issue": "",
     "month": 8,
+    "number": 86,
     "publication": "wsj",
     "title": "Relay Race",
     "year": 2016
@@ -14090,6 +14575,7 @@
     "id": "WrRygoN7lQzBsCHhlyXo",
     "issue": "",
     "month": 9,
+    "number": 87,
     "publication": "wsj",
     "title": "Choice Words",
     "year": 2016
@@ -14101,6 +14587,7 @@
     "id": "hHjugOQtMVRUeirt6oqT",
     "issue": "",
     "month": 10,
+    "number": 88,
     "publication": "wsj",
     "title": "Word Square",
     "year": 2016
@@ -14112,6 +14599,7 @@
     "id": "lBIVL34aWNlqm0WHL70g",
     "issue": "",
     "month": 11,
+    "number": 89,
     "publication": "wsj",
     "title": "Star Chart",
     "year": 2016
@@ -14123,6 +14611,7 @@
     "id": "PMeGXRgg4MaSUg4em7eR",
     "issue": "",
     "month": 12,
+    "number": 90,
     "publication": "wsj",
     "title": "Round Table",
     "year": 2016
@@ -14134,6 +14623,7 @@
     "id": "L4uaYUafbUuDBZ9wAANP",
     "issue": "",
     "month": 12,
+    "number": 91,
     "publication": "wsj",
     "title": "Four Seasons",
     "year": 2016
@@ -14145,6 +14635,7 @@
     "id": "OValYtMhh9hps9KkfAeX",
     "issue": "",
     "month": 1,
+    "number": 92,
     "publication": "wsj",
     "title": "Left, Right and Center",
     "year": 2017
@@ -14156,6 +14647,7 @@
     "id": "KF2JNuhso1xHAjWMRVE7",
     "issue": "",
     "month": 2,
+    "number": 93,
     "publication": "wsj",
     "title": "Assembly Required",
     "year": 2017
@@ -14167,6 +14659,7 @@
     "id": "JItJ9ffTRRKYIPEs3D6B",
     "issue": "",
     "month": 3,
+    "number": 94,
     "publication": "wsj",
     "title": "Balancing Act",
     "year": 2017
@@ -14178,6 +14671,7 @@
     "id": "kI7wkX4XIzkgZAx0Z49M",
     "issue": "",
     "month": 4,
+    "number": 95,
     "publication": "wsj",
     "title": "Machine-Edited",
     "year": 2017
@@ -14189,6 +14683,7 @@
     "id": "0moiBux1VDzW0OzO5Owv",
     "issue": "",
     "month": 5,
+    "number": 96,
     "publication": "wsj",
     "title": "The X Factor",
     "year": 2017
@@ -14200,6 +14695,7 @@
     "id": "jfMm8KnnKYzZ1AwUXVYh",
     "issue": "",
     "month": 6,
+    "number": 97,
     "publication": "wsj",
     "title": "Three Out of Four",
     "year": 2017
@@ -14211,6 +14707,7 @@
     "id": "QrS30ayGadFYotGgXxLM",
     "issue": "",
     "month": 7,
+    "number": 98,
     "publication": "wsj",
     "title": "Climate Change",
     "year": 2017
@@ -14222,6 +14719,7 @@
     "id": "JojwW7TvWOitqaRifDx0",
     "issue": "",
     "month": 8,
+    "number": 99,
     "publication": "wsj",
     "title": "Crime Caper",
     "year": 2017
@@ -14233,6 +14731,7 @@
     "id": "oBGslZu3S0iOypDnibWk",
     "issue": "",
     "month": 9,
+    "number": 100,
     "publication": "wsj",
     "title": "Nines",
     "year": 2017
@@ -14244,6 +14743,7 @@
     "id": "DXG3SJuSSvIFoF2ecVuh",
     "issue": "",
     "month": 10,
+    "number": 101,
     "publication": "wsj",
     "title": "Riddle Me This",
     "year": 2017
@@ -14255,6 +14755,7 @@
     "id": "9Fg5z7O7zSkw8DLys7DW",
     "issue": "",
     "month": 11,
+    "number": 102,
     "publication": "wsj",
     "title": "Checkerboard",
     "year": 2017
@@ -14266,6 +14767,7 @@
     "id": "y736fbw5TYELjvmoyjpk",
     "issue": "",
     "month": 12,
+    "number": 103,
     "publication": "wsj",
     "title": "Wrap Session",
     "year": 2017
@@ -14277,6 +14779,7 @@
     "id": "Z97U1hXdD4IXNfHZlEQL",
     "issue": "",
     "month": 12,
+    "number": 104,
     "publication": "wsj",
     "title": "Last Shift",
     "year": 2017
@@ -14288,6 +14791,7 @@
     "id": "e8MEuCTB4fBgXhnlvf2m",
     "issue": "",
     "month": 1,
+    "number": 105,
     "publication": "wsj",
     "title": "Following Directions",
     "year": 2018
@@ -14299,6 +14803,7 @@
     "id": "71r8x0eGSWTVSDJZVQ1C",
     "issue": "",
     "month": 2,
+    "number": 106,
     "publication": "wsj",
     "title": "Slide Show",
     "year": 2018
@@ -14310,6 +14815,7 @@
     "id": "dKyIM3Y0UnsNjJBojJ6z",
     "issue": "",
     "month": 3,
+    "number": 107,
     "publication": "wsj",
     "title": "Terrible Twosomes",
     "year": 2018
@@ -14321,6 +14827,7 @@
     "id": "Z6mJiVWsVaGtune7AcdW",
     "issue": "",
     "month": 4,
+    "number": 108,
     "publication": "wsj",
     "title": "Escape Room",
     "year": 2018
@@ -14332,6 +14839,7 @@
     "id": "s8b6QWrPJKRcwCSONA8z",
     "issue": "",
     "month": 5,
+    "number": 109,
     "publication": "wsj",
     "title": "Hatchlings",
     "year": 2018
@@ -14343,6 +14851,7 @@
     "id": "3guqdOAep6XcjtJKG3pG",
     "issue": "",
     "month": 6,
+    "number": 110,
     "publication": "wsj",
     "title": "Recycling Center",
     "year": 2018
@@ -14354,6 +14863,7 @@
     "id": "RRk9QbYkS6FUelUhWaDS",
     "issue": "",
     "month": 7,
+    "number": 111,
     "publication": "wsj",
     "title": "Process of Discovery",
     "year": 2018
@@ -14365,6 +14875,7 @@
     "id": "McghDXeVe6ECmoPZgQkk",
     "issue": "",
     "month": 8,
+    "number": 112,
     "publication": "wsj",
     "title": "Travel Agency",
     "year": 2018
@@ -14376,6 +14887,7 @@
     "id": "2hF7HcaSrXlcRv98iGjG",
     "issue": "",
     "month": 9,
+    "number": 113,
     "publication": "wsj",
     "title": "Downsizing",
     "year": 2018
@@ -14387,6 +14899,7 @@
     "id": "gDzSChrhMXoRNwD3iDXb",
     "issue": "",
     "month": 10,
+    "number": 114,
     "publication": "wsj",
     "title": "Lost and Found",
     "year": 2018
@@ -14398,6 +14911,7 @@
     "id": "ToBYMGRfK0zN48HreFQ1",
     "issue": "",
     "month": 11,
+    "number": 115,
     "publication": "wsj",
     "title": "Quilting Bee",
     "year": 2018
@@ -14409,6 +14923,7 @@
     "id": "ZEZaHujx7AL27BeFitgC",
     "issue": "",
     "month": 12,
+    "number": 116,
     "publication": "wsj",
     "title": "Building Blocks",
     "year": 2018
@@ -14420,6 +14935,7 @@
     "id": "vJfKF2375TUqHdz9IOpR",
     "issue": "",
     "month": 12,
+    "number": 117,
     "publication": "wsj",
     "title": "Bar Hopping",
     "year": 2018
@@ -14431,6 +14947,7 @@
     "id": "yMORcbiI2Ot25TD8wnWm",
     "issue": "",
     "month": 1,
+    "number": 118,
     "publication": "wsj",
     "title": "Notification",
     "year": 2019
@@ -14442,6 +14959,7 @@
     "id": "8BZWmbqH0esh0pLTOrRV",
     "issue": "",
     "month": 2,
+    "number": 119,
     "publication": "wsj",
     "title": "Jigsaw",
     "year": 2019
@@ -14453,6 +14971,7 @@
     "id": "JarqPVFzWMa3XeQZiO34",
     "issue": "",
     "month": 3,
+    "number": 120,
     "publication": "wsj",
     "title": "Connections",
     "year": 2019
@@ -14464,6 +14983,7 @@
     "id": "eDDMdSDsEyRjTGUELDk7",
     "issue": "",
     "month": 4,
+    "number": 121,
     "publication": "wsj",
     "title": "Asteroids",
     "year": 2019
@@ -14475,6 +14995,7 @@
     "id": "QICm2trY45LgIQarikjm",
     "issue": "",
     "month": 5,
+    "number": 122,
     "publication": "wsj",
     "title": "Three Trains Running",
     "year": 2019
@@ -14486,6 +15007,7 @@
     "id": "I8RlERK4HoEIM3KUBjgS",
     "issue": "",
     "month": 6,
+    "number": 123,
     "publication": "wsj",
     "title": "Flower Center",
     "year": 2019
@@ -14497,6 +15019,7 @@
     "id": "dCSqLwKdDl3Df38LQNTj",
     "issue": "",
     "month": 7,
+    "number": 124,
     "publication": "wsj",
     "title": "Signposts",
     "year": 2019
@@ -14508,6 +15031,7 @@
     "id": "oWuea9Qhpc0tNsOlla4b",
     "issue": "",
     "month": 8,
+    "number": 125,
     "publication": "wsj",
     "title": "Double or Nothing",
     "year": 2019
@@ -14519,6 +15043,7 @@
     "id": "nMpaFknmAqkeL7uT3lAq",
     "issue": "",
     "month": 9,
+    "number": 126,
     "publication": "wsj",
     "title": "Character Study",
     "year": 2019
@@ -14530,6 +15055,7 @@
     "id": "Lulka4mdCRtjiePDia4i",
     "issue": "",
     "month": 10,
+    "number": 127,
     "publication": "wsj",
     "title": "Shifty Business",
     "year": 2019
@@ -14541,6 +15067,7 @@
     "id": "ZzF82sWgwVJzcLwwk8JT",
     "issue": "",
     "month": 11,
+    "number": 128,
     "publication": "wsj",
     "title": "Hexed",
     "year": 2019
@@ -14552,6 +15079,7 @@
     "id": "UrowIl1dQhIenaTgsqFI",
     "issue": "",
     "month": 11,
+    "number": 129,
     "publication": "wsj",
     "title": "Showcase",
     "year": 2019
@@ -14563,6 +15091,7 @@
     "id": "VdYwcr69wmtL93regALh",
     "issue": "",
     "month": 12,
+    "number": "130",
     "publication": "wsj",
     "title": "Vision Quest",
     "year": 2019
@@ -14574,6 +15103,7 @@
     "id": "CrRHaYK6ROTCMs4kYx4u",
     "issue": "",
     "month": 1,
+    "number": 131,
     "publication": "wsj",
     "title": "Letter Dictation",
     "year": 2020
@@ -14585,6 +15115,7 @@
     "id": "R80wfjFMt9Ow8SjrbL3u",
     "issue": "",
     "month": 2,
+    "number": 132,
     "publication": "wsj",
     "title": "Cyclists",
     "year": 2020
@@ -14596,6 +15127,7 @@
     "id": "YkrczlQknMFAUVFu5ov4",
     "issue": "",
     "month": 3,
+    "number": 133,
     "publication": "wsj",
     "title": "Boxed Set",
     "year": 2020
@@ -14607,6 +15139,7 @@
     "id": "55cpj6fddbGwQdwa6gB3",
     "issue": "",
     "month": 4,
+    "number": 134,
     "publication": "wsj",
     "title": "Balance",
     "year": 2020
@@ -14618,6 +15151,7 @@
     "id": "Kqut3BATat4t5LV5u3JM",
     "issue": "",
     "month": 5,
+    "number": 135,
     "publication": "wsj",
     "title": "Obedience School",
     "year": 2020
@@ -14629,6 +15163,7 @@
     "id": "deusMmcWvbbBnPFrKmm2",
     "issue": "",
     "month": 6,
+    "number": "136",
     "publication": "wsj",
     "title": "Digital Conversion",
     "year": 2020
@@ -14640,6 +15175,7 @@
     "id": "i607RniqN7P832EZj11n",
     "issue": "",
     "month": 7,
+    "number": "137",
     "publication": "wsj",
     "title": "Masked Singer",
     "year": 2020
@@ -14651,6 +15187,7 @@
     "id": "Jz3nEP9oUY80yOeYnoYm",
     "issue": "",
     "month": 8,
+    "number": "138",
     "publication": "wsj",
     "title": "Spinners",
     "year": 2020
@@ -14662,6 +15199,7 @@
     "id": "yXWeR8yvQhWOrcA3Ev6O",
     "issue": "",
     "month": 9,
+    "number": "139",
     "publication": "wsj",
     "title": "Shifty Business",
     "year": 2020
@@ -14804,6 +15342,7 @@
     "id": "1wtRQfsB68mMppdrumt4",
     "issue": "",
     "month": 10,
+    "number": "140",
     "publication": "wsj",
     "title": "In the Dark",
     "year": 2020
@@ -14815,6 +15354,7 @@
     "id": "pY43tjFcKe4aTqF8dEQB",
     "issue": "",
     "month": 11,
+    "number": "141",
     "publication": "wsj",
     "title": "Zip Code",
     "year": 2020
@@ -14826,6 +15366,7 @@
     "id": "W25TniDYySi5VHvmOXPQ",
     "issue": "",
     "month": 12,
+    "number": "142",
     "publication": "wsj",
     "title": "Crank Letter",
     "year": 2020
@@ -14837,6 +15378,7 @@
     "id": "dXCNgKBnFFrCkVsfrEx2",
     "issue": "",
     "month": 1,
+    "number": "143",
     "publication": "wsj",
     "title": "Thinking Inside the Box",
     "year": 2021
@@ -14848,6 +15390,7 @@
     "id": "qi9vKEFhBkvlJNIzkgrt",
     "issue": "",
     "month": 1,
+    "number": "144",
     "publication": "wsj",
     "title": "Thinking Outside the Box",
     "year": 2021
@@ -14859,6 +15402,7 @@
     "id": "nWhdpLpjz8cXYwhbHh0M",
     "issue": "",
     "month": 2,
+    "number": "145",
     "publication": "wsj",
     "title": "Filling Station",
     "year": 2021
@@ -14870,6 +15414,7 @@
     "id": "IUPnnO2mPQr754LjnK4F",
     "issue": "",
     "month": 3,
+    "number": "146",
     "publication": "wsj",
     "title": "Loops",
     "year": 2021
@@ -14881,6 +15426,7 @@
     "id": "DdBPfgWmzttFRxKXcO1S",
     "issue": "",
     "month": 4,
+    "number": "147",
     "publication": "wsj",
     "title": "Mission to Mars",
     "year": 2021
@@ -14892,6 +15438,7 @@
     "id": "UBwkb3Ope2iCl7kwAcHh",
     "issue": "",
     "month": 5,
+    "number": "148",
     "publication": "wsj",
     "title": "Keeping House",
     "year": 2021
@@ -14903,6 +15450,7 @@
     "id": "A8x2LzGT9L9nJa9vBHc9",
     "issue": "",
     "month": 6,
+    "number": "149",
     "publication": "wsj",
     "title": "Go Figure",
     "year": 2021
@@ -14914,6 +15462,7 @@
     "id": "Atb8ZRo4iXR2wGZDg6FQ",
     "issue": "",
     "month": 7,
+    "number": "150",
     "publication": "wsj",
     "title": "Garden Plot",
     "year": 2021
@@ -14925,6 +15474,7 @@
     "id": "kv5hUG1TXFOAckG9yz5C",
     "issue": "",
     "month": 8,
+    "number": "151",
     "publication": "wsj",
     "title": "Banking On It",
     "year": 2021
@@ -14936,6 +15486,7 @@
     "id": "gpY9dGVThxSz6g5iRjA1",
     "issue": "",
     "month": 9,
+    "number": "152",
     "publication": "wsj",
     "title": "Drop-ins",
     "year": 2021
@@ -14947,6 +15498,7 @@
     "id": "IY5clcjkBviyZq84w45o",
     "issue": "",
     "month": 10,
+    "number": "153",
     "publication": "wsj",
     "title": "Slot Machine",
     "year": 2021
@@ -14958,6 +15510,7 @@
     "id": "nrbMOIPNUtx1jOtpzwH3",
     "issue": "",
     "month": 11,
+    "number": "154",
     "publication": "wsj",
     "title": "Crazy Eights",
     "year": 2021
@@ -14969,6 +15522,7 @@
     "id": "52hYLZgawaZZycy3KKYc",
     "issue": "",
     "month": 12,
+    "number": "155",
     "publication": "wsj",
     "title": "In Order",
     "year": 2021
@@ -14980,6 +15534,7 @@
     "id": "BcCL18yKgKpYKnPiFsPP",
     "issue": "",
     "month": 1,
+    "number": "156",
     "publication": "wsj",
     "title": "Back and Forth",
     "year": 2022
@@ -14991,6 +15546,7 @@
     "id": "ibglpt7FWvZQJMegvpqn",
     "issue": "",
     "month": 2,
+    "number": "157",
     "publication": "wsj",
     "title": "Rising and Falling",
     "year": 2022
@@ -15002,6 +15558,7 @@
     "id": "eHOglGHO66JMJuNeR88A",
     "issue": "",
     "month": 3,
+    "number": "158",
     "publication": "wsj",
     "title": "Talk Show",
     "year": 2022
@@ -15013,6 +15570,7 @@
     "id": "p0yXZW35CWQbeGzA42za",
     "issue": "",
     "month": 4,
+    "number": "159",
     "publication": "wsj",
     "title": "Theme and Variations",
     "year": 2022
@@ -15024,6 +15582,7 @@
     "id": "HQlkLibeOOuyyNAQ30Ez",
     "issue": "",
     "month": 5,
+    "number": "160",
     "publication": "wsj",
     "title": "Code 13",
     "year": 2022
@@ -15035,6 +15594,7 @@
     "id": "WzJaRqwYi2Qhke7lPuSg",
     "issue": "",
     "month": 6,
+    "number": "161",
     "publication": "wsj",
     "title": "Riddance",
     "year": 2022
@@ -15046,6 +15606,7 @@
     "id": "KXYeaqkrOutmhFKujKRx",
     "issue": "",
     "month": 7,
+    "number": "162",
     "publication": "wsj",
     "title": "Independence",
     "year": 2022
@@ -15057,6 +15618,7 @@
     "id": "v47GEKean0mnnakExDI1",
     "issue": "",
     "month": 7,
+    "number": "163",
     "publication": "wsj",
     "title": "Anagrammania",
     "year": 2022
@@ -15068,6 +15630,7 @@
     "id": "tV83sk2nvtW0VXmnqOkb",
     "issue": "",
     "month": 8,
+    "number": "164",
     "publication": "wsj",
     "title": "Art Gallery",
     "year": 2022
@@ -15079,6 +15642,7 @@
     "id": "B6uOs4tOX2iYmQXd4xPM",
     "issue": "",
     "month": 9,
+    "number": "165",
     "publication": "wsj",
     "title": "Square Meal",
     "year": 2022
@@ -15090,6 +15654,7 @@
     "id": "DYIm4ETPxkkjBAoaTvfH",
     "issue": "",
     "month": 10,
+    "number": "166",
     "publication": "wsj",
     "title": "Frankenstein",
     "year": 2022
@@ -15101,6 +15666,7 @@
     "id": "IYbQPJ0haQY6JaPSwlRn",
     "issue": "",
     "month": 11,
+    "number": "167",
     "publication": "wsj",
     "title": "Table Setting",
     "year": 2022
@@ -15112,6 +15678,7 @@
     "id": "mftZBpB00OFXZGSUrk4R",
     "issue": "",
     "month": 12,
+    "number": "168",
     "publication": "wsj",
     "title": "Boxing Day",
     "year": 2022
@@ -15123,6 +15690,7 @@
     "id": "Gbk3AJTo5fH0Pm63kK8p",
     "issue": "",
     "month": 1,
+    "number": "169",
     "publication": "wsj",
     "title": "Language Lab",
     "year": 2023
@@ -15134,6 +15702,7 @@
     "id": "TOEiivsldiz9z1VQdXiU",
     "issue": "",
     "month": 2,
+    "number": "170",
     "publication": "wsj",
     "title": "Letter of Mystery",
     "year": 2023
@@ -15145,6 +15714,7 @@
     "id": "IQNCTsFU1VcZGGzxXnSS",
     "issue": "",
     "month": 3,
+    "number": "171",
     "publication": "wsj",
     "title": "In the Fun House",
     "year": 2023
@@ -15156,6 +15726,7 @@
     "id": "3cjFON1mo3MDaWjXA4Aq",
     "issue": "",
     "month": 4,
+    "number": "172",
     "publication": "wsj",
     "title": "Go-Betweens",
     "year": 2023
@@ -15167,6 +15738,7 @@
     "id": "tbeDoneWkqZwUob4or4f",
     "issue": "",
     "month": 5,
+    "number": "173",
     "publication": "wsj",
     "title": "Award Winner",
     "year": 2023
@@ -15289,6 +15861,7 @@
     "id": "PakjDSalaxzsYtStVZyH",
     "issue": "",
     "month": 6,
+    "number": "174",
     "publication": "wsj",
     "title": "Def Jam",
     "year": 2023
@@ -15478,6 +16051,7 @@
     "id": "nSve3smd7QnERQfsaZ02",
     "issue": "",
     "month": 7,
+    "number": "175",
     "publication": "wsj",
     "title": "Misprints",
     "year": 2023
@@ -15604,6 +16178,7 @@
     "id": "KY0DaQN4FJxWN8Q8lx2Z",
     "issue": "",
     "month": 7,
+    "number": "176",
     "publication": "wsj",
     "title": "Magic Rings",
     "year": 2023
@@ -15650,7 +16225,7 @@
             "3. Transposing them, duo lip-synched ~ MOUTHED ~ MOUTHED (anag.)",
             "4. Two-fifths of fifty was first submitted ~ FILED|FIELD ~ FI + LED",
             "5. Rascals drive the wrong way in Paris streets ~ ROGUES|ROUGES ~ R(OG)UES (\"go\" rev.)",
-            "6. Somewhat weathered diner sign ~ EAT HERE ~ wEATHEREd",
+            "6. Somewhat weathered diner sign ~ EAT HERE|EATHERE ~ wEATHEREd",
             "7. Nation\u2019s leader had a bug caught ~ NAILED ~ N + AILED",
             "8. Current events changed diets ~ TIDES ~ TIDES (anag.)",
             "9. Braced peg in winter coaster ~ STEELED|SLEETED ~ S(TEE)LED",
@@ -15788,6 +16363,7 @@
     "id": "026mb6qKAGfBqarFYgmx",
     "issue": "",
     "month": 8,
+    "number": "177",
     "publication": "wsj",
     "title": "Shady Doings",
     "year": 2023
@@ -15795,12 +16371,314 @@
   {
     "date": "2023-09-24",
     "day": 24,
-    "hexgrid": null,
+    "hexgrid": {
+      "author": "Emily Cox and Henry Rathvon",
+      "clue_groups": [
+        {
+          "clues": [
+            "1. The face of Saint Peter, seen around 100? ~ SPECTER ~ S + PE(C)TER",
+            "5. Penny admits Long Island customer ~ CLIENT ~ C(LI)ENT",
+            "10. More roguish zodiac figure ~ ARCHER ~ ARCHER (double def.)",
+            "11. Beside Turin\u2019s river, bury hint ~ POINTER ~ PO + INTER",
+            "12. One searching the pantry for ripening agent ~ FORAGER ~ FOR + AGER",
+            "13. Kid kept back by guitar guru (3,3) ~ RUG RAT|RUGRAT ~ RUG RAT (\"tar gur\" rev.)",
+            "15. Holding Twin at first, fires pitches ~ CANTS ~ CAN(T)S",
+            "18. Getaway locale is large and empty ~ ISLE ~ IS + L + E",
+            "20. Oblong ornament lost to Chaucer ~ CARTOUCHE ~ CARTOUCHE (\"to Chaucer\" anag.)",
+            "23. No longer connected evenly ~ ONCE ~ cOnNeCtEd",
+            "24. Exhausted writer lying in street ~ SPENT ~ S(PEN)T",
+            "26. What a roller coaster may create: time lapse ~ TERROR ~ T + ERROR",
+            "28. Succeeding in court case involving more than two sides ~ TRILATERAL ~ TRI(LATER)AL",
+            "32. Eatery with no waitstaff to put in gold floor cover ~ AUTOMAT ~ AU(TO)MAT",
+            "33. Some states truncated a shakedown? (4,3) ~ TEST RUN|TESTRUN ~ staTES + TRUNcated",
+            "34. Roman is the lady\u2019s biblical heroine ~ ESTHER ~ EST + HER",
+            "35. Eerie settings as scene shifts ~ SEANCES ~ SEANCES (\"as scene\" anag.)"
+          ],
+          "name": "Across",
+          "reverse_grid_entries": false,
+          "show_enumerations": "answers",
+          "show_grid_entries": true,
+          "show_grid_labels": true
+        },
+        {
+          "clues": [
+            "1. More conservative, fares poorly ~ SAFER ~ SAFER (\"fares\" anag.)",
+            "2. Crackers in soup for extravagance ~ PROFUSION ~ PROFUSION (\"in soup for\" anag.)",
+            "3. Burned vegetable on your tongue ~ CHARRED ~ CHARRED (\"chard\" homophone)",
+            "4. Standing up before court ~ ERECT ~ ERE + CT",
+            "5. Relative pest entering college in Iowa ~ COGNATE ~ CO(GNAT)E",
+            "6. Roll heel to one side ~ LIST ~ LIST (double def.)",
+            "7. Way of entering encrypted intel ~ INLET ~ INLET (\"intel\" anag.)",
+            "8. Warm new audio receiver ~ NEAR ~ N + EAR",
+            "9. Tied fast conviction to auditors ~ TRUSSED ~ TRUSSED (\"trust\" homophone)",
+            "14. Current Pac-12 athlete exhibiting sharpness ~ ACUTE ~ AC + UTE",
+            "16. 12:00 Eastern turnout that\u2019s underwhelming? (2,3) ~ NO ONE|NOONE ~ NOON + E",
+            "17. Changed a cloche to dark brown ~ CHOCOLATE ~ CHOCOLATE (\"a cloche to\" anag.)",
+            "19. Worst noisy nap repeatedly cut short ~ LOUSIEST ~ LOUd + SIESTa",
+            "21. Material for overlaying hole in one London gallery ~ ACETATE ~ ACE + TATE",
+            "22. Ground floor nurse dejected ~ FORLORN ~ FORLO + RN (\"floor\" anag.)",
+            "25. Course including Latin poet ~ PLATH ~ P(L)ATH",
+            "27. ACLU concern upon hearing formalities ~ RITES ~ RITES (\"rights\" homophone)",
+            "29. Some loaves dry in the middle, for sure ~ RYES ~ dRy + YES",
+            "30. 4,840 square yards are about average ~ ACRE ~ A(C)RE",
+            "31. Somewhat anticlimactic release of 1998 ~ IMAC ~ anticliMACtic"
+          ],
+          "name": "Down",
+          "reverse_grid_entries": false,
+          "show_enumerations": "answers",
+          "show_grid_entries": true,
+          "show_grid_labels": true
+        }
+      ],
+      "date": "2023-09-23",
+      "editor": "",
+      "grid": {
+        "columns": [
+          "SAFER|I|ACETATE",
+          "PROFUSION|RYES",
+          "ECRU|G|LOUSIEST",
+          "CHARRED|R|PLATH",
+          "T|E|G|A|ACUTE|ACRE",
+          "ERECT|A|CENTAUR",
+          "R|PROCRUSTEAN|S",
+          "COGNATE|A|TRUCE",
+          "LIST|NOONE|A|T|U|A",
+          "INLET|U|FORLORN",
+          "ETRUSCAN|R|IMAC",
+          "NEAR|CHOCOLATE",
+          "TRUSSED|E|RITES"
+        ],
+        "rows": [
+          "SPECTER|CLIENT",
+          "ARCHER|POINTER",
+          "FORAGER|G|S|L|R|A|U",
+          "E|F|U|RACONTEURS",
+          "RUGRAT|CANTS|C|S",
+          "ISLE|CARTOUCHE",
+          "A|I|O|D|U|CUE|O|F|A|O|D",
+          "COURTESAN|ONCE",
+          "E|N|SPENT|TERROR",
+          "TRILATERAL|I|L|I",
+          "A|Y|E|A|C|A|AUTOMAT",
+          "TESTRUN|CURATE",
+          "ESTHER|SEANCES"
+        ],
+        "solution_columns": [
+          "SAFER|I|ACETATE",
+          "PROFUSION|RYES",
+          "ECRU|G|LOUSIEST",
+          "CHARRED|R|PLATH",
+          "T|E|G|A|ACUTE|ACRE",
+          "ERECT|A|CENTAUR",
+          "R|PROCRUSTEAN|S",
+          "COGNATE|A|TRUCE",
+          "LIST|NOONE|A|T|U|A",
+          "INLET|U|FORLORN",
+          "ETRUSCAN|R|IMAC",
+          "NEAR|CHOCOLATE",
+          "TRUSSED|E|RITES"
+        ],
+        "solution_rows": [
+          "SPECTER|CLIENT",
+          "ARCHER|POINTER",
+          "FORAGER|G|S|L|R|A|U",
+          "E|F|U|RACONTEURS",
+          "RUGRAT|CANTS|C|S",
+          "ISLE|CARTOUCHE",
+          "A|I|O|D|U|CUE|O|F|A|O|D",
+          "COURTESAN|ONCE",
+          "E|N|SPENT|TERROR",
+          "TRILATERAL|I|L|I",
+          "A|Y|E|A|C|A|AUTOMAT",
+          "TESTRUN|CURATE",
+          "ESTHER|SEANCES"
+        ],
+        "solution_style": [
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
+        ],
+        "style": [
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
+        ],
+        "styles": {
+          "#": {
+            "background-color": "lightgrey"
+          },
+          ".": {
+            "background-color": "white",
+            "fill": "black",
+            "shape": "bullet"
+          },
+          "@": {
+            "background-color": "lightgrey",
+            "fill": "lightgrey",
+            "shape": "circle"
+          },
+          "O": {
+            "shape": "circle",
+            "stroke": "grey"
+          },
+          "X": {
+            "shape": "x",
+            "stroke": "grey"
+          }
+        }
+      },
+      "id": "KyVXcYUEBfePYMNND30P",
+      "instructions": "In a \u201cshakedown,\u201d a word is both\r\nshaken and downsized\u2014that is, it\r\ngets anagrammed repeatedly with\r\na letter dropped at each step. For\r\nexample: ALTERING, GRANITE,\r\nRETINA, IRATE, RITE, TIE, IT, I. This\r\npuzzle\u2019s nine unclued answers form\r\na similar sequence of words shaken\r\ndown from eleven letters to the\r\nthree-letter one spelled out in the\r\nmiddle of the grid. At least one\r\nword along the way is capitalized.",
+      "issue": "",
+      "number": null,
+      "publication": "The Wall Street Journal",
+      "settings": {
+        "clue_columns": 3,
+        "show_enumerations": "answers",
+        "show_grid_bars": "all",
+        "show_grid_border": true,
+        "show_grid_entries": true,
+        "show_grid_labels": true,
+        "show_grid_lines": true,
+        "show_starred_entries_in_grid": false,
+        "status": "published"
+      },
+      "solution": "PROCRUSTEAN\r\nRACONTEURS\r\nCOURTESAN\r\nETRUSCAN\r\nCENTAUR\r\nCURATE\r\nTRUCE\r\nECRU\r\nCUE",
+      "title": "Shakedown",
+      "unclued": [
+        "PROCRUSTEAN",
+        "RACONTEURS",
+        "COURTESAN",
+        "ETRUSCAN",
+        "CENTAUR",
+        "CURATE",
+        "TRUCE",
+        "ECRU",
+        "CUE"
+      ]
+    },
     "id": "KyVXcYUEBfePYMNND30P",
     "issue": "",
     "month": 9,
+    "number": "178",
     "publication": "wsj",
     "title": "Shakedown",
+    "year": 2023
+  },
+  {
+    "date": "2023-10-21",
+    "day": 21,
+    "hexgrid": {
+      "author": "Emily Cox and Henry Rathvon",
+      "clue_groups": [
+        {
+          "clues": [],
+          "name": "Across",
+          "reverse_grid_entries": false,
+          "show_enumerations": "answers",
+          "show_grid_entries": true,
+          "show_grid_labels": false
+        },
+        {
+          "clues": [],
+          "name": "Down",
+          "reverse_grid_entries": false,
+          "show_enumerations": "answers",
+          "show_grid_entries": true,
+          "show_grid_labels": false
+        }
+      ],
+      "date": "2023-10-21",
+      "editor": "",
+      "grid": {
+        "columns": [
+          "_"
+        ],
+        "rows": [
+          "_"
+        ],
+        "solution_columns": [
+          ""
+        ],
+        "solution_rows": [
+          ""
+        ],
+        "solution_style": [
+          "_"
+        ],
+        "style": [
+          "_"
+        ],
+        "styles": {
+          "#": {
+            "background-color": "lightgrey"
+          },
+          ".": {
+            "background-color": "white",
+            "fill": "black",
+            "shape": "bullet"
+          },
+          "@": {
+            "background-color": "lightgrey",
+            "fill": "lightgrey",
+            "shape": "circle"
+          },
+          "O": {
+            "shape": "circle",
+            "stroke": "grey"
+          },
+          "X": {
+            "shape": "x",
+            "stroke": "grey"
+          }
+        }
+      },
+      "id": "WeRn6TzHYicpkYX8Q8ve",
+      "instructions": "",
+      "issue": "",
+      "number": null,
+      "publication": "The Wall Street Journal",
+      "settings": {
+        "clue_columns": 2,
+        "show_enumerations": "answers",
+        "show_grid_bars": "all",
+        "show_grid_border": false,
+        "show_grid_entries": false,
+        "show_grid_labels": false,
+        "show_grid_lines": false,
+        "show_starred_entries_in_grid": false,
+        "status": "draft"
+      },
+      "solution": "",
+      "title": "Carnival Booth",
+      "unclued": []
+    },
+    "id": "WeRn6TzHYicpkYX8Q8ve",
+    "issue": "",
+    "month": 10,
+    "number": "179",
+    "publication": "wsj",
+    "title": "Carnival Booth",
     "year": 2023
   }
 ]

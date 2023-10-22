@@ -147,7 +147,7 @@ def admin():
 
 
 @app.route("/puzzles/<id>")
-def puzzle(id):
+def puzzle_page(id):
     """Display an indidivual puzzle."""
     puzzle = get_puzzle_by_id(id)
     if not puzzle:
@@ -176,12 +176,12 @@ def puzzle(id):
     )
 
     # generate signed url for the solution image
-    pdf_name = f"{pub}/{id}_puzzle.pdf"
-    pdf_url = generate_signed_url(
-        bucket_name="lukwam-hex-archive",
-        object_name=pdf_name,
-        credentials=credentials,
-    )
+    # pdf_name = f"{pub}/{id}_puzzle.pdf"
+    # pdf_url = generate_signed_url(
+    #     bucket_name="lukwam-hex-archive",
+    #     object_name=pdf_name,
+    #     credentials=credentials,
+    # )
 
     # fix the date string to be an actual date
     puzzle["date"] = datetime.datetime.strptime(puzzle["date"], "%Y-%m-%d")
@@ -191,7 +191,7 @@ def puzzle(id):
         "puzzle.html",
         puzzle=puzzle,
         image_url=image_url,
-        pdf_url=pdf_url,
+        # pdf_url=pdf_url,
         solution_url=solution_url,
     )
     return render_theme(body, title=puzzle["title"])
@@ -208,19 +208,28 @@ def puzzle_pdf(id):
     title = puzzle["title"]
 
     object_name = f"{pub}/{id}_puzzle.pdf"
-    image_binary = get_object("lukwam-hex-archive", object_name)
-    response = make_response(image_binary)
-    response.headers.set(
-        "Content-Type",
-        "image/jpeg",
-    )
+
     if request.args.get("download"):
+        image_binary = get_object("lukwam-hex-archive", object_name)
+        response = make_response(image_binary)
+        response.headers["Content-Type"] = "image/jpeg"
         response.headers.set(
             "Content-Disposition",
             "attachment",
             filename=f"{date} {title}.pdf",
         )
-    return response
+        return response
+
+    # get service account key and create credentials
+    service_account_info = json.loads(get_secret("appengine-sa-key"))
+    credentials = service_account.Credentials.from_service_account_info(service_account_info)
+
+    object_url = generate_signed_url(
+        bucket_name="lukwam-hex-archive",
+        object_name=object_name,
+        credentials=credentials,
+    )
+    return redirect(object_url)
 
 
 @app.route("/puzzles/<id>/svg")
@@ -279,6 +288,43 @@ def solution(id):
     )
     return render_theme(body, title=puzzle["title"])
 
+@app.route("/solutions/<id>/view")
+def solution_view(id):
+    """Display an individual web solution."""
+    puzzle = prepare_puzzle(id)
+    body = render_template(
+        "web_solution.html",
+        id=id,
+        puzzle=puzzle,
+    )
+    title = f"{puzzle.title} - Emily Cox & Henry Rathvon"
+    return render_theme(body, title=title)
+
+
+@app.route("/years")
+def years_view():
+    """Display the puzzles by year."""
+    puzzles = get_data()
+    years = {}
+    for puzzle in sorted(puzzles, key=lambda x: x["date"]):
+        date = puzzle["date"]
+        year = date.split("-")[0]
+        if year not in years:
+            years[year] = []
+        years[year].append(puzzle)
+    decades = {}
+    for year in years:
+        decade = year[:3] + "0s"
+        if decade not in decades:
+            decades[decade] = []
+        decades[decade].append(year)
+    body = render_template(
+        "years.html",
+        decades=decades,
+        years=years,
+    )
+    return render_theme(body)
+
 
 @app.route("/data.json")
 def data():
@@ -331,6 +377,7 @@ def update():
             "date": date,
             "publication": item["pub"],
             "issue": item.get("issue"),
+            "number": item.get("num"),
             "year": int(year),
             "month": int(month),
             "day": int(day),
