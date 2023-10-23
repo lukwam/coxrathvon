@@ -4,8 +4,8 @@ module "project" {
   billing_account = "01CA85-FC3FC5-42D114"
   folder_id       = "175461412505"
   gcloud_command  = "gcloud"
-  project_id      = "altissimo-coxrathvon"
-  project_name    = "Altissimo - CoxRathvon"
+  project_id      = var.project_id
+  project_name    = var.project_name
 
   iam_policy = {
     "roles/appengine.serviceAgent" = [
