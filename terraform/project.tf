@@ -45,6 +45,7 @@ module "project" {
     "cloudbuild.googleapis.com",
     # "compute.googleapis.com",
     # "containerregistry.googleapis.com",
+    "drive.googleapis.com",
     "firestore.googleapis.com",
     "iam.googleapis.com",
     "logging.googleapis.com",
@@ -55,6 +56,7 @@ module "project" {
     "secretmanager.googleapis.com",
     # "storage-api.googleapis.com",
     # "storage-component.googleapis.com",
+    "vision.googleapis.com",
   ]
 }
 

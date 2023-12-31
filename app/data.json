@@ -24,10 +24,12 @@
             "32. Unproductive charms will make no rain fall ~ DRY SPELLS|DRYSPELLS ~ DRY SPELLS"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -53,10 +55,12 @@
             "27. Lump in bedclothes ~ CLOT ~ CLOT (hidden)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1977-09-01",
@@ -76,6 +80,8 @@
           "O|W|TRAPS|CLOT|L",
           "SNEEZY|METRES"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "FRENCHBED|DOS",
           "LINED|U|E|BROWN",
@@ -90,26 +96,9 @@
           "NONES|P|D|WHITE",
           "DOC|DRYSPELLS"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________",
-          "____________"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -124,29 +113,7 @@
           "____________",
           "____________"
         ],
-        "styles": {
-          "#": {
-            "background-color": "lightgrey",
-            "shape": "shadesquare"
-          },
-          ".": {
-            "background-color": "white",
-            "fill": "black",
-            "shape": "bullet"
-          },
-          "@": {
-            "background-color": "lightgrey",
-            "fill": "lightgrey",
-            "shape": "circle"
-          },
-          "O": {
-            "shape": "circle"
-          },
-          "X": {
-            "shape": "x",
-            "stroke": "grey"
-          }
-        }
+        "styles": {}
       },
       "id": "INwDMwpK834CbI0UGey6",
       "instructions": "Words entered in the diagram (called \"lights\") begin and end at the heavy bars. The unclued lights are related. Other answers include two proper nouns, a variant spelling at 24D, and a possibly unfamiliar expression at 1A. Remember that punctuation in the clues may be used deceptively.",
@@ -194,15 +161,15 @@
       "clue_groups": [
         {
           "clues": [
-            "*1. Man formally meeting creature from another planet returns with powerful space traveler ~ NEIL ARMSTRONG|MOONMULLINS ~ NEIL ARMSTRONG (Mr. Alien rev. + strong): MOON MULLINS",
+            "1. Man formally meeting creature from another planet returns with powerful space traveler ~ NEIL ARMSTRONG|MOONMULLINS ~ NEIL ARMSTRONG (Mr. Alien rev. + strong); MOON MULLINS",
             "11. Series within series of locks ~ ERIE ~ ERIE (hidden)",
             "12. Primary color ~ CARDINAL ~ CARDINAL (double def.)",
             "14. Nun let loose in the subway ~ TUNNEL ~ TUNNEL (anag.)",
             "15. Some macaroni with grease would provide energy ~ ELBOW ~ ELBOW",
-            "*16. WW II's origin is with Hitler's failing as a painter ~ WHISTLER|TWEETIE ~ WHISTLER (anag. + w): TWEETIE",
+            "16. WW II's origin is with Hitler's failing as a painter ~ WHISTLER|TWEETIE ~ WHISTLER (anag. + w); TWEETIE",
             "18. Circling something round ~ SONG ~ SO(methi)NG",
             "19. Finish in reverse\u2014start these! ~ FIRST ~ FIRST (first letters)",
-            "*21. Money is food for the thinking man ~ FRANCIS BACON|PORKYPIG ~ FRANC-IS BACON: PORKY PIG",
+            "21. Money is food for the thinking man ~ FRANCIS BACON|PORKYPIG ~ FRANC-IS BACON; PORKY PIG",
             "25. Love is foremost in your duty as a wife? ~ OBEY ~ O-BE-Y",
             "28. ... but first, our old mother's about to get older ~ MATURER ~ MAT-UR-ER (mater around our \"but [for the] first\")",
             "30. A pound-and-a-half plum\u2014that's the record ~ ALBUM ~ A-LB-UM",
@@ -213,39 +180,41 @@
             "40. True-False: Fish should be left outside when curried ~ COURTED ~ COURTED (true anag. in cod)",
             "41. Sway along with one on horseback, headed west instead of south ~ WADDLE ~ WADDLE (re-headed saddle)",
             "42. Half America surrounds celebrity ~ FAME ~ FAME (hidden)",
-            "*43. Philosopher's bit of an egg-head ~ WHITEHEAD|BLONDIE ~ WHITE-HEAD: BLONDIE",
+            "43. Philosopher's bit of an egg-head ~ WHITEHEAD|BLONDIE ~ WHITE-HEAD; BLONDIE",
             "44. Five-dollar beer\u2014that's the end ~ FINALE ~ FIN-ALE",
             "45. Hat lands square in mud ~ MITRE ~ MI(T)RE",
-            "*46. In all-out fracas, drinker is one sent sailing ~ SIR FRANCIS DRAKE|DONALDDUCK ~ SIR FRANCIS DRAKE (anag.): DONALD DUCK"
+            "46. In all-out fracas, drinker is one sent sailing ~ SIR FRANCIS DRAKE|DONALDDUCK ~ SIR FRANCIS DRAKE (anag.); DONALD DUCK"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
-            "*1. Nixon's pet game ~ CHECKERS|MUTT ~ CHECKERS (double def.): MUTT",
+            "1. Nixon's pet game ~ CHECKERS|MUTT ~ CHECKERS (double def.); MUTT",
             "2. In the corner, you mean ~ ORNERY ~ ORNERY (hidden)",
             "3. Links halves with whole numbers ~ NINES ~ NINES (double def.)",
             "4. Suitable match ~ MEET ~ MEET (double def.)",
             "5. Loll about and listen to tunes ~ LAZE ~ LAZE (homophone)",
             "6. Unused to deli-hopping ~ IDLE ~ IDLE (anag.)",
             "7. Chief points ~ NIBS ~ NIBS (double def.)",
-            "*8. I'm a rat\u2014ah, I'm ruined ~ MATA HARI|SNOOPY ~ MATA HARI (anag.): SNOOPY",
+            "8. I'm a rat\u2014ah, I'm ruined ~ MATA HARI|SNOOPY ~ MATA HARI (anag.); SNOOPY",
             "9. Brown with brown nose ~ FAWN ~ FAWN (double def.)",
-            "*10. Raving maniac or prize-fighter ~ MARCIANO|SLUGGO ~ MARCIANO (anag.): SLUGGO",
+            "10. Raving maniac or prize-fighter ~ MARCIANO|SLUGGO ~ MARCIANO (anag.); SLUGGO",
             "12. Whisker-trimmer? ~ CLIPPER ~ CLIPPER (double def.)",
             "13. Terrorists half turned back when at the front ~ RETRO ~ RETRO (terro[rists] anag.)",
-            "*17. Doctor performing heart transplant isfraud ~ FREUD|WIZARDOFID ~ FREUD (fraud with \"change of heart\"): WIZARD OF ID",
+            "17. Doctor performing heart transplant isfraud ~ FREUD|WIZARDOFID ~ FREUD (fraud with \"change of heart\"); WIZARD OF ID",
             "19. Frenchmen, in short, are in charge of woman ~ FEMME ~ FE(MM)E",
             "20. Way of saving from the bottomless gulch ~ THRIFT ~ TH-RIFT",
             "22. To cry with a cry of pain would be cowardly ~ YELL ~ YELL (with ow is \"cowardly\")",
-            "*23. The philosopher has become, since Z, the revolutionary ~ NIETZSCHE|SUPERMAN ~ NIETZSCHE (anag.): SUPERMAN",
+            "23. The philosopher has become, since Z, the revolutionary ~ NIETZSCHE|SUPERMAN ~ NIETZSCHE (anag.); SUPERMAN",
             "24. Rode bike so that wheel-print went in front ~ TREADLED ~ TREAD-LED",
-            "*26. Child takes pity on fly-swatting sultan ~ BABE RUTH|BATMAN ~ BABE RUTH: BATMAN",
+            "26. Child takes pity on fly-swatting sultan ~ BABE RUTH|BATMAN ~ BABE RUTH; BATMAN",
             "27. Ruthless prostitutes! ~ HUSTLERS ~ HUSTLERS (anag.)",
-            "*29. \"Revoltingly low,\" said a French aristocrat ~ EARL OF SANDWICH|DAGWOOD ~ EARL OF SANDWICH (anag.): DAGWOOD",
+            "29. \"Revoltingly low,\" said a French aristocrat ~ EARL OF SANDWICH|DAGWOOD ~ EARL OF SANDWICH (anag.); DAGWOOD",
             "31. He outlawed it, so to speak! ~ BANDIT ~ BANDIT (homophonic pun)",
             "32. Sauntered most\u2014most looked-at ~ MOSEYED ~ MOS-EYED",
             "36. Fertilizer's going upon August first ~ GUANO ~ GUANO (hidden rev.)",
@@ -254,9 +223,11 @@
             "40. Get two essential minerals in your morning drink ~ CAFE ~ CA-FE"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1977-10-01",
@@ -277,6 +248,8 @@
           "FAWN|I|HUSTLERS",
           "SLUGGO|MOSEYED"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "MOONMULLINS|F|S",
           "U|ERIE|CARDINAL",
@@ -292,8 +265,23 @@
           "FINALE|E|O|MITRE",
           "E|DONALDDUCK|S|D"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -343,9 +331,11 @@
             "35. Model puzzle ~ POSER ~ POSER (double def.)"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -359,9 +349,11 @@
             "29. It is central to live feature of <i>Jaws</i> ~ BITE ~ B(IT)E"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -389,9 +381,11 @@
             "v;14. Make a gentle change\u2014that's fine ~ ELEGANT ~ ELEGANT (anag.)"
           ],
           "name": "Sixes and Sevens",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1977-11-01",
@@ -411,6 +405,8 @@
           "RINGLET|O|BITE",
           "SITES|MONSTER"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "ISAAC|BICKERS",
           "MONSOON|RADII",
@@ -425,8 +421,22 @@
           "ONION|PLACATE",
           "REPRISE|POSER"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -480,9 +490,11 @@
             "22. (In soccer) LADY OF VIRTUE (WITH NURSES AS BACKS) DEFEATS CENTRAL CZECHOSLOVAKIANS BY FOUR POINTS ~ STERNS;LOSSES ~ STE-RN'S;LO-SSES"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -500,9 +512,11 @@
             "19. (Crime) A FEMALE RACKETEER (!) TO CONTINUE AS THUG ~ ASHE;GOON ~ A-SHE; GO-ON"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1977-12-01",
@@ -522,6 +536,8 @@
           "EVASIONS|GOON",
           "RESTS|OSTENDS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "DOPPELGANGER",
           "REALTY|EVOLVE",
@@ -536,8 +552,22 @@
           "LINT|H|U|EAVE|O|D",
           "LOSSES|STERNS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -615,10 +645,12 @@
             "36. A carpet backed with bark from a tree ~ TAMARIND ~ TAMARIND (\"a mata\" rev. + \"rind\""
           ],
           "name": "Clues",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": false,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": false,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1978-01-01",
@@ -639,6 +671,8 @@
           "P_A_N_E_A_A_D",
           "EXHSSURETEMAT"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "PTIPKNARONSPE",
           "M_E_R_B_T_U_X",
@@ -654,27 +688,9 @@
           "P_T_P_I_I_I_A",
           "SRERSGNGFENDT"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          "_____________",
-          "_1_2_3_4_5_6_",
-          "_____________",
-          "_7_8_9_[10]_[11]_[12]_",
-          "_____________",
-          "_[13]_[14]_[15]_[16]_[17]_[18]_",
-          "_____________",
-          "_[19]_[20]_[21]_[22]_[23]_[24]_",
-          "_____________",
-          "_[25]_[26]_[27]_[28]_[29]_[30]_",
-          "_____________",
-          "_[31]_[32]_[33]_[34]_[35]_[36]_",
-          "_____________"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_1_2_3_4_5_6_",
@@ -690,34 +706,7 @@
           "_[31]_[32]_[33]_[34]_[35]_[36]_",
           "_____________"
         ],
-        "styles": {
-          "#": {
-            "background-color": "lightgrey",
-            "shape": "shadesquare"
-          },
-          ".": {
-            "background-color": "white",
-            "fill": "black",
-            "shape": "bullet"
-          },
-          "@": {
-            "background-color": "white",
-            "fill": "lightgrey",
-            "shape": "circle"
-          },
-          "O": {
-            "background-color": "white",
-            "shape": "circle",
-            "stroke": "lightgrey",
-            "stroke-width": 2
-          },
-          "X": {
-            "background-color": "white",
-            "shape": "x",
-            "stroke": "lightgrey",
-            "stroke-width": 2
-          }
-        }
+        "styles": {}
       },
       "id": "hDKqxGzA8kFcYttv1iaQ",
       "instructions": "<p>\r\n(Acknowledgments to Azed)\r\n</p>\r\n\r\n<p>\r\nEach numbered square in the diagram is surrounded by eight blank squares. All clues lead to words of eight letters, to be entered in the squares around their appropriate numbers; the words may run clockwise or counter-clockwise, beginning anywhere. Solvers will have to determine where each word begins and the direction in which it is to go. One answer, 6, is not common. Remember that punctuation in the clues may be used deceptively\r\n</p>",
@@ -781,9 +770,11 @@
             "41. Certain openings in pockets make small change ~ SOCKETS|ETS ~ *sockETS (\"change\" p to s) [sock]"
           ],
           "name": "Across",
-          "show_enumerations": "entries",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "entries",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -815,9 +806,11 @@
             "34. .... left in hack with devotees ~ CULT ~ CU(L)T"
           ],
           "name": "Down",
-          "show_enumerations": "entries",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "entries",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1978-02-01",
@@ -836,6 +829,8 @@
           "E|D|ELOPE|CULT",
           "SORES|EMISES"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "INFANT|CONES",
           "MONGREL|DIDO",
@@ -849,8 +844,21 @@
           "A|LEES|ICICLE",
           "LES|RED|T|O|ETS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________"
         ],
         "styles": {}
       },
@@ -914,43 +922,47 @@
             "41. Stabbed at visitor in audience ~ GUESSED ~ GUESSED (homophone of <i>guest</i>)"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
             "2. Zorro\u2014American fencing character like Don Quixote ~ ROAMER|ROAMER ~ roamer (hidden)",
-            "*3. \"Improvisational Epics\": original Duke\u2014and hot ~ SPICED|CEDPI ~ SPICE-D (anag. + d)",
-            "*4. Fix up ripped-off piano ~ RIGHT|HRIG ~ (up)RIGHT",
+            "3. \"Improvisational Epics\": original Duke\u2014and hot ~ SPICED|CEDPI ~ SPICE-D (anag. + d)",
+            "4. Fix up ripped-off piano ~ RIGHT|HRIG ~ (up)RIGHT",
             "5. Take dream companion (and lover when unclothed) ~ REMOVE|REMOVE ~ REM-(l)OVE(r)",
             "6. Kidnappers get six hundred for European ~ SLAVIC|SLAVIC ~ SLA-VI-C",
             "7. Flying angels leaving behind grand trails ~ LANES|LANES ~ LANES (anag. without y)",
             "8. Compass of optical silica ~ OPAL|OPAL ~ OP(tic)AL",
             "9. Put faith in <i>Twice Told Tales</i>? ~ RELIED|RELIED ~ relied (pun)",
-            "*10. Song for maiden of mountains to yodel with abandon ~ MELODY|YMEOD ~ M-ELODY (anag. + m)",
+            "10. Song for maiden of mountains to yodel with abandon ~ MELODY|YMEOD ~ M-ELODY (anag. + m)",
             "11. Money makes a king ~ CROWNS|CROWNS ~ CROWNS (double def.)",
-            "*12. Albums of Royal English Strings ~ RECORDS|CORDSE ~ R-E-CORDS",
-            "*14. Cavalrymen's top brass? ~ CORNETS|SCORNE ~ CORNETS (double def.)",
+            "12. Albums of Royal English Strings ~ RECORDS|CORDSE ~ R-E-CORDS",
+            "14. Cavalrymen's top brass? ~ CORNETS|SCORNE ~ CORNETS (double def.)",
             "19. Part for voice and part for drum ~ ROLL|ROLL ~ ROLL (homophone of <i>role</i>)",
-            "*21. Bracing for the top note of scale ~ TONIC|OICT ~ TONIC (double def.)",
+            "21. Bracing for the top note of scale ~ TONIC|OICT ~ TONIC (double def.)",
             "22. Piano in terrible peril from a small wave ~ RIPPLE|RIPPLE ~ RI(P)PLE (anag . + p)",
             "23. Take me to a certain musical bar ~ MEASURE|MASURE ~ ME-A-SURE",
             "24. Fm happy to be cruel, and unhappy it's wrong ~ SADIST|SADIST ~ SAD-IST (anag.)",
-            "*26. Holders of first, second, and third tubas emend piece ~ BASEMEN|MEBASE ~ BASEMEN (hidden)",
-            "*27. These instruments suit rag playing (V) ~ GUITARS|ITARSG ~ GUITARS (anag.)",
-            "*28. Musician's murder revolved around piece of music ~ DRUMMER|MERDRU ~ DRU(M)MER (anag. + m)",
-            "*29. Popcorn, peanuts, and trumpet blasts! ~ FANFARE|FNFARE ~ FANFARE (pun)",
-            "*30. Metropolitan Opera House\u2014Enrico's in the middle of \"Rhythm\" ~ METRIC|RCMET ~ MET-RIC",
+            "26. Holders of first, second, and third tubas emend piece ~ BASEMEN|MEBASE ~ BASEMEN (hidden)",
+            "27. These instruments suit rag playing (V) ~ GUITARS|ITARSG ~ GUITARS (anag.)",
+            "28. Musician's murder revolved around piece of music ~ DRUMMER|MERDRU ~ DRU(M)MER (anag. + m)",
+            "29. Popcorn, peanuts, and trumpet blasts! ~ FANFARE|FNFARE ~ FANFARE (pun)",
+            "30. Metropolitan Opera House\u2014Enrico's in the middle of \"Rhythm\" ~ METRIC|RCMET ~ MET-RIC",
             "31. Raise spirits of dead after Easter ~ ELATE|ELATE ~ E-LATE",
             "33. Hear gossip about Ulysses' best friend ~ ARGOS|ARGOS ~ ARGOS (hidden )",
             "34. Unfortunately, spit up\u2014disgorging one wishbone ~ ALAS|ALAS ~ ALAS (<i>saliva</i> rev. without i and v)",
             "35. Bach's B Minor is one great piece ~ MASS|MASS ~ MASS (double def.)"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1978-03-01",
@@ -970,6 +982,8 @@
           "A|RELIED|FNFARE",
           "L|YMEOD|SADIST|D"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "INSTRUMENTAL",
           "ARCHERS|LORRY",
@@ -985,8 +999,23 @@
           "E|SEATS|RESORT",
           "TEASE|GUESSED"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -1065,10 +1094,12 @@
             "23. Drafters frame wood cuts of fish, e.g ~ STEAKS ~ S(TEAK)S"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -1097,10 +1128,12 @@
             "w. A new beginning, with the last decline ~ WANE ~ WANE (\"a new\" re-begun with its last letter)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1978-05-01",
@@ -1120,6 +1153,21 @@
           "ODD|I|TYREMARK",
           "READSSURPASS"
         ],
+        "entry_columns": [],
+        "entry_rows": [
+          "A|MATCH|SECTOR",
+          "REFRAIN|AORDE",
+          "BRO|OK|SAR|MA|DA",
+          "I|MOL|ESTDR|UI|D",
+          "TALLYECRAMTS",
+          "ENDOWS|HU|DAYS",
+          "RAMPR|OA|MEDRU",
+          "S|KA|TERGUS|H|ER",
+          "UN|UA|NCES|WA|MP",
+          "REL|I|SHR|IA|TAA",
+          "FERNSIM|I|NERS",
+          "SLATEDSTEAKS"
+        ],
         "rows": [
           "AMATCHSECTOR",
           "REFR|AI|NAORDE",
@@ -1134,15 +1182,9 @@
           "FERNSIM|I|NERS",
           "SLATEDSTEAKS"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -1237,10 +1279,12 @@
             "40. Two in Berlin, with a twisted end, support Rusk ~ ZWIEBACK ~ ZWIE-BACK (\"zwei\" with \"ie\" rev.)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1978-06-01",
@@ -1260,6 +1304,8 @@
           "CIRCA|MEASURE",
           "KLEE|NUTSHELL"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "ODES|ZWIEBACK",
           "MOTTO|I|N|QUAIL",
@@ -1274,15 +1320,9 @@
           "NORTH|D|H|PEARL",
           "ANTEDATE|REEL"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -1330,7 +1370,164 @@
   {
     "date": "1978-07-01",
     "day": 1,
-    "hexgrid": null,
+    "hexgrid": {
+      "author": "Emily Cox & Henry Rathvon",
+      "books": [
+        "AP",
+        "GDN"
+      ],
+      "clue_groups": [
+        {
+          "clues": [
+            "1. Ghost loses tone in anger ~ WRAITH ~ SOL",
+            "6. Put shoot-out in frontier ~ OUTPOST ~ SOL",
+            "11. Wiggling ears, i.e., produces angry reaction ~ RISE ~ SOL",
+            "12. Musical works, sculpture, art, prose ~ OPERAS ~ SOL",
+            "13. Christians find hero jailed by mad sultan ~ LUTHERANS ~ SOL",
+            "14. Felt sick while eating a duck ~ TEAL ~ SOL",
+            "15. A quantity of cream\u2014bountiful quantity ~ AMOUNT ~ SOL",
+            "16. Bores create this partly obscene nuisance ~ ENNUI ~ SOL",
+            "17. Counterfeit coin I lose to porters ~ COOLIES ~ SOL",
+            "18. Tearing out one\u2019s eye, in part ~ RETINA ~ SOL",
+            "21. It\u2019s left in sweet glaze ~ SLEET ~ SOL",
+            "23. GI in love, oddly, with bird in Bonn ~ VOGEL ~ SOL",
+            "25. For dessert, snake swallows rodents? Just the opposite! ~ MOUSSE ~ SOL",
+            "27. Eccentric artisan\u2014he singes ~ SINATR ~ SOL",
+            "28. Fair about nothing, I fight ~ JOUST ~ SOL",
+            "30. Slut\u2019s ad: \u201cSports for the mature\u201d ~ ADULTS ~ SOL",
+            "31. It\u2019s said to be a metre ruler ~ AMIR ~ SOL",
+            "32. Halter is article that\u2019s practical ~ REALISTIC ~ SOL",
+            "33. Putting one in pastries gives you trots ~ PONIES ~ SOL",
+            "34. Rock area elevated in part ~ REEL ~ SOL",
+            "35. Where a beer ends in a cocktail ~ STINGER ~ SOL",
+            "36. Heart turns to fliers ~ TERNS ~ SOL"
+          ],
+          "name": "Across",
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
+        },
+        {
+          "clues": [
+            "1. They inscribe ceremony in new rows ~ ANS ~ SOL",
+            "2. \u201cMature redhead: fine moves, keeps quiet\u201d ~ ANS ~ SOL",
+            "3. Like Leibnitz at first, K ant is oblique ~ ANS ~ SOL",
+            "4. Recite some of \u201cFirst Noel\u201d lyrics ~ ANS ~ SOL",
+            "5. Sixty minutes with me\u2014Lawdy that\u2019s beautiful ~ ANS ~ SOL",
+            "6. I love California around tip\u2014out of sight ~ ANS ~ SOL",
+            "7. Vibrant note: \u201cExciting long-term love\u201d ~ ANS ~ SOL",
+            "8. Savage law: rope brings release ~ ANS ~ SOL",
+            "9. Petrarch wrote them, then sons edited ~ ANS ~ SOL",
+            "10. Tries out new tastes ~ ANS ~ SOL",
+            "19. Patent for TV\u2014need it badly ~ ANS ~ SOL",
+            "20. Capturing essence of Monet tint: gold ~ ANS ~ SOL",
+            "21. What dabblers do to master plays ~ ANS ~ SOL",
+            "22. \u201cBirds\u201d: dear lovers, perhaps ~ ANS ~ SOL",
+            "24. This would be plenty to drink; unfortunately, it\u2019s all gone ~ ANS ~ SOL",
+            "26. Tale with no end: \u201cMerry Time of Year\u201d ~ ANS ~ SOL",
+            "27. Dresses in rehearsal\u2014risque ~ ANS ~ SOL",
+            "28. Jack is too silly for a stud ~ ANS ~ SOL",
+            "29. Senior dances with attractive vocalist? ~ ANS ~ SOL",
+            "31. Area for endless racket-swinging ~ ANS ~ SOL"
+          ],
+          "name": "Down",
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
+        }
+      ],
+      "date": "1978-07-01",
+      "editor": null,
+      "files": {
+        "puzzle_pdf": "gs://lukwam-hex-archive/atlantic/x0393UazsIKXSWN6eysA_puzzle.pdf",
+        "puzzle_png": "gs://lukwam-hex-archive-images/atlantic/x0393UazsIKXSWN6eysA_puzzle.png",
+        "puzzle_thumbnail_png": "gs://lukwam-hex-thumbnails/atlantic/x0393UazsIKXSWN6eysA_puzzle.png",
+        "solution_pdf": "gs://lukwam-hex-archive/atlantic/x0393UazsIKXSWN6eysA_solution.pdf",
+        "solution_png": "gs://lukwam-hex-archive-images/atlantic/x0393UazsIKXSWN6eysA_solution.png",
+        "solution_thumbnail_png": "gs://lukwam-hex-thumbnails/atlantic/x0393UazsIKXSWN6eysA_solution.png"
+      },
+      "grid": {
+        "columns": [
+          "WRITERS|SARIS",
+          "RIPEN|EVIDENT",
+          "ASLANT|O|N|U|A|P|I",
+          "TELL|U|I|GALLON",
+          "HOURI|NETTING",
+          "OPTICAL|R|S|S|I|E",
+          "U|E|H|A|O|SMATTER",
+          "TREMOLO|JOIST",
+          "PAROLE|U|O|ACRE",
+          "O|S|A|U|I|E|SUMMER",
+          "SONNETS|SIREN",
+          "TESTS|PETRELS"
+        ],
+        "entry_columns": [],
+        "entry_rows": [],
+        "rows": [
+          "WRATH|OUTPOST",
+          "RISE|OPERAS|O|E",
+          "I|P|L|LUTHERANS",
+          "TEAL|R|I|AMOUNT",
+          "ENNUI|COOLIES",
+          "RETINA|SLEET|P",
+          "S|VOGEL|MOUSSE",
+          "SINATRA|JOUST",
+          "ADULTS|T|O|AMIR",
+          "REALISTIC|M|R|E",
+          "IN|PONIES|REEL",
+          "STINGER|TERNS"
+        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [
+          "#___________",
+          "_#__________",
+          "__#_________",
+          "___#________",
+          "____#_______",
+          "_____#______",
+          "______#_____",
+          "_______#____",
+          "________#___",
+          "_________#__",
+          "__________#_",
+          "___________#"
+        ],
+        "style": [],
+        "styles": {}
+      },
+      "id": "x0393UazsIKXSWN6eysA",
+      "instructions": "Every clue contains at least one letter too many. These extra letters are totally irrelevant to the solution of the clues and, in this respect, should be disregarded. However, taken in the order in which they appear in the 42 clues, the superfluous letters compose an apt quote (of 48 letters, 13 words). In six clues, two superfluous letters occur\u2014always next to each other. The name of the quote\u2019s author will appear in the completed puzzle diagram , running diagonally from 1. Answers include two proper names and one German word. As always, remember that punctuation in the clues may be used deceptively.",
+      "issue": "July 1978",
+      "links": {
+        "answer_link": "https://cdn.theatlantic.com/media/archives/1978/08/242-2/132613062.pdf",
+        "googledoc_link": null,
+        "puzzle_link": "https://cdn.theatlantic.com/media/archives/1978/07/242-1/132589988.pdf",
+        "puzzle_pdf_url": "https://drive.google.com/file/d/1-YlMa3BV9Zoyq8Sz76M2Li5HOKJPTluT/view",
+        "puzzleme_link": null,
+        "solution_pdf_url": "https://drive.google.com/file/d/1HVI8xxp26yatJ5FwRG4Y_grO-OghDwNO/view",
+        "web_link": "https://www.theatlantic.com/magazine/archive/1978/07/the-atlantic-puzzler/663847/"
+      },
+      "month": "07",
+      "number": "11",
+      "publication": "atlantic",
+      "settings": {
+        "clue_columns": 3,
+        "show_grid_border": "true",
+        "show_grid_lines": "true"
+      },
+      "shape": null,
+      "solution": "<p><i>\u201cThe art of being wise is the art of knowing what to overlook\u201d</i></p>\r\n<p>\u2014William James</p>\r\n<p>Parentheses after each solution contain the extra letter(s) in the clue.</p>",
+      "title": "Drosswords",
+      "unclued": [],
+      "year": "1978"
+    },
     "id": "x0393UazsIKXSWN6eysA",
     "issue": "July 1978",
     "month": 7,
@@ -1457,9 +1654,11 @@
             "41. He was a mimic and made a pile ~ HEAPED ~ HE-APED"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -1487,9 +1686,11 @@
             "36. About a dead louse ~ CAD ~ C-A-D"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1979-03-01",
@@ -1515,6 +1716,8 @@
           "SLAM__________ROTE",
           "TEN____________RED"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "BLIMEY______ARTIST",
           "EATING______DOUBLE",
@@ -1522,12 +1725,12 @@
           "_BLUE________SKIM_",
           "__HEMP______ITEM__",
           "___TIES____PREY___",
-          "____C|G|H|D__R|A|O|R",
+          "____C|G|H|D__R|A|O|R____",
           "_____SOUTHERN_____",
           "______PRAISE______",
           "______WARDEN______",
           "_____CONTENTS_____",
-          "____C|R|R|T__T|A|L|M",
+          "____C|R|R|T__T|A|L|M____",
           "___CHIN____LOAF___",
           "__DRAB______GLIB__",
           "_PEER________TEAR_",
@@ -1535,8 +1738,28 @@
           "ASKING______ESTATE",
           "DOINGS______HEAPED"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________",
+          "__________________"
         ],
         "styles": {}
       },
@@ -1749,9 +1972,11 @@
             "32. Santa Maria's rocket keeps back pirate ~ CORSAIR|CORSAR ~ *CORSAIR (hidden rev.)"
           ],
           "name": "Across",
-          "show_enumerations": "entries",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "entries",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -1775,9 +2000,11 @@
             "27. Greetings from the Dickens' home, with love ~ HELLO|HLLO ~ *HELL-0"
           ],
           "name": "Down",
-          "show_enumerations": "entries",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "entries",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1980-04-01",
@@ -1797,6 +2024,8 @@
           "PEYTE|F|U|VISTA",
           "ELLS|STERNWAR"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CABALA|STEPPE",
           "RUGGIST|EXCEL",
@@ -1811,8 +2040,22 @@
           "OILED|CELESTA",
           "CYPRUS|CORSAR"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -2325,9 +2568,11 @@
             "34. Spanish corn shoots ~ SPEARS|SPARS ~ SP-EARS"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -2351,9 +2596,11 @@
             "28. Measure a famous boat ~ PINTA|PITA ~ PINT-A"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1983-06-01",
@@ -2373,6 +2620,8 @@
           "R|S|T|A|ESPALIR",
           "SHADNESS|E|C|S"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "REFUS|ASSOERS",
           "BLUSTRY|T|SASH",
@@ -2386,8 +2635,21 @@
           "IMPL|G|DRMATIC",
           "GUENSEY|SPARS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -2631,9 +2893,11 @@
             "37. Answer about the Greek city ~ ATHENS|THANES ~ A(THE)NS"
           ],
           "name": "Across",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -2659,9 +2923,11 @@
             "31. Put on an English professor ~ DON|DONE ~ DONE (double def.)"
           ],
           "name": "Down",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1984-10-01",
@@ -2681,6 +2947,8 @@
           "HECTARE|R|DONE",
           "TRYING|SPORTS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SALLOW|FLIGHT",
           "TRAIPSE|O|PEER",
@@ -2695,8 +2963,22 @@
           "ONTO|T|NASCENT",
           "SESTET|THANES"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -2771,10 +3053,12 @@
             "u. Summit reveals primate unknown ~ APEX ~ APE-X"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -2803,10 +3087,12 @@
             "23. Highest point bears name in Gaelie ~ XNAM|MANX ~ MA(N)X"
           ],
           "name": "Down",
-          "reverse_grid_entries": true,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": true,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1984-12-01",
@@ -2831,6 +3117,8 @@
           "__________NRUT",
           "___________DNE"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "________X________",
           "_______ENS_______",
@@ -2847,15 +3135,9 @@
           "UAREPONOLITAREMUN",
           "COARSESTERANGESTE"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_________________",
           "________OO_______",
@@ -2932,9 +3214,11 @@
             "29. Opposing bridges over Susquehanna ~ VERSUS ~ VERSUS (hidden)"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -2956,16 +3240,18 @@
             "24. Press club ~ IRON ~ IRON (double def.)"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1985-01-01",
       "editor": "",
       "grid": {
         "columns": [
-          "_____|START|_",
+          "_____START_",
           "BASALT|URBAN",
           "E|T|A|SEARS|U|D|O",
           "DOGEARS|IRON",
@@ -2977,23 +3263,38 @@
           "ROLE|LINDENS",
           "I|L|U|FENDS|L|T|U",
           "ASKEW|DALLAS",
-          "_|FINIS|_____"
+          "_FINIS_____"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
-          "_|BEDLAM|SYRIA|_",
-          "_|A|TOADSTOOLS|F",
-          "_|SAGS|O|MUKLUK|I",
-          "_|A|SEERS|REEF|E|N",
-          "_|LEARNED|SLEW|I",
+          "_BEDLAM|SYRIA_",
+          "_A|TOADSTOOLS|F",
+          "_SAGS|O|MUKLUK|I",
+          "_A|SEERS|REEF|E|N",
+          "_LEARNED|SLEW|I",
           "STARS|E|E|Y|FINDS",
-          "T|URSA|ADDENDA|_",
-          "A|R|SING|SENDS|L|_",
-          "R|BURGLE|U|CELL|_",
-          "T|ADOLESCENT|A|_",
-          "_|NONET|VERSUS|_"
+          "T|URSA|ADDENDA_",
+          "A|R|SING|SENDS|L_",
+          "R|BURGLE|U|CELL_",
+          "T|ADOLESCENT|A_",
+          "_NONET|VERSUS_"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -3246,9 +3547,11 @@
             "35. Spruces in green spaces ~ GROOMS|GRMS ~ G-ROOMS"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -3273,9 +3576,11 @@
             "29. Virginia U. taken in with Latin sucker ~ VACUUM|VACM ~ VAC(U)UM"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1986-05-01",
@@ -3294,6 +3599,8 @@
           "LAYEES|E|VACM",
           "AEYS|DESERTS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SHTE|HIGHCLA",
           "TARAIL|A|SUAE",
@@ -3307,8 +3614,21 @@
           "ZAUM|S|DIRECT",
           "RESUMED|GRMS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________"
         ],
         "styles": {}
       },
@@ -3415,10 +3735,12 @@
             "22. Elegant adobe accommodates bodyguards ~ CLASSY ~ CLA(SS)Y"
           ],
           "name": "Clues",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1986-08-01",
@@ -3440,6 +3762,8 @@
           "_.SATIN|CLASSY.",
           "__...E.S..H.._"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "______________",
           "__..S...I..D._",
@@ -3456,27 +3780,21 @@
           "_.AROSE|SINEWY.",
           "__.S..T..O..._"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "__[12][13][14][15][16][17][18][19][20][21][22]_",
           "__###########_",
-          "[1]#___________#",
-          "[2]#___________#",
-          "[3]#___________#",
-          "[4]#___________#",
-          "[5]#___________#",
-          "[6]#___________#",
-          "[7]#___________#",
-          "[8]#___________#",
-          "[9]#___________#",
+          "1#___________#",
+          "2#___________#",
+          "3#___________#",
+          "4#___________#",
+          "5#___________#",
+          "6#___________#",
+          "7#___________#",
+          "8#___________#",
+          "9#___________#",
           "[10]#___________#",
           "[11]#___________#",
           "__###########_"
@@ -3557,9 +3875,11 @@
             "38. Turning fiery, present puzzle ~ WONDER|UNDERWAY ~ WON-DER (rev.)"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -3587,9 +3907,11 @@
             "31. Ruins Latin king in speech ~ WRECKS| XRAY ~ WRECKS (homophone)"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1986-10-01",
@@ -3609,6 +3931,8 @@
           "S|STEED|AXSEED|A",
           "ASHTRAY|AIRWAY"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "OVERPLAY|OSSA",
           "U|S|N|LIAR|ABYSS",
@@ -3624,8 +3948,23 @@
           "ADLAI|INRE|O|D|A",
           "THEY|UNDERWAY"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -3683,9 +4022,11 @@
             "n. Porter gets low mark in summary ~ REDCAP ~ RE(D)CAP"
           ],
           "name": "Pairs",
-          "show_enumerations": "answers",
-          "show_grid_entries": false,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": false,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -3707,9 +4048,11 @@
             "25. Get nothing out of footwear for women ~ SHES ~ SHO(o)ES"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -3725,9 +4068,11 @@
             "22. Flightless bird born in biblical kingdom ~ MOAB ~ MOA-B"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1986-11-01",
@@ -3746,6 +4091,8 @@
           "ACTIVE|WAKEN",
           "NECTARINES|S"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CORNUCOPIA|N",
           "BOHR|M|PRINCE",
@@ -3759,8 +4106,21 @@
           "TOGGLE|A|SHES",
           "S|GREENBEANS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________"
         ],
         "styles": {}
       },
@@ -3832,9 +4192,11 @@
             "39. Lament the French way ~ ROUE ~ RUE (double def.)"
           ],
           "name": "Across",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -3863,65 +4225,72 @@
             "36. Capsized, sinking ship\u2019s deserter is seaman ~ TAR|TSAR ~ TAR (rev.)"
           ],
           "name": "Down",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1986-12-01",
       "editor": "",
       "grid": {
         "columns": [
-          "STAG",
-          "THUMPER|CORDOBA",
-          "RETIRE|E|O|PARSECS",
-          "A|N|O|T|I|PANORAMA|A|H|T",
-          "NEMO|MOSQUE|G|INJURE",
-          "G|A|A|S|A|BOURBONS|ONYX",
-          "ENTITY|N|E|PINEAL|OOPS",
-          "LOOSENS|RETELL|E|V|U|O|P",
-          "YANK|_____|STIFLE|TSAR",
-          "___________|LIBRETTO",
-          "____________|ENROBE|U",
-          "_____________|CAPONE",
-          "______________|NEXT"
+          "STAG_______________",
+          "THUMPER|CORDOBA_____",
+          "RETIRE|E|O|PARSECS____",
+          "A|N|O|T|I|PANORAMA|A|H|T___",
+          "NEMO|MOSQUE|G|INJURE__",
+          "G|A|A|S|A|BOURBONS|ONYX__",
+          "ENTITY|N|E|PINEAL|OOPS_",
+          "LOOSENS|RETELL|E|V|U|O|P_",
+          "YANK_____STIFLE|TSAR",
+          "___________LIBRETTO",
+          "____________ENROBE|U",
+          "_____________CAPONE",
+          "______________NEXT_"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
-          "STRANGELY",
-          "THEN|E|ANOA",
-          "AUTOMATON",
-          "G|MITOSIS|K",
-          "_|PRIMATE",
-          "_|E|E|P|O|B|Y|N",
-          "_|REASONS",
-          "_|CONQUER",
-          "_|O|P|O|U|R|P|E",
-          "_|RAREBITS",
-          "_|DRAGONET",
-          "_|O|S|M|I|N|E|L|I|L",
-          "_|BEANS|ALFIE",
-          "_|A|CAJOLE|L|B|N|C",
-          "__|SHUN|OVERRAN",
-          "___|TRYOUT|E|O|P|E",
-          "____|E|X|POSTBOX",
-          "______|S|PATENT",
-          "________|ROUE"
+          "STRANGELY____",
+          "THEN|E|ANOA____",
+          "AUTOMATON____",
+          "G|MITOSIS|K____",
+          "_PRIMATE_____",
+          "_E|E|P|O|B|Y|N_____",
+          "_REASONS_____",
+          "_CONQUER_____",
+          "_O|P|O|U|R|P|E_____",
+          "_RAREBITS____",
+          "_DRAGONET____",
+          "_O|S|M|I|N|E|L|I|L___",
+          "_BEANS|ALFIE__",
+          "_A|CAJOLE|L|B|N|C_",
+          "__SHUN|OVERRAN",
+          "___TRYOUT|E|O|P|E",
+          "____E|X|POSTBOX",
+          "______S|PATENT",
+          "________ROUE_"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          "#########",
-          "#########",
-          "#########",
-          "#########",
-          "_#######_",
-          "_#######_",
-          "_#######_",
-          "_#######_",
-          "_#######_",
-          "_########",
-          "_########",
-          "_#########",
-          "_##########",
-          "_###########",
+          "#########____",
+          "#########____",
+          "#########____",
+          "#########____",
+          "_#######_____",
+          "_#######_____",
+          "_#######_____",
+          "_#######_____",
+          "_#######_____",
+          "_########____",
+          "_########____",
+          "_#########___",
+          "_##########__",
+          "_###########_",
           "__###########",
           "___##########",
           "____#########",
@@ -4024,10 +4393,12 @@
             "31. Botanist fellows steered the wrong way ~ MENDEL ~ MEN-DEL (\"led\" rev.)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -4050,10 +4421,12 @@
             "25. Attend strike ~ BEAT ~ BEAT"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": false,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": false,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1987-04-01",
@@ -4074,6 +4447,8 @@
           "UNWED|SHELVE",
           "SEESAW|Y|BEAT"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "DISOWN|S|LUCIUS",
           "FUHRER|TOPMAN|E",
@@ -4087,15 +4462,9 @@
           "A|INVOKE|TROIKA",
           "UTTERS|R|MENDEL"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -4223,9 +4592,11 @@
             "38. Height of grass keeping my end wild ~ HEYDAY ~ HEYDAY"
           ],
           "name": "Across",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1987-08-01",
@@ -4233,36 +4604,41 @@
       "grid": {
         "columns": [
           "______________",
-          "_|OCCULT|SPLOTCH",
-          "_|BILLIONAIRE|O|E",
-          "_|SPOON|P|TRACERY",
-          "_|COURTSHIP|H|M|O|D",
-          "_|U|M|D|O|Y|I|Y|A|TESLA",
-          "_|REELED|GHOSTLY",
-          "_|E|G|D|FREIGHT|B|A|G",
-          "_|WREATHE|AURORA",
-          "_|HATCH|E|N|L|M|A|U|I|R",
-          "_|I|N|A|T|ICELANDER",
-          "_|LAMINAE|E|NOOSE",
-          "_|O|T|POLTERGEIST",
-          "_|MEANDER|YEARNS"
+          "_OCCULT|SPLOTCH",
+          "_BILLIONAIRE|O|E",
+          "_SPOON|P|TRACERY",
+          "_COURTSHIP|H|M|O|D",
+          "_U|M|D|O|Y|I|Y|A|TESLA",
+          "_REELED|GHOSTLY",
+          "_E|G|D|FREIGHT|B|A|G",
+          "_WREATHE|AURORA",
+          "_HATCH|E|N|L|M|A|U|I|R",
+          "_I|N|A|T|ICELANDER",
+          "_LAMINAE|E|NOOSE",
+          "_O|T|POLTERGEIST",
+          "_MEANDER|YEARNS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "______________",
-          "_|OBSCURE|WHILOM",
-          "_|C|I|POMEGRANATE",
-          "_|CLOUDED|E|TAMPA",
-          "_|U|L|O|R|OLFACTION",
-          "_|LINTY|E|R|T|H|I|N|L|D",
-          "_|TOPSIDE|HECATE",
-          "_|S|N|T|HYGIENE|E|E|R",
-          "_|PARIAH|GALLERY",
-          "_|L|I|A|P|T|O|H|U|MANGE",
-          "_|ORCHESTRA|N|O|E|A",
-          "_|TEEMS|T|BOUDOIR",
-          "_|COROLLARIES|S|N",
-          "_|HEYDAY|GARRETS"
+          "_OBSCURE|WHILOM",
+          "_C|I|POMEGRANATE",
+          "_CLOUDED|E|TAMPA",
+          "_U|L|O|R|OLFACTION",
+          "_LINTY|E|R|T|H|I|N|L|D",
+          "_TOPSIDE|HECATE",
+          "_S|N|T|HYGIENE|E|E|R",
+          "_PARIAH|GALLERY",
+          "_L|I|A|P|T|O|H|U|MANGE",
+          "_ORCHESTRA|N|O|E|A",
+          "_TEEMS|T|BOUDOIR",
+          "_COROLLARIES|S|N",
+          "_HEYDAY|GARRETS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_NOPQRSTUVWXYZ",
           "A_____________",
@@ -4280,9 +4656,8 @@
           "M_____________"
         ],
         "styles": {
-          "#": {
-            "background-color": "lightgrey"
-          }
+          "O": {},
+          "X": {}
         }
       },
       "id": "QyBch0TX7t6uZhLfitsG",
@@ -4343,9 +4718,11 @@
             "34. Males carrying foot weights ~ HEFTS ~ HEFTS"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -4369,9 +4746,11 @@
             "29. Failing to score well on makeup ~ FACE ~ SOL"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1987-09-01",
@@ -4390,6 +4769,8 @@
           "STANCESASCENT",
           "SALT|H|RUPTURES"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SLIPS|MORASS",
           "TEAR|CELESTA",
@@ -4405,6 +4786,9 @@
           "CELEBES|HONE",
           "ERASED|HEFTS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_#_#_#_#_#_",
           "_#_#_#_#_#_",
@@ -4514,10 +4898,12 @@
             "25. Practices comedy routines? ~ HABITS ~ HA-BITS (pun)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1987-11-01",
@@ -4537,6 +4923,8 @@
           "ADIPOSE|L|HOSE",
           "NAMELY|SEATED"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "HOMILY|SAMPAN",
           "AVARICE|M|LEDA",
@@ -4551,15 +4939,9 @@
           "LOSE|O|DIOCESE",
           "ENERGY|AMUSED"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_._____.____",
           "____.____.__",
@@ -4670,9 +5052,11 @@
             "37. Units of length, each described by expressive curves (<i>two words</i>) ~ SEAMILES ~ S(EA) MILES"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -4698,9 +5082,11 @@
             "31. Turning produced dairy item ~ EDAM ~ EDAM (rev.)"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -4711,9 +5097,11 @@
             "e. 35 Across + 30 Down ~ MARCH ~ MARCH (double def.)"
           ],
           "name": "Word Square",
-          "show_enumerations": "none",
-          "show_grid_entries": false,
-          "show_grid_labels": false
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": false,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1988-03-01",
@@ -4734,6 +5122,8 @@
           "ANEMIC|S|ENCODE",
           "NODOSITY|ACRES"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "AFFOREST|WOMAN",
           "BELIEF|T|KIMONO",
@@ -4749,8 +5139,23 @@
           "ETHANE|V|PARADE",
           "SETON|SEAMILES"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -4869,9 +5274,11 @@
             "16. Stripper, frontally nude, sinuously moved feather and wiggled cane in rite ~ SNAKED;PENANCE|SNAKED;ENANCE ~ SNAKED;PENANCE"
           ],
           "name": "Across",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -4884,9 +5291,11 @@
             "12. I, famous Rebel, fight insatiable desire in green grass ~ MELEE;GREED ~ MELEE;GREED"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1988-09-01",
@@ -4907,6 +5316,8 @@
           "A|E|E|N|A|R|A|L|L|T|C",
           "DIDDLE|MELEE"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "GALORE|M|ISLEAD",
           "ABALON|E|NUCLEI",
@@ -4920,8 +5331,21 @@
           "HOARSE|I|SOLATE",
           "SNAKED|P|ENANCE"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -4983,10 +5407,12 @@
             "33. Hunter lacks head for gossip ~ TALKER ~ (s)TALKER"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -5010,10 +5436,12 @@
             "28. Some researchers going about bare ~ MERE ~ MERE (hidden)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1988-10-01",
@@ -5034,6 +5462,22 @@
           "_ERE|BUK|ESM|ERE",
           "_SPH|ERE|SEN|SOR"
         ],
+        "entry_columns": [],
+        "entry_rows": [
+          "_____________",
+          "_SHARED|GRIPES",
+          "_CAVE|N|U|E|E|WARP",
+          "_RUF|FIA|NLY|NEH",
+          "_ILF|IDL|IAD|OBE",
+          "_MAL|TRE|ATS|RUR",
+          "_PRI|MAL|LIS|AKE",
+          "_BON|GCC|HOL|MES",
+          "_UDT|POL|ONA|ISE",
+          "_FEL|ONI|SST|CMN",
+          "_FNO|SIN|KHO|LES",
+          "_ETC|HAK|ILL|ERO",
+          "_TOK|ENS|TAL|KER"
+        ],
         "rows": [
           "_____________",
           "_SHA|RED|GRI|PES",
@@ -5049,15 +5493,9 @@
           "_ETC|HAK|ILL|ERO",
           "_TOK|ENS|TAL|KER"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "__[___]__[___]__[___]__[___]_",
           "_____________",
@@ -5143,10 +5581,12 @@
             "33. Candy assortments split by all of us ~ SWEETS|TWEETS ~ S(WE)ETS"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -5170,10 +5610,12 @@
             "28. Savage when in risk ~ BEAST|BEST ~ BE(AS)T"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1988-12-01",
@@ -5193,6 +5635,8 @@
           "S|POODLE|T|BEST",
           "YEARLY|DEISTS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "IRISES|GLOSSY",
           "G|ORATOR|I|POPE",
@@ -5207,8 +5651,22 @@
           "ZENO|P|EXISTS|T",
           "ATTEST|TWEETS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -5296,10 +5754,12 @@
             "39. Growth in both ends of city street ~ CYST ~ C + Y + ST"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -5325,10 +5785,12 @@
             "32. Make out in mind-reading club? ~ ESPY ~ ESP + Y"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1989-03-01",
@@ -5348,6 +5810,8 @@
           "NUTS|I|VARIANTS",
           "GREATER|M|SIGHT"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "TROY|V|STORING",
           "AUREATE|RECUR",
@@ -5363,8 +5827,23 @@
           "OPENS|STEALTH",
           "SYSTEMS|R|CYST"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -5505,9 +5984,11 @@
             "37. CLUE ~ YASHMAKTEDDY ~ SOLUTION"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -5547,9 +6028,11 @@
             "34. CLUE ~ OSCARSMASTERY ~ SOLUTION"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1989-09-01",
@@ -5569,6 +6052,8 @@
           "ON|U|SESLHEALED",
           "OSCARSMASTERY"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SPASSSHAMPOO",
           "UROTATEM|HE|NS",
@@ -5584,8 +6069,23 @@
           "BOE|RE|SWERVER",
           "YASHMAKTEDDY"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -5641,9 +6141,11 @@
             "33. Overworking, Hollywood's Dracula gets dull ~ BELABORING|BELABORNG ~ BELA-BORING"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -5667,9 +6169,11 @@
             "30. Reversing direction, crow makes appearance ~ GARB|ARB ~ GARB (rev.)"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1989-10-01",
@@ -5689,6 +6193,8 @@
           "EMIS|LOISLAN",
           "QUSTED|EASNG"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "HARTREUSE|P|E|Q",
           "ARSE|E|I|OPTIMU",
@@ -5702,8 +6208,21 @@
           "TESELS|D|R|HEAN",
           "E|R|T|BELABORNG"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -5748,10 +6267,12 @@
             "1. <i>Turkey Dinner</i><br>Choice piece wrapped in nutritious grain roll with a stuffing<br><br><i>Chicken-Seafood Supper</i><br>Meat-filled loaf done on a barbecue's top, with sole and shellfish<br><br><i>Heavenly Stewed Prunes</i><br>A large (nine-crate) mixture with fruit tops smothered in mace seasoning<br><br><i>Fish Sandwiches</i><br>uncooked, flipped with chicken article<br><br><i>Spanish Hero</i><br>Tart Spanish corn pieces and asparagus pieces go together with cooked eel & rat<br><br><i>Desserts</i><br>Gelled tripe from the East, brown outside, with mixed nuts, hand-shelled, placed around parsley or sage<br><br><i>Iced Treat</i><br>Fruit drinks containing cored pulp. stirred<br><br><i>Strudel</i><br>Flaky little piece with egg in it (top-grade)<br><br> ~ WHITEMEAT;ROASTER;CLAMBAKE;OVER;ABALONE;SUPERNAL;NECTARINE;ACES;COWARD;ACID;SPEARS;RELATE;TORTES;SUNTAN;SHERBET;APPLES;RUSTLED;IOTA ~ WHITEMEAT;ROASTER;CLAMBAKE;OVER;ABALONE;SUPERNAL;NECTARINE;ACES;COWARD;ACID;SPEARS;RELATE;TORTES;SUNTAN;SHERBET;APPLES;RUSTLED;IOTA"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -5777,10 +6298,12 @@
             "20. Republican coming in used to be fighting ~ WARS ~ WARS"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1989-11-01",
@@ -5800,6 +6323,8 @@
           "E|NONE|T|BEAKER",
           "SERE|SELTZERS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "COWARD|APPLES",
           "ACID|A|ABALONE",
@@ -5814,8 +6339,22 @@
           "ROASTER|U|OVER",
           "SUNTAN|SPEARS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -5948,10 +6487,12 @@
             "33. The ego's absorbed by senses and sensory input ~ NOISES ~ NO(I)SES"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -5975,10 +6516,12 @@
             "28. Dismal, bungled vocal ~ BLUE ~ BLUE (homoph.)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1990-06-01",
@@ -6000,6 +6543,8 @@
           "_____E|OVERSEAS",
           "______G_______"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "______P|D______",
           "_____WEIR_____",
@@ -6016,15 +6561,9 @@
           "_A|A|PANORAMA|U|A_",
           "_RIPSAW|NOISES_"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "______________",
           "______________",
@@ -6135,9 +6674,11 @@
             "34. Describing Nepal's capital, make a speech flowery ~ ORNATE ~ OR(N)ATE"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -6162,9 +6703,11 @@
             "30. Cheers up, say, about leader of youth ~ YAYS ~ YA(Y)S (<i>say</i> rev.)"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1990-09-01",
@@ -6184,6 +6727,8 @@
           "LOLL|LORDLY|L|A",
           "ELEGANT|Y|YAYS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "ESCROW|TINGLE",
           "TREENAIL|WOOL",
@@ -6198,8 +6743,22 @@
           "DOCKETS|DOILY",
           "ORNATE|KANSAS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -6261,10 +6820,12 @@
             "31. Get horseshoe out of compulsion to decorate ~ DRESS ~ DRESS"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -6288,10 +6849,12 @@
             "25. Understand, for example, about doubled velocity ~ SAVVY ~ SAVVY"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1990-10-01",
@@ -6311,6 +6874,8 @@
           "E|G|E|GENDARMES",
           "MASER|S|STENDS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "MERSE|T|SACHEM",
           "ENERVATE|ALGA",
@@ -6325,16 +6890,9 @@
           "NICE|REVERTED",
           "THERNS|Y|DRESS"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
         "solution_style": [
-          ""
-        ],
-        "style": [
           "_O__________",
           "_________O__",
           "______O_____",
@@ -6348,6 +6906,7 @@
           "O__________O",
           "__O_________"
         ],
+        "style": [],
         "styles": {}
       },
       "id": "zqyXVQ33LS031FXFi5r8",
@@ -6432,9 +6991,11 @@
             "39. Number one trap in New York ~ NINETY|INETY ~ N(I-NET)Y"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -6463,9 +7024,11 @@
             "34. German city being neutral ~ ESSEN|SSEN ~ ESSE-N"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1991-01-01",
@@ -6486,6 +7049,8 @@
           "IARA|N|A|ASEMENT",
           "NTANGLE|TTERLY"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "EAGER|ARPAULIN",
           "B|RENT|M|AILBOAT",
@@ -6501,8 +7066,23 @@
           "NBELIEF|T|REEN|L",
           "TOSCOPES|INETY"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -6602,10 +7182,12 @@
             "36. Impudent talk about ends of Series ~ SASSY ~ SA(S + S)Y"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -6631,10 +7213,12 @@
             "30. Women found in Spanish lands and not in seas ~ SENORAS|SEAS ~ SE(NOR)AS"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1991-05-01",
@@ -6654,6 +7238,8 @@
           "PLATEAU|M|SEAS",
           "SEWED|REPEDLY"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "BASIS|SPACEPS",
           "AMULETS|R|CALE",
@@ -6668,8 +7254,22 @@
           "SCAT|K|SURREAL",
           "THRUSTS|SASSY"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -6745,10 +7345,12 @@
             "38. In retrospect, mischievous boy on TV acted vilely ~ SINNED ~ SINNED"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -6774,10 +7376,12 @@
             "30. Extra notice surrounding Ike ~ ADDED ~ ADDED"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1991-07-01",
@@ -6797,6 +7401,8 @@
           "E|V|N|K|VIOLENT|E",
           "REGALLY|ADDED"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SPIGOT|FISHER",
           "TAROT|R|REPAVE",
@@ -6811,7 +7417,9 @@
           "LUPINE|E|SUITE",
           "EASELS|SINNED"
         ],
-        "style": [
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [
           "____________",
           "___O__O_____",
           "_____O_____O",
@@ -6821,8 +7429,11 @@
           "__O_________",
           "________O___",
           "O_________O_",
+          "____________",
+          "____________",
           "____________"
         ],
+        "style": [],
         "styles": {}
       },
       "id": "j9oI3ZHOy2sTzBnO8Yes",
@@ -6875,9 +7486,11 @@
             "12. CLUE ~ ETALONAVDANA ~ SOLUTION"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -6895,9 +7508,11 @@
             "12. CLUE ~ RPSEASTERULA ~ SOLUTION"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1991-08-01",
@@ -6917,6 +7532,8 @@
           "INSRTESTOMPN",
           "RPSEASTERULA"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "ROLIBERTHGIR",
           "IGEDETALENNP",
@@ -6931,8 +7548,22 @@
           "XTRAPTDIESPL",
           "ETALONAVDANA"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -7011,9 +7642,11 @@
             "39. CLUE ~ RET ~ SOLUTION"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -7057,9 +7690,11 @@
             "38. CLUE ~ IST ~ SOLUTION"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1991-09-01",
@@ -7075,7 +7710,7 @@
           "E|A|OVER|C|X|I",
           "AGLI|L|TIER",
           "KED|ALS|AGE",
-          "____|M|____",
+          "____M____",
           "BIC|CAR|ASL",
           "INHE|T|IBLE",
           "N|F|E|CENS|U|S",
@@ -7086,19 +7721,32 @@
           "TTER|E|SLEE",
           "RIS|STE|IST"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
-          "ARY|PON|EAK|_|BIN|DER|STR",
-          "RIOR|STAGE|_|INFE|MULTI",
-          "ATS|EME|O|L|D|_|CHE|NDS|M|E|S",
-          "E|SUSP|AVIA|_|C|ECTS|TORS",
+          "ARY|PON|EAK_BIN|DER|STR",
+          "RIOR|STAGE_INFE|MULTI",
+          "ATS|EME|O|L|D_CHE|NDS|M|E|S",
+          "E|SUSP|AVIA_C|ECTS|TORS",
           "STRI|#|CELLMATES|#|ARET",
-          "SHEA|FORT|S|_|RING|UNES|E",
-          "E|O|S|REV|CIA|_|A|B|S|ERT|ALI",
-          "ERING|EXEG|_|SLUMB|ESES",
-          "PRO|DEN|IRE|_|LES|IER|RET"
+          "SHEA|FORT|S_RING|UNES|E",
+          "E|O|S|REV|CIA_A|B|S|ERT|ALI",
+          "ERING|EXEG_SLUMB|ESES",
+          "PRO|DEN|IRE_LES|IER|RET"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "___________________",
+          "___________________",
+          "___________________",
+          "___________________",
+          "___________________",
+          "___________________",
+          "___________________",
+          "___________________",
+          "___________________"
         ],
         "styles": {}
       },
@@ -7159,10 +7807,12 @@
             "34. Long string stuck on back of note ~ RECORD ~ RECORD"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -7187,10 +7837,12 @@
             "29. Look to leave mark ~ LOGO ~ LOGO"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1991-10-01",
@@ -7210,6 +7862,8 @@
           "STOOL|E|SOONER",
           "HORDES|ONWARD"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SAMBA|A|WASPSH",
           "EGOTRIP|PLUTO",
@@ -7224,15 +7878,9 @@
           "SCKING|E|INGER",
           "HEALTH|RECORD"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "####____####",
           "####____####",
@@ -7337,10 +7985,12 @@
             "38. Biblical book deadening things? ~ NUMBERS ~ NUMBERS"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -7367,10 +8017,12 @@
             "32. After \"Initiation,\" award mark ~ SCAR ~ SCAR"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1992-01-01",
@@ -7391,6 +8043,8 @@
           "H|C|CELLS|SCAR",
           "SHED|KETCHES"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CHRONIC|SYLPHS",
           "U|O|O|MANET|BEECH",
@@ -7404,8 +8058,21 @@
           "AITCH|NEARS|L|A|E",
           "BASKED|NUMBERS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -7477,10 +8144,12 @@
             "33. <i>Tres grotesque</i>, Charles ~ LARCHES|LAERCHES ~ LARCHES (anag.) [trees]"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -7504,10 +8173,12 @@
             "27. Aboard ship, villain doodles ~ SCADS|SCAS ~ S(CAD)S [oodles]"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1992-03-01",
@@ -7527,6 +8198,8 @@
           "NETNS|E|DELIVE",
           "RLETARDS|SCAS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CRACVING|MINR",
           "HOMLY|M|CAAMEL",
@@ -7541,15 +8214,9 @@
           "ROVERB|D|DIRVA",
           "DRGE|LAERCHES"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -7633,10 +8300,12 @@
             "35. Last of clubs taken by player with hearts\u2014bridge element, perhaps? ~ CUSPID ~ CUPID"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -7662,10 +8331,12 @@
             "30. Maverick lies about card's first cut ~ SLICE|ESLI ~ SLICE"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1992-05-01",
@@ -7685,6 +8356,8 @@
           "I|SIONDER|ESLI|C",
           "T|HONES|INDLED|K"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "PLA.YIN.GWIT",
           "LODGED|G|FLESH",
@@ -7700,8 +8373,23 @@
           "SEDAN|A|CUSPID",
           "HAFU.LLD.ECK"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -7759,10 +8447,12 @@
             "31. Area established around train stop ~ ARREST ~ A(RR)-EST"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": false,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": false,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -7785,10 +8475,12 @@
             "25. Brand-new candy ~ MINT ~ MINT (double def.)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1992-06-01",
@@ -7809,6 +8501,8 @@
           "A|E|R|N|SUGARED",
           "WASTED|O|MINT"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "STEWED|C|JIGSAW",
           "TENORS|ALLEGE|A",
@@ -7822,15 +8516,9 @@
           "A|AZALEA|REUBEN",
           "PINDAR|R|ARREST"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -7908,10 +8596,12 @@
             "6|d. Spanish and German articles on last of events for seniors ~ ELDERS ~ SOL"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -7925,10 +8615,12 @@
             "H. Bronze placed around odd fellow who ran in 1948 ~ TRUMAN ~ SOL"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1992-07-01",
@@ -7958,6 +8650,8 @@
           "_E|T|R|O|T|D",
           "_THESEA"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "______________________",
           "_DOLINGNEMIAAMATHEPTET",
@@ -7967,6 +8661,9 @@
           "_BEETLEIELLOVERDORNATE",
           "_ELDERSODSONEROINGANDA"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "___AB___CD___EF___GH__",
           "1#____#____#____#____#",
@@ -8062,10 +8759,12 @@
             "11. Show how to get rid of some Scots? ~ SNA|SNA ~ SOL HAHAHA"
           ],
           "name": "Across",
-          "reverse_grid_entries": true,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": true,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -8089,10 +8788,12 @@
             "r. Idea of our opponents taking stuff of mine? ~ SNA|SNA ~ SOL HAHAHA"
           ],
           "name": "Down",
-          "reverse_grid_entries": true,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": true,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1992-10-01",
@@ -8112,6 +8813,8 @@
           "AN|AT|N|HE|ELUC",
           "PESE|GT|OREMT"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "_T|RA|VE|LS|CH|AP",
           "_S|H|I|E|R|A|L|P|IN|E",
@@ -8125,33 +8828,8 @@
           "_S|AL|O|M|E|T|A|T|U|M",
           "_WH|ET|SD|EP|IC|T"
         ],
-        "solution_columns": [
-          "___________",
-          "TSTOR|DT|STSW",
-          "RHED|IE|H|AO|AH",
-          "AIE|ECAR|LR|LE",
-          "VEN|SEREA|TOT",
-          "ERYC|HTAM|EMS",
-          "LARU|EOD|ICED",
-          "SLU|TANR|SITE",
-          "CPM|RRIOT|RAP",
-          "HI|BA|IGDE|CTI",
-          "AN|AT|N|HE|ELUC",
-          "PESE|GT|OREMT"
-        ],
-        "solution_rows": [
-          "_T|RA|VE|LS|CH|AP",
-          "_S|H|I|E|R|A|L|P|IN|E",
-          "_T|E|EN|Y|R|UM|BA|S",
-          "_O|DE|SC|UT|RA|TE",
-          "_RI|C|E|HE|A|R|ING",
-          "_DE|A|R|T|O|N|I|G|HT",
-          "_THR|E|A|DR|O|D|EO",
-          "_SA|LA|MI|ST|EE|R",
-          "_T|OR|TE|C|I|RC|L|E",
-          "_S|AL|O|M|E|T|A|T|U|M",
-          "_WH|ET|SD|EP|IC|T"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
         "solution_style": [
           "1O__________",
           "2_O_________",
@@ -8162,7 +8840,7 @@
           "7______O____",
           "8_______O___",
           "9________O__",
-          "[10]_________O",
+          "[10]_________O_",
           "[11]__________O"
         ],
         "style": [
@@ -8175,8 +8853,8 @@
           "7___________",
           "8___________",
           "9___________",
-          "[10]_________",
-          "[11]__________"
+          "[10]___________",
+          "[11]___________"
         ],
         "styles": {
           "O": {
@@ -8246,10 +8924,12 @@
             "I. Fluff part of a column (6,4) ~ PLINTH|LINT ~ PLINTH"
           ],
           "name": "Wrapped & Unwrapped",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -8268,10 +8948,12 @@
             "27. Hot sweet bread with the middle cut out ~ STOLEN ~ STOLEN"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -8292,10 +8974,12 @@
             "23. Cheer word's fundamental part ~ ROOT ~ ROOT"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1992-12-01",
@@ -8316,6 +9000,8 @@
           "E|M|S|T|TRAINEE",
           "RATIO|BRUINS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "STYLISTS|ASTER",
           "CHAINS|E|PROEM|A",
@@ -8329,15 +9015,9 @@
           "N|REDON|N|STOLEN",
           "YPRES|EIGHTIES"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -8406,10 +9086,12 @@
             "1. <p>Here's something from the heart, my love;<br> A gift on Valentine's.<br> I'm entertaining you at last?<br> O heed these lettered lines!</p> <p>Fair nymph, returning tender love<br> Brings feelings of delight;<br> Neglecting to get started tells<br> A sentiment of spite.</p> <p>Poor tiny me, more last at sea.<br> Producing noises quavery;<br> A crazed, rejected, fallen man<br> Who's bonded into slavery.</p> <p>O locked in prison, basely used,<br> Coerced to come to court!<br> I rue the day that I was born<br> In Alabama, short!</p> <p>In sooth, I need your bones and back<br> (A flat or artsy place);<br> A virile man, I love as well<br> Your appetizing face.</p> <p>Set back in sin, thou indicate<br> I must be looped by birds.<br> For lovers, art at heart is had<br> As part of poet's raving mad<br> And metaphoric words!</p> ~ MYOCARDIUM;OREAD;EROS;ELATES;ENMITY;TREMOLOS;ADAM;PEON;SUED;ALAS;THINE;STERNA;STUDIO;TOOTHY;DIAL;SIGN;SWAINS;TROPES ~ MYOCARDIUM;OREAD;EROS;ELATES;ENMITY;TREMOLOS;ADAM;PEON;SUED;ALAS;THINE;STERNA;STUDIO;TOOTHY;DIAL;SIGN;SWAINS;TROPES"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -8433,48 +9115,67 @@
             "18. Was a drunk in North Station? ~ TOPED ~ SOL"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1993-02-01",
       "editor": "",
       "grid": {
         "columns": [
-          "__|OSTIA|______",
-          "_|ONION|L|E|_____",
-          "DRAGOMANS|____",
-          "KEEN|T|Y|SMUT|___",
-          "EARSHOT|I|E|R|T|__",
-          "_|D|O|T|Y|CUTLERS|_",
-          "__|SUGARY|AMOUR",
-          "__|ADORES|TOPED",
-          "_|T|D|I|S|DOWELED|_",
-          "CHAOTIC|A|S|O|S|__",
-          "LIMP|E|U|DIGS|___",
-          "UNDERMINE|____",
-          "_|EBONY|A|S|_____",
-          "__|SNAIL|______"
+          "__OSTIA______",
+          "_ONION|L|E_____",
+          "DRAGOMANS____",
+          "KEEN|T|Y|SMUT___",
+          "EARSHOT|I|E|R|T__",
+          "_D|O|T|Y|CUTLERS_",
+          "__SUGARY|AMOUR",
+          "__ADORES|TOPED",
+          "_T|D|I|S|DOWELED_",
+          "CHAOTIC|A|S|O|S__",
+          "LIMP|E|U|DIGS___",
+          "UNDERMINE____",
+          "_EBONY|A|S_____",
+          "__SNAIL______"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
-          "__|D|K|E|____|C|L|U|__",
-          "_|OREAD|__|THINE|_",
+          "__D|K|E____C|L|U__",
+          "_OREAD__THINE_",
           "O|N|A|EROS|ADAM|D|B|S",
           "SIGN|STUDIO|PEON",
           "TOOTHY|G|O|STERNA",
           "I|N|MYOCARDIUM|Y|I",
           "ALAS|T|U|R|E|O|C|DIAL",
-          "_|ENMITY|SWAINS|_",
-          "__|S|U|ELATES|G|E|__",
-          "___|TREMOLOS|___",
-          "____|TROPES____",
-          "_____|SUED|_____",
-          "______|R|D|______"
+          "_ENMITY|SWAINS_",
+          "__S|U|ELATES|G|E__",
+          "___TREMOLOS___",
+          "____TROPES____",
+          "_____SUED_____",
+          "______R|D______"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________"
         ],
         "styles": {}
       },
@@ -8552,10 +9253,12 @@
             "39. Evaluate jenny? ~ ASSESS ~ SOL"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -8575,10 +9278,12 @@
             "33. Misdeeds popular in Sunday school ~ SINS ~ SOL"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1993-04-01",
@@ -8598,6 +9303,8 @@
           "ARNE|BELIE|U|UOS",
           "N|E|S|PIASTER|S|S|S"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "OAKTAG|TUSCAN",
           "IDIOTS|ASHORE",
@@ -8613,15 +9320,9 @@
           "CEDRIC|JUNCOS",
           "SCOTCH|ASSESS"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -8719,10 +9420,12 @@
             "34. Insect let loose in competition ~ BEETLE ~ BE(ETL)E (\"let\" anag.)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -8746,10 +9449,12 @@
             "27. Frequent wild luaus ~ USUAL ~ USUAL (anag.)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1993-06-01",
@@ -8769,6 +9474,8 @@
           "ELIXIR|O|USUAL__",
           "NESTED|REMAKE__"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "PLIGHT|UNEVEN",
           "ROMPER|L|EVELE",
@@ -8785,15 +9492,9 @@
           "____________",
           "____________"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -8906,10 +9607,12 @@
             "44. Yellow traitors turning in slander ~ MUSTARD|MU\u2605D ~ MU(STAR)D (\"rats\" rev.)"
           ],
           "name": "Clues",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1993-08-01",
@@ -8929,6 +9632,8 @@
           "CARDS|CO\u2605ICAN",
           "TRYSTER|D|DING"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "MENSA|PLAYACT",
           "UP\u2605T|R|O|AVATAR",
@@ -8943,15 +9648,9 @@
           "ATTEST|A|N|DYAN",
           "REDRESS|TYING"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "__\u2605_________",
@@ -9022,10 +9721,12 @@
             "h. Least accident-prone aircraft outside of Air Force One, ultimately ~ SAFEST ~ SAFEST"
           ],
           "name": "Students",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -9055,10 +9756,12 @@
             "12. Eating perch, mind weight problem ~ OBESITY|OBESIT ~ OBESITY"
           ],
           "name": "Grades",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1993-09-01",
@@ -9066,20 +9769,22 @@
       "grid": {
         "columns": [
           "_______________",
-          "_CASHEW|CHATER_",
-          "_OTHARIO|SPOKE_",
-          "_UNRVEL|ROOFED_",
-          "_ROUES|OUTLAWR_",
-          "_SAGNAW|ILLUSE_",
-          "_ELISIOS|LOTUS_",
-          "_BASAL|PERIEES_",
-          "_OTSPOT|ARMADA_",
-          "_DILATIN|SERIF_",
-          "_THEREM|GARGLE_",
-          "_CEDAR|ALASANS_",
-          "_HOSTEL|OBESIT_",
+          "_CASHEW|CHATER__",
+          "_OTHARIO|SPOKE__",
+          "_UNRVEL|ROOFED__",
+          "_ROUES|OUTLAWR__",
+          "_SAGNAW|ILLUSE__",
+          "_ELISIOS|LOTUS__",
+          "_BASAL|PERIEES__",
+          "_OTSPOT|ARMADA__",
+          "_DILATIN|SERIF__",
+          "_THEREM|GARGLE__",
+          "_CEDAR|ALASANS__",
+          "_HOSTEL|OBESIT__",
           "_______________"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "______________",
           "_COURSE|BODTCH_",
@@ -9097,15 +9802,9 @@
           "______________",
           "______________"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_123456789[10][11][12]_",
           "a____________[___]",
@@ -9120,7 +9819,8 @@
           "g____________[___]",
           "______________",
           "h____________[___]",
-          "_[___][___][___][___][___][___][___][___][___][___][___][___]_"
+          "_[___][___][___][___][___][___][___][___][___][___][___][___]_",
+          "______________"
         ],
         "styles": {}
       },
@@ -9182,10 +9882,12 @@
             "37. Rod lunged, shot, and blasted ~ GOLDURNED|URNED ~ GOLDURNED (anag.) [gold]"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9211,10 +9913,12 @@
             "31. Mascot seemingly gnawed former Cincinnati Red (4,4) ~ PETEROSE|PETE ~ PET + EROSE [rose]"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1993-10-01",
@@ -9234,6 +9938,8 @@
           "DECREED|T|PETE",
           "SLOW|S|R|MASSED"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CARES|LEGENDS",
           "A|L|S|AMIGO|NOEL",
@@ -9248,8 +9954,22 @@
           "OLEO|MELBA|S|T|E",
           "PERSEUS|URNED"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -9311,10 +10031,12 @@
             "35. Entertainer laughs at filmdom's Harper ~ HOSTESS ~ HOSTESS"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9341,10 +10063,12 @@
             "29. Traces very excited jailbirds ~ SOUPCONS|CONS ~ SOUPCONS"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1993-11-01",
@@ -9363,6 +10087,8 @@
           "E|C|S|BUSONI|CONS",
           "DISAPED|BEINGS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "PROPOSE|COED",
           "ARDED|EMANCI",
@@ -9378,8 +10104,23 @@
           "PMONES|CHING",
           "SANG|HOSTESS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________",
+          "___________"
         ],
         "styles": {}
       },
@@ -9479,9 +10220,11 @@
             "37. Like many sheets, not drawn back after bed ~ COTTON|8OTTON ~ COTTON"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9507,9 +10250,11 @@
             "31. Feline swallows the midsection of the bird ~ CHAT|88AT ~ CHAT"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1994-03-01",
@@ -9529,6 +10274,8 @@
           "RETRIEVAL|F|O|O",
           "INANER|PLATEN"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "FRAME8|8AFARI",
           "LOTU8|RA8IO|E|N",
@@ -9543,6 +10290,9 @@
           "N|A|ME8IA|8ANOE",
           "GREEK8|8OTTON"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____##_____",
           "____#__#____",
@@ -9610,9 +10360,11 @@
             "13. CLUE ~ SENSATETITTER ~ SOLUTION"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9631,9 +10383,11 @@
             "13. CLUE ~ STEALTHNECTAR ~ SOLUTION"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1994-04-01",
@@ -9654,6 +10408,8 @@
           "ERADIRCALIETE",
           "STEALTHNECTAR"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "STRIPSAMASSES",
           "POAMMELIMEART",
@@ -9669,8 +10425,23 @@
           "LAOMINAININTA",
           "SENSATETITTER"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -9740,9 +10511,11 @@
             "35. Car engine's running rules? ~ REGNANCIES ~ REGNANCIES (anag.)"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9767,9 +10540,11 @@
             "31. Unfavorably review the guy's debut of Showboat ~ HISS ~ HIS-S"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1994-06-01",
@@ -9790,6 +10565,8 @@
           "DENT|O|C|WATTAGE",
           "ORGANELLE|HISS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SENATORIAL|ADO",
           "ANATOMIC|PACER",
@@ -9805,8 +10582,23 @@
           "LANAI|NOTHINGS",
           "SPA|REGNANCIES"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -9864,10 +10656,12 @@
             "11. Desires income after the Fourth of July ~ YEARNINGS ~ SOL"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9880,10 +10674,12 @@
             "9. Unknown quantity is following a line on a graph ~ AXIS ~ SOL"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -9913,10 +10709,12 @@
             "x. Piquant radish originally planted in a region of France ~ SAVORY ~ SOL"
           ],
           "name": "Marginal",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1994-07-01",
@@ -9937,6 +10735,8 @@
           "IGLOOS|ARSENIO",
           "#|N|#|G|#|E|#|O|#|F|#|C|#"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "#|T|#|H|#|E|#|F|#|R|#|I|#",
           "SAVORY|FOREIGN",
@@ -9952,15 +10752,9 @@
           "UPBRAID|EXOTIC",
           "#|O|#|I|#|C|#|S|#|N|#|O|#"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -10049,10 +10843,12 @@
             "37. Thousands collecting train sets ~ GELS ~ GELS"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -10078,10 +10874,12 @@
             "30. Road by side of lake in moonshine ~ DRIVEL|DR4EL ~ DRIVEL"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1994-09-01",
@@ -10101,6 +10899,8 @@
           "L4EWIRE|R|DR4EL",
           "LEDON|Y|OYSTERS"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SATE|T|PARNELL",
           "TRALEE|D4IS4E",
@@ -10116,8 +10916,23 @@
           "CAPT4E|REV4ER",
           "ORPHEUS|S|GELS"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -10200,10 +11015,12 @@
             "I. I left a Spielberg movie, taking drive-in's rear entrance ~ INLET|ILNET ~ INLET"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -10227,10 +11044,12 @@
             "18. Excellent punishment ~ FINE ~ FINE"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1994-12-01",
@@ -10249,6 +11068,8 @@
           "_SEED__VATICAN_",
           "________KILLY__"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "__FADHDIS__",
           "_CIROAIOUS_",
@@ -10266,15 +11087,9 @@
           "_RMADAAINN_",
           "__BLAYRNE__"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____#_____",
           "_____#_____",
@@ -10717,9 +11532,11 @@
             "22. Fifty parts fill agenda ~ ANS ~ SOL"
           ],
           "name": "Clues",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "1997-05-01",
@@ -10740,6 +11557,8 @@
           ".DENIMSSLATE.",
           "_..E....Y.O._"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "_..L.E....B._",
           ".FLEWMAJORED.",
@@ -10755,8 +11574,23 @@
           ".DITTOREDONE.",
           "_.T....D.N.._"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________",
+          "_____________"
         ],
         "styles": {}
       },
@@ -10865,9 +11699,11 @@
             "19. CLUE ~ ENESEE ~ SOLUTION"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": false,
-          "show_grid_labels": false
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": false,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -10889,48 +11725,68 @@
             "16. CLUE ~ ITLAMPATE ~ SOLUTION"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": false,
-          "show_grid_labels": false
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": false,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "1997-10-01",
       "editor": "",
       "grid": {
         "columns": [
-          "______|S_______",
-          "_____|PARAKEETS",
-          "____|RIRUG|UNJUT",
-          "___|CUSTOOL|E|A|M|U",
-          "__|H|H|M|R|R|ROOTCAP",
-          "_|BEEBEE|P|N|O|S|K|N|I",
+          "______S_______",
+          "_____PARAKEETS",
+          "____RIRUG|UNJUT",
+          "___CUSTOOL|E|A|M|U",
+          "__H|H|M|R|R|ROOTCAP",
+          "_BEEBEE|P|N|O|S|K|N|I",
           "MESSAG|WHSKERED",
           "EDITOR|MASOFATE",
-          "_|ROOTER|N|C|U|C|B|P|N",
-          "__|D|O|H|T|I|SHTABLE",
-          "___|NEMESIS|N|I|A|S",
-          "____|ROSIN|RATIE",
-          "_____|ITLAMPATE",
-          "______|S_______"
+          "_ROOTER|N|C|U|C|B|P|N",
+          "__D|O|H|T|I|SHTABLE",
+          "___NEMESIS|N|I|A|S",
+          "____ROSIN|RATIE",
+          "_____ITLAMPATE",
+          "______S_______"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
-          "______|M|E______",
-          "_____|BEDR_____",
-          "____|HESIOD____",
-          "___|CHESTOON___",
-          "__|RUMBA|OTHER__",
-          "_|P|I|S|REGRET|M|O|I_",
+          "______M|E______",
+          "_____BEDR_____",
+          "____HESIOD____",
+          "___CHESTOON___",
+          "__RUMBA|OTHER__",
+          "_P|I|S|REGRET|M|O|I_",
           "SARTRE|W|M|RIESTS",
-          "_|R|U|O|RPHANS|S|I|L_",
-          "_|AGOONS|SCHINA_",
-          "_|K|U|LOOKOUTS|R|M_",
-          "_|ENETS|E|F|CANAP_",
-          "_|E|JACKRABBIT|A_",
-          "_|TUMAN|E|T|PLAIT_",
-          "_|STUPID|ENESEE_"
+          "_R|U|O|RPHANS|S|I|L_",
+          "_AGOONS|SCHINA_",
+          "_K|U|LOOKOUTS|R|M_",
+          "_ENETS|E|F|CANAP_",
+          "_E|JACKRABBIT|A_",
+          "_TUMAN|E|T|PLAIT_",
+          "_STUPID|ENESEE_"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________",
+          "______________"
         ],
         "styles": {}
       },
@@ -11793,9 +12649,11 @@
             "36. Absolute ruler\u2019s point about unusual power ~ DESPOT ~ SOLUTION"
           ],
           "name": "Across ~ no-enumerations",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -11821,49 +12679,69 @@
             "31. Blank volume and document containing cipher ~ VOID ~ SOLUTION"
           ],
           "name": "Down ~ no-enumerations",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2003-10-01",
       "editor": "",
       "grid": {
         "columns": [
-          "______|S|_______",
-          "_____|CHRONICLE",
-          "____|BEA|U|VIOLIN",
-          "___|TOLD|SEBEEN|T",
-          "__|HOBBY|H|N|SLACE",
-          "_|P|E|C|L|A|C|TIT|O|R|H|E",
+          "______S_______",
+          "_____CHRONICLE",
+          "____BEA|U|VIOLIN",
+          "___TOLD|SEBEEN|T",
+          "__HOBBY|H|N|SLACE",
+          "_P|E|C|L|A|C|TIT|O|R|H|E",
           "BOROUGH|HLZ|WHAL",
           "TEMPERA|EIO|EARN",
           "BRIEFER|TGN|VOID",
-          "_|Y|T|R|I|F|A|WHE|E|M|O|E",
-          "__|SONIC|C|C|PLATS",
-          "___|LENT|OURING|P",
-          "____|ODE|R|BERLIO",
-          "_____|BROADCAST",
-          "______|S|_______"
+          "_Y|T|R|I|F|A|WHE|E|M|O|E",
+          "__SONIC|C|C|PLATS",
+          "___LENT|OURING|P",
+          "____ODE|R|BERLIO",
+          "_____BROADCAST",
+          "______S_______"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
-          "______|B|T|B______",
-          "_____|POERY_____",
-          "____|HERMITS____",
-          "___|TOCOPEROL___",
-          "__|B|O|BLUEFIN|E|O__",
-          "_|C|ELBA|G|R|E|FIND|B_",
+          "______B|T|B______",
+          "_____POERY_____",
+          "____HERMITS____",
+          "___TOCOPEROL___",
+          "__B|O|BLUEFIN|E|O__",
+          "_C|ELBA|G|R|E|FIND|B_",
           "SHADYCHARACTERS",
-          "_|RUSH|THETW|CORO_",
-          "_|OVEN|ILIGH|CUBA_",
-          "_|NIBS|TZONE|PRED_",
-          "_|I|O|E|LOWEVEL|I|R|C|_",
-          "_|CLEAR|H|A|O|MANLA_",
-          "_|L|I|N|CHARIOT|G|I|S|_",
-          "_|ENTEEL|N|DESPOT_"
+          "_RUSH|THETW|CORO_",
+          "_OVEN|ILIGH|CUBA_",
+          "_NIBS|TZONE|PRED_",
+          "_I|O|E|LOWEVEL|I|R|C_",
+          "_CLEAR|H|A|O|MANLA_",
+          "_L|I|N|CHARIOT|G|I|S_",
+          "_ENTEEL|N|DESPOT_"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________",
+          "_______________"
         ],
         "styles": {}
       },
@@ -12048,9 +12926,11 @@
             "41. Brine and sweat are different ~ ANS ~ SOL"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -12075,9 +12955,11 @@
             "34. Chief of mountain tribe in Colorado (that's not saying much) ~ ANS ~ SOL"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2004-10-01",
@@ -12098,6 +12980,8 @@
           "O|D|O|ALOUETTE|I|E",
           "RING|SNORKELER"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "DILEMMAS|ARBOR",
           "REAREND|I|HEIDI",
@@ -12113,6 +12997,9 @@
           "ORBED|A|TOOTSIE",
           "MISDO|SEAWATER"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____####_____",
           "___##________",
@@ -12805,9 +13692,11 @@
             "40. Advantage held by landed gentry ~ EDGE ~ EDGE (hid.)"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -12832,9 +13721,11 @@
             "31. Fire up small puff of pot ~ STOXE ~ S + TOKE"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2010-02-13",
@@ -12855,6 +13746,8 @@
           "EASXL|SINKING",
           "SPRINT|POUNCE"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CIRCLE|E|SOEVES",
           "UNDO|AGLOW|XWAP",
@@ -12869,6 +13762,9 @@
           "N|R|IRONOXIDE|N|C",
           "TEAR|OGREE|EDGE"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -13027,10 +13923,12 @@
             "10. Start to read a gauge with centrifugal lines ~ RADIAL ~ R + A + DIAL"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -13041,10 +13939,12 @@
             "7. Drape in front of a restricted airport building ~ HANGAR ~ HANG + A + R"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -13074,10 +13974,12 @@
             "x. Uncle Sam required info for voting application ~ USAGE ~ US + AGE"
           ],
           "name": "Outsiders",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "2010-09-25",
@@ -13098,6 +14000,8 @@
           "ARCADES|TOMATO",
           "_E_U_R_O_P_E_"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "_C_A_N_A_D_A_",
           "ROUNDUP|SQUIRE",
@@ -13113,15 +14017,9 @@
           "AIRGUN|MEDIATE",
           "_M_E_X_I_C_O_"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -13321,10 +14219,12 @@
             "9|d. Old Mexican\u2019s spoken as PC expert ~ AZTEC ~ AZTEC"
           ],
           "name": "Clues",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2011-07-16",
@@ -13332,10 +14232,10 @@
       "grid": {
         "columns": [
           "______DEBRIS_",
-          "OTTAWA|INJECT",
-          "O|O|BLIZZARDS|A",
-          "LOESS|T|Z|M|QUAY",
-          "O|T|A|O|H|EYED|B|X|O",
+          "OTTAWA|INJECT_",
+          "O|O|BLIZZARDS|A_",
+          "LOESS|T|Z|M|QUAY_",
+          "O|T|A|O|H|EYED|B|X|O_",
           "NORDIC#LEMON_",
           "GOFOR###ASPIN",
           "_PROEM#BRAHMA",
@@ -13345,6 +14245,8 @@
           "_ATWILL|DOSIDO",
           "_TINSEL______"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "_OOLONG______",
           "_TOOTOO|POKEAT",
@@ -13354,33 +14256,15 @@
           "_AZTEC#MINGLE",
           "DIZZY###SPELL",
           "ENAMEL#BOARD_",
-          "B|J|R|Q|D|EARN|C|I|O",
-          "REDUB|M|S|A|TONS",
-          "I|C|SAXOPHONE|I",
-          "STAYON|IMAGED",
+          "B|J|R|Q|D|EARN|C|I|O_",
+          "REDUB|M|S|A|TONS_",
+          "I|C|SAXOPHONE|I_",
+          "STAYON|IMAGED_",
           "______NAVAJO_"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          "______#______",
-          "______#______",
-          "______#______",
-          "______#______",
-          "______#______",
-          "_____________",
-          "#####___#####",
-          "_____________",
-          "______#______",
-          "______#______",
-          "______#______",
-          "______#______",
-          "______#______"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "______#______",
           "______#______",
@@ -13511,10 +14395,12 @@
             "17. Parisian address for a woman brought home around morning ~ MADAME ~ MAD(AM)E"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -13527,10 +14413,12 @@
             "12. Heard group on a field form a swarm ~ TEEM ~ TEEM (\"team\" hom.)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -13551,10 +14439,12 @@
             "o. Sent Mom one type of bulb ~ MAILED ~ MAILED"
           ],
           "name": "X's",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -13573,10 +14463,12 @@
             "m. Seats of power abandoned by nation\u2019s premier in upheaval ~ THROES ~ THROwES"
           ],
           "name": "O's",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "2011-12-31",
@@ -13597,6 +14489,8 @@
           "S|T|BADGER|O|TEEM",
           "MOUSSE|ELNORTE"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "STROPS|SARCASM",
           "LEMMON|E|LEANTO",
@@ -13612,27 +14506,9 @@
           "AMULET|E|CHALET",
           "SATIRES|MADAME"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          "_____________",
-          "___X_____X___",
-          "_____________",
-          "_____X_X_____",
-          "__X_______X__",
-          "X___X_X_X___X",
-          "_____________",
-          "O___OOOOO___O",
-          "______O______",
-          "___O_____O___",
-          "_____________",
-          "______O______",
-          "_____________"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "___X_____X___",
@@ -14287,10 +15163,12 @@
             "22. King misplaced an ark in temple site ~ KARNAK ~ K + ARNAK (\"an ark\" anag.)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -14305,10 +15183,12 @@
             "14. Extra stuff including piece of rope ~ FRILL ~ F(R)ILL"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -14324,10 +15204,12 @@
             "j. Auto loan reminder snagging buyer\u2019s initial big bucks? ~ CARIBOU|CARIB ~ CAR + I(B)OU"
           ],
           "name": "Projectors",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         }
       ],
       "date": "2015-10-10",
@@ -14349,6 +15231,8 @@
           "____WAKE|SPOOK",
           "_____D_______"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "_____A|B|C|A_____",
           "____AFRAME____",
@@ -14364,15 +15248,9 @@
           "_TOSS|LEON|MOJO_",
           "_EXTOLS|KARNAK_"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          ""
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "______________",
           "______________",
@@ -15226,9 +16104,11 @@
             "28. General gets really sick of boy at a baptism ~ GODSON ~ G + OD\u2019S ON"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -15254,9 +16134,11 @@
             "24. Completes first of four problems ~ FILLS ~ F + ILLS"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2020-10-10",
@@ -15276,9 +16158,11 @@
           "I|R|O|ARTHRITIS|O",
           "CARIES|LEXICON"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "BOARDS|RUSTIC",
-          "A|M||L|E|REACTOR|A",
+          "A|M|L|E|REACTOR|A",
           "SILVER|MIRROR",
           "SNEER|S|E|E|I|U|A|I",
           "SUNSHINE|FIRE",
@@ -15291,6 +16175,9 @@
           "E|RESPOND|E|L|S|O",
           "SISKIN|GODSON"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "____________",
           "____________",
@@ -15771,9 +16658,11 @@
             "33. Misplaced cart at the back of that ward ~ DRAW|ATTRACT ~ ATTRAC + T (<i>cart at</i> anag.) [draw]"
           ],
           "name": "Across",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -15797,9 +16686,11 @@
             "28. Horn carried around by panelist ~ HORNE|LENA ~ LENA (hidden rev.) [horne]"
           ],
           "name": "Down",
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2023-06-03",
@@ -15819,6 +16710,8 @@
           "DISASTERS|M|C|C",
           "SPOTTED|TENET"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "REPEATS|BEADS",
           "ABANDONED|F|I|P",
@@ -15833,8 +16726,22 @@
           "E|C|R|UTTERANCE",
           "PESTO|ATTRACT"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -15889,10 +16796,12 @@
             "m. \u201cSex\u201d: an Agee novel ~ AEGEAN ~ AEGEAN (anag.) [sea]"
           ],
           "name": "Misprints",
-          "reverse_grid_entries": false,
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": false
+          }
         },
         {
           "clues": [
@@ -15911,10 +16820,12 @@
             "25. Writer of poems changed sale date ~ TEASDALE ~ TEASDALE (anag.)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -15932,10 +16843,12 @@
             "18. Equip Prague with new engineering ~ GEAR UP ~ GEAR UP (anag.)"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2023-07-01",
@@ -15955,6 +16868,8 @@
           "ADEN|TRAINS|E|N",
           "SOLOS|ANNETTE"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "PIGS|HATTERAS",
           "O|HITACHI|LIDO",
@@ -15969,26 +16884,9 @@
           "HIDE|EXECUTE|T",
           "TEASDALE|PINE"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          "______#_____",
-          "#___________",
-          "____________",
-          "___#_______#",
-          "____________",
-          "____#____#_#",
-          "___#________",
-          "_______#____",
-          "#___________",
-          "____________",
-          "_______#____",
-          "__#___#_____"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "______#_____",
           "#___________",
@@ -16007,24 +16905,6 @@
           "#": {
             "fill": "lightblue",
             "shape": "circle"
-          },
-          ".": {
-            "background-color": "white",
-            "fill": "black",
-            "shape": "bullet"
-          },
-          "@": {
-            "background-color": "lightgrey",
-            "fill": "lightgrey",
-            "shape": "circle"
-          },
-          "O": {
-            "shape": "circle",
-            "stroke": "grey"
-          },
-          "X": {
-            "shape": "x",
-            "stroke": "grey"
           }
         }
       },
@@ -16086,9 +16966,11 @@
             "35. Hear about old sad story ~ TRAGEDY ~ TR(AGED)Y"
           ],
           "name": "Across ~ no-enumerations",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -16114,9 +16996,11 @@
             "28. Tavern fixture? Very true ~ SOT|SCOT ~ SO + T"
           ],
           "name": "Down ~ no-enumerations",
-          "show_enumerations": "none",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "show_enumerations": "none",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2023-07-29",
@@ -16136,6 +17020,8 @@
           "ORPHEAN|ALOUD",
           "POSER|L|BRAWNY"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "CHORALE|STROP",
           "ROVING|DINERO",
@@ -16150,8 +17036,22 @@
           "TROPIC|AIRGUN",
           "ASTRO|TRAGEDY"
         ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
-          ""
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________",
+          "____________"
         ],
         "styles": {}
       },
@@ -16213,10 +17113,12 @@
             "34. Keep the Cuban-style time ~ LAST ~ LAS + T"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -16240,10 +17142,12 @@
             "27. Celebrity tour missing our launch ~ START ~ STAR + T"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2023-08-26",
@@ -16263,6 +17167,8 @@
           "TIDES|PEONIES",
           "SLEETED|START"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "ARUM|FIREANTS",
           "PATOIS|O|AVAIL",
@@ -16277,26 +17183,9 @@
           "INEPT|A|IMAGER",
           "CARVINGS|LAST"
         ],
-        "solution_columns": [
-          ""
-        ],
-        "solution_rows": [
-          ""
-        ],
-        "solution_style": [
-          "_____#___#__",
-          "_____#______",
-          "#_________#_",
-          "____________",
-          "______#_____",
-          "_______#____",
-          "_#__________",
-          "________#___",
-          "_________#__",
-          "______#_____",
-          "#___________",
-          "_____##_____"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____#___#__",
           "_____#______",
@@ -16315,28 +17204,6 @@
           "#": {
             "background-color": "lightgreen",
             "shape": "shadesquare"
-          },
-          ".": {
-            "background-color": "white",
-            "fill": "black",
-            "shape": "bullet"
-          },
-          "@": {
-            "background-color": "white",
-            "fill": "lightgrey",
-            "shape": "circle"
-          },
-          "O": {
-            "background-color": "white",
-            "shape": "circle",
-            "stroke": "lightgrey",
-            "stroke-width": 2
-          },
-          "X": {
-            "background-color": "white",
-            "shape": "x",
-            "stroke": "lightgrey",
-            "stroke-width": 2
           }
         }
       },
@@ -16395,10 +17262,12 @@
             "35. Eerie settings as scene shifts ~ SEANCES ~ SEANCES (\"as scene\" anag.)"
           ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
           "clues": [
@@ -16424,10 +17293,12 @@
             "31. Somewhat anticlimactic release of 1998 ~ IMAC ~ anticliMACtic"
           ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": true
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2023-09-23",
@@ -16448,6 +17319,8 @@
           "NEAR|CHOCOLATE",
           "TRUSSED|E|RITES"
         ],
+        "entry_columns": [],
+        "entry_rows": [],
         "rows": [
           "SPECTER|CLIENT",
           "ARCHER|POINTER",
@@ -16463,51 +17336,9 @@
           "TESTRUN|CURATE",
           "ESTHER|SEANCES"
         ],
-        "solution_columns": [
-          "SAFER|I|ACETATE",
-          "PROFUSION|RYES",
-          "ECRU|G|LOUSIEST",
-          "CHARRED|R|PLATH",
-          "T|E|G|A|ACUTE|ACRE",
-          "ERECT|A|CENTAUR",
-          "R|PROCRUSTEAN|S",
-          "COGNATE|A|TRUCE",
-          "LIST|NOONE|A|T|U|A",
-          "INLET|U|FORLORN",
-          "ETRUSCAN|R|IMAC",
-          "NEAR|CHOCOLATE",
-          "TRUSSED|E|RITES"
-        ],
-        "solution_rows": [
-          "SPECTER|CLIENT",
-          "ARCHER|POINTER",
-          "FORAGER|G|S|L|R|A|U",
-          "E|F|U|RACONTEURS",
-          "RUGRAT|CANTS|C|S",
-          "ISLE|CARTOUCHE",
-          "A|I|O|D|U|CUE|O|F|A|O|D",
-          "COURTESAN|ONCE",
-          "E|N|SPENT|TERROR",
-          "TRILATERAL|I|L|I",
-          "A|Y|E|A|C|A|AUTOMAT",
-          "TESTRUN|CURATE",
-          "ESTHER|SEANCES"
-        ],
-        "solution_style": [
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________",
-          "_____________"
-        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [],
         "style": [
           "_____________",
           "_____________",
@@ -16523,29 +17354,7 @@
           "_____________",
           "_____________"
         ],
-        "styles": {
-          "#": {
-            "background-color": "lightgrey"
-          },
-          ".": {
-            "background-color": "white",
-            "fill": "black",
-            "shape": "bullet"
-          },
-          "@": {
-            "background-color": "lightgrey",
-            "fill": "lightgrey",
-            "shape": "circle"
-          },
-          "O": {
-            "shape": "circle",
-            "stroke": "grey"
-          },
-          "X": {
-            "shape": "x",
-            "stroke": "grey"
-          }
-        }
+        "styles": {}
       },
       "id": "KyVXcYUEBfePYMNND30P",
       "instructions": "In a \u201cshakedown,\u201d a word is both\r\nshaken and downsized\u2014that is, it\r\ngets anagrammed repeatedly with\r\na letter dropped at each step. For\r\nexample: ALTERING, GRANITE,\r\nRETINA, IRATE, RITE, TIE, IT, I. This\r\npuzzle\u2019s nine unclued answers form\r\na similar sequence of words shaken\r\ndown from eleven letters to the\r\nthree-letter one spelled out in the\r\nmiddle of the grid. At least one\r\nword along the way is capitalized.",
@@ -16592,30 +17401,223 @@
       "author": "Emily Cox and Henry Rathvon",
       "clue_groups": [
         {
-          "clues": [],
+          "clues": [
+            "1. Cool place in Moab transformed ~ APLOMB ~ A(PL)OMB (\"Moab\" anag.)",
+            "6. Marine arms foremost of jurors riding in American cars ~ FJORDS ~ F(J)ORDS",
+            "11. Faux fur wrapped around French sea monster ~ CHIMERA ~ CHI(MER)A",
+            "12. Group of stars recalled kind of film Oscar ~ ORION ~ O + RION (rev.)",
+            "13. Correctly enunciated liturgy ~ RITE ~ RITE (\"right\" hom.)",
+            "14. Pass a soft drink ~ COLA ~ COL + A",
+            "15. Close family\u2019s opening hip beer ~ FINALE ~ F + IN + ALE",
+            "16. Whammed into back of bus and eighteen-wheeler, maybe ~ STRUCK ~ S + TRUCK",
+            "17. Extremely zany style of the 1920s music with washboards ~ ZYDECO ~ ZanY + DECO",
+            "23. Fanatic maintains Republican connection ~ FRIEND ~ F(R)IEND",
+            "25. Ibsen play suitable for all multitudes ~ GHOSTS ~ G + HOSTS",
+            "29. No place for men around Latin neighborhood in NYC ~ HARLEM ~ HAR(L)EM",
+            "31. 2017 hurricane passing through infirmary ~ IRMA ~ IRMA (hid.)",
+            "32. A republic for each one of us ~ PERU ~ PER + U",
+            "33. Italian town processed anise ~ SIENA ~ SIENA (anag.)",
+            "34. Spotted fruit eaten by two daughters ~ DAPPLED ~ D(APPLE) + D",
+            "35. Name Baroque composer aloud ~ HANDLE ~ HANDLE (\"Handel\" hom.)",
+            "36. Cap right inside A.1. sauce ~ TAMARI ~ TAM + A(R)I"
+          ],
           "name": "Across",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         },
         {
-          "clues": [],
+          "clues": [
+            "1. Mars possesses cold stretches of land ~ ACRES ~ A(C)RES",
+            "2. Using your mouth, strain the impurities out of love potion ~ PHILTER ~ PHILTER (\"filter\" hom.)",
+            "3. Gas unit illuminated well ~ LITER ~ LIT + ER",
+            "4. A collection of states\u2014eleven between Maine and Colorado ~ MEXICO ~ ME(XI) + CO",
+            "5. Where to skate following blade\u2019s front edge ~ BRINK ~ B + RINK",
+            "6. Some kind of bean inside of a vat ~ FAVA ~ FAVA (hid.)",
+            "7. Jay resembling a nocturnal bird with wattles, say ~ JOWLY ~ J + OWLY",
+            "8. Mad editor went wild ~ RIOTED ~ RIOTED (anag.)",
+            "9. Carry out fifty-pound toy ~ DOLL ~ DO + L + L",
+            "10. Attachable fleece feature pocketed by boy ~ SNAP-ON|SNAPON ~ S(NAP)ON",
+            "15. Join failing operation ~ FUSE ~ F + USE",
+            "18. Ruin both sides of dorm room ~ DOOM ~ DOrm roOM",
+            "19. Figure at a party rearranged terrace ~ CATERER ~ CATERER (anag.)",
+            "20. Not very congenial when it comes to schoolmates? ~ OFFISH ~ OF + FISH",
+            "21. Guys in planes remain flying ~ AIRMEN ~ AIRMEN (anag.)",
+            "22. Health club admitting that female guide ~ SHERPA ~ S(HER)PA",
+            "24. Some tuna salad in your nose? ~ NASAL ~ NASAL (hid.)",
+            "25. Attack captures large crow ~ GLOAT ~ G(L)OAT",
+            "26. Carved slab least damaged ~ STELA ~ STELA (anag.)",
+            "27. Small German car of Arabian provenance ~ SAUDI ~ S + AUDI",
+            "28. A couple of ringtones with a melody ~ ARIA ~ A + RI + A",
+            "30. Like a bad tourist down in Parisian street ~ RUDE ~ RU(D)E"
+          ],
           "name": "Down",
-          "reverse_grid_entries": false,
-          "show_enumerations": "answers",
-          "show_grid_entries": true,
-          "show_grid_labels": false
+          "settings": {
+            "reverse_grid_entries": false,
+            "show_enumerations": "answers",
+            "show_grid_entries": true,
+            "show_grid_labels": true
+          }
         }
       ],
       "date": "2023-10-21",
       "editor": "",
       "grid": {
         "columns": [
-          "_"
+          "ACRES|OFFISH",
+          "PHILTER|ARIA",
+          "LITER|AIRMEN",
+          "O|M|E|FUSE|H|A|N|D",
+          "MEXICO|NASAL",
+          "BRINK|P|D|RUDE",
+          "FAVA|Z|Q|GLOAT",
+          "JOWLY|SHERPA",
+          "O|R|C|E|DOOM|P|P|M",
+          "RIOTED|STELA",
+          "DOLL|CATERER",
+          "SNAPON|SAUDI"
+        ],
+        "entry_columns": [],
+        "entry_rows": [],
+        "rows": [
+          "APLOMB|FJORDS",
+          "CHIMERA|ORION",
+          "RITE|X|I|V|W|COLA",
+          "E|L|E|FINALE|T|L|P",
+          "STRUCK|ZYDECO",
+          "O|E|A|S|O|PQ|S|O|D|A|N",
+          "FRIEND|GHOSTS",
+          "F|A|R|HARLEM|T|E|A",
+          "IRMA|S|U|O|R|PERU",
+          "SIENA|DAPPLED",
+          "HANDLE|TAMARI"
+        ],
+        "solution_columns": [],
+        "solution_rows": [],
+        "solution_style": [
+          "____####__X_",
+          "__________X_",
+          "____####__X_",
+          "__________X_",
+          "____####____",
+          "_____XX_____",
+          "____####____",
+          "____________",
+          "____####____",
+          "____________",
+          "____####____"
+        ],
+        "style": [
+          "____####____",
+          "____________",
+          "____####____",
+          "____________",
+          "____####____",
+          "____________",
+          "____####____",
+          "____________",
+          "____####____",
+          "____________",
+          "____####____"
+        ],
+        "styles": {
+          "#": {
+            "background-color": "#DCCDE1"
+          },
+          "X": {
+            "background-color": "#D9EEFA"
+          }
+        }
+      },
+      "id": "WeRn6TzHYicpkYX8Q8ve",
+      "instructions": "This puzzle represents a carnival booth where players throw balls at rows of blocks. Solvers act as players by lobbing answer letters into the grid, scoring \u201chits\u201d in the shaded blocks. Once all 24 of those blocks have been hit (i.e., filled with letters), add the last two letters to the center of the grid so as to match up with a certain clue answer elsewhere in the grid. Together they\u2019ll tell you what prize you\u2019ve won.",
+      "issue": "",
+      "number": null,
+      "publication": "The Wall Street Journal",
+      "settings": {
+        "show_grid_border": true,
+        "show_grid_lines": true,
+        "status": "published"
+      },
+      "solution": "\u201cHits\u201d in the grid include every letter of the alphabet except Q-P. When paired with \u201cdoll\u201d and said aloud, you get a \u201ckewpie doll\u201d (a classic carnival prize).",
+      "title": "Carnival Booth",
+      "unclued": [
+        "PQ"
+      ]
+    },
+    "id": "WeRn6TzHYicpkYX8Q8ve",
+    "issue": "",
+    "month": 10,
+    "number": "179",
+    "publication": "wsj",
+    "title": "Carnival Booth",
+    "year": 2023
+  },
+  {
+    "date": "2023-11-17",
+    "day": 17,
+    "hexgrid": null,
+    "id": "TRiQen5viSb6iuQo9HBR",
+    "issue": "",
+    "month": 11,
+    "number": "180",
+    "publication": "wsj",
+    "title": "Mix and Match",
+    "year": 2023
+  },
+  {
+    "date": "2023-12-16",
+    "day": 16,
+    "hexgrid": {
+      "author": "Emily Cox and Henry Rathvon",
+      "clue_groups": [
+        {
+          "clues": [
+            "1 La Salle\u2019s source in Eastern cape ~ ANS ~ SOL",
+            "6 Move music tally ~ ANS ~ SOL",
+            "10 Hat owned by a single gangster ~ ANS ~ SOL",
+            "11 Ill-natured aid isn\u2019t able to moor our ship? ~ ANS ~ SOL",
+            "12 Write mall amount\u2014five figures? ~ ANS ~ SOL",
+            "13 Erratically dug thin part of a tract ~ ANS ~ SOL",
+            "14 A tax deposit studied by Darwin ~ ANS ~ SOL",
+            "15 Pain-relieving product tossed in a can ~ ANS ~ SOL",
+            "18 Standardized texts liberal poets revised ~ ANS ~ SOL",
+            "19 Lieutenants catching northern Canadian cons ~ ANS ~ SOL",
+            "25 Ambiguous seer unraveled her peccadillo ~ ANS ~ SOL",
+            "26 Dim, second-rate king in a play ~ ANS ~ SOL",
+            "27 Un-moral alien? ~ ANS ~ SOL",
+            "28 Uranium buried in a neat courtyard ~ ANS ~ SOL",
+            "29 Making a hole smell bad ~ ANS ~ SOL",
+            "30 Moving as mature unpaid performers ~ ANS ~ SOL",
+            "31 Buzz finished rasping right ~ ANS ~ SOL",
+            "32 Spicy sandwiches left in a complicated mess ~ ANS ~ SOL"
+          ],
+          "name": "Across",
+          "reverse_grid_entries": false,
+          "show_enumerations": "answers",
+          "show_grid_entries": true,
+          "show_grid_labels": true
+        },
+        {
+          "clues": [],
+          "name": "Down",
+          "reverse_grid_entries": false,
+          "show_enumerations": "answers",
+          "show_grid_entries": false,
+          "show_grid_labels": false
+        }
+      ],
+      "date": "2023-12-16",
+      "editor": "",
+      "grid": {
+        "columns": [
+          ""
         ],
         "rows": [
-          "_"
+          ""
         ],
         "solution_columns": [
           ""
@@ -16624,61 +17626,39 @@
           ""
         ],
         "solution_style": [
-          "_"
+          ""
         ],
         "style": [
-          "_"
+          ""
         ],
-        "styles": {
-          "#": {
-            "background-color": "lightgrey"
-          },
-          ".": {
-            "background-color": "white",
-            "fill": "black",
-            "shape": "bullet"
-          },
-          "@": {
-            "background-color": "lightgrey",
-            "fill": "lightgrey",
-            "shape": "circle"
-          },
-          "O": {
-            "shape": "circle",
-            "stroke": "grey"
-          },
-          "X": {
-            "shape": "x",
-            "stroke": "grey"
-          }
-        }
+        "styles": {}
       },
-      "id": "WeRn6TzHYicpkYX8Q8ve",
-      "instructions": "",
+      "id": "xoOx3KL17IT3eFSBoGPA",
+      "instructions": "Ten different answers should be entered in the grid only after certain pieces have departed. Fourteen letters, one at a time, have already left the clues. Those letters, in order, tell you what we\u2019ll be doing as we take our bow.",
       "issue": "",
-      "number": null,
+      "number": 181,
       "publication": "The Wall Street Journal",
       "settings": {
-        "clue_columns": 2,
+        "clue_columns": 3,
         "show_enumerations": "answers",
         "show_grid_bars": "all",
-        "show_grid_border": false,
-        "show_grid_entries": false,
-        "show_grid_labels": false,
-        "show_grid_lines": false,
+        "show_grid_border": true,
+        "show_grid_entries": true,
+        "show_grid_labels": true,
+        "show_grid_lines": true,
         "show_starred_entries_in_grid": false,
         "status": "draft"
       },
       "solution": "",
-      "title": "Carnival Booth",
+      "title": "Departure",
       "unclued": []
     },
-    "id": "WeRn6TzHYicpkYX8Q8ve",
+    "id": "xoOx3KL17IT3eFSBoGPA",
     "issue": "",
-    "month": 10,
-    "number": "179",
+    "month": 12,
+    "number": "181",
     "publication": "wsj",
-    "title": "Carnival Booth",
+    "title": "Departure",
     "year": 2023
   }
 ]
