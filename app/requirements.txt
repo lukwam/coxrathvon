@@ -2,6 +2,6 @@ Flask==2.2.5
 google-cloud-firestore==2.11.1
 google-cloud-secret-manager
 google-cloud-storage==2.10.0
-gunicorn==20.1.0
+gunicorn==22.0.0
 puzzle @ git+https://github.com/lukwam/variety#subdirectory=puzzle
 pyyaml
