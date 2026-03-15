@@ -1,0 +1,66 @@
+{
+  "cSpell.words": [
+    "appengine",
+    "chall",
+    "coxrathvon",
+    "cryptics",
+    "djlint",
+    "firestore",
+    "gunicorn",
+    "hexgrid",
+    "hexgrids",
+    "isort",
+    "karlsson",
+    "lukas",
+    "lukwam",
+    "maltby",
+    "mypy",
+    "pycodestyle",
+    "pyflakes",
+    "pyproject",
+    "pytest",
+    "pyupgrade",
+    "pyyaml",
+    "rathvon",
+    "secretmanager",
+    "shellcheck",
+    "substack",
+    "venv"
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": { "editor.defaultFormatter": "monosans.djlint" },
+  "[jinja-html]": { "editor.defaultFormatter": "monosans.djlint" },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.rulers": [120],
+  "files.associations": { "app/templates/*.html": "jinja-html" }
+}

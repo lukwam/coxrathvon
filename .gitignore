@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+
+# Node (from prettier pre-commit hook)
+node_modules/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / service account keys
+etc/
+
+# Environment
+.env
+.env.local

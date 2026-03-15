@@ -1,5 +1,4 @@
 <h2 class="mb-3">Cryptic Puzzles by Emily Cox & Henry Rathvon</h2>
-
 <p>
   To see what happens to crossword writers when they retire from the Cryptic Factory, visit
   (and subscribe to!)
@@ -27,51 +26,63 @@
   on the cryptic form in their own styles, and we're grateful to devotees who are spreading the
   word via media whose existence we never dreamed of when we were getting started. Cheers!
 </p>
-<p>
-  —Emily Cox and Henry Rathvon (12/31/23)
-</p>
+<p>—Emily Cox and Henry Rathvon (12/31/23)</p>
 <p>
   P.S. Discussion about these and other cryptic crosswords take place here:
   <a href="https://www.facebook.com/groups/74989506065" target="_blank">https://www.facebook.com/groups/74989506065</a>.
 </p>
-
 <!-- Search -->
 <div class="input-group mb-3">
-  <input type="text" class="form-control" onKeyUp="searchPuzzles();" onFocus="this.select();" placeholder="Search titles"
-    id="search-query" aria-label="Search titles" aria-describedby="search-query-button">
+  <input type="text"
+         class="form-control"
+         onKeyUp="searchPuzzles();"
+         onFocus="this.select();"
+         placeholder="Search titles"
+         id="search-query"
+         aria-label="Search titles"
+         aria-describedby="search-query-button">
   <!-- <button class="btn btn-outline-secondary" type="button" id="search-query-button">Search</button> -->
 </div>
-
 <div id="puzzles" class="list-group mb-5">
   {% for puzzle in puzzles %}
-  <!-- Puzzle -->
-  <div id="puzzle-{{ puzzle.id }}" class="justify-content-start list-group-item">
-    <div class="row">
-
-      <!-- Puzzle Date -->
-      <div class="col col-sm-2 justify-content-start text-nowrap me-3" data-date="{{ puzzle.date }}">
-        <code class="">{{ puzzle.date }}</code>
-      </div>
-
-      <!-- Puzzle Title -->
-      <div class="col d-flex justify-content-start puzzle-title" data-title="{{ puzzle.title }}">
-        <a href="/puzzles/{{ puzzle.id }}">{{ puzzle.title }}</a>
-      </div>
-
-      <!-- Puzzle Publication -->
-      <div class="col d-flex justify-content-end" data-publication="{{ puzzle.publication }}">
-        <div>
-        {% if puzzle.publication == "atlantic" %}
-        <span class="badge rounded-pill bg-primary">{{ puzzle.publication }} #{{ puzzle.number }}</span>
-        {% else %}
-        <span class="badge rounded-pill bg-success">{{ puzzle.publication }} #{{ puzzle.number }}</span>
-        {% endif %}
+    <!-- Puzzle -->
+    <div id="puzzle-{{ puzzle.id }}"
+         class="justify-content-start list-group-item">
+      <div class="row">
+        <!-- Puzzle Date -->
+        <div class="col col-sm-2 justify-content-start text-nowrap me-3"
+             data-date="{{ puzzle.date }}">
+          <code>{{ puzzle.date }}</code>
+        </div>
+        <!-- Puzzle Title -->
+        <div class="col d-flex justify-content-start puzzle-title"
+             data-title="{{ puzzle.title }}">
+          <a href="/puzzles/{{ puzzle.id }}">{{ puzzle.title }}</a>
+        </div>
+        <!-- Puzzle Publication -->
+        <div class="col d-flex justify-content-end"
+             data-publication="{{ puzzle.publication }}">
+          <div>
+            {% if puzzle.publication == "atlantic" %}
+              <span class="badge rounded-pill bg-primary">{{ puzzle.publication }} #{{ puzzle.number }}</span>
+            {% else %}
+              <span class="badge rounded-pill bg-success">{{ puzzle.publication }} #{{ puzzle.number }}</span>
+            {% endif %}
+          </div>
         </div>
       </div>
-
-
     </div>
-
-  </div>
   {% endfor %}
 </div>
+<footer class="site-footer border-top mt-4 pt-4 pb-4 text-center">
+  <p class="footer-copyright mb-2">
+    &copy; {{ current_year }} Emily Cox and Henry Rathvon. All rights reserved.
+  </p>
+  <p class="footer-usage mb-2">
+    No content may be copied or disseminated on any media without prior written permission.
+    Puzzles may be copied or printed for personal use only but not for commercial purposes of any kind.
+  </p>
+  <p class="footer-credit mb-0">
+    Website designed and produced by <a href="https://github.com/lukwam" target="_blank" rel="noopener noreferrer">Lukas Karlsson</a>.
+  </p>
+</footer>

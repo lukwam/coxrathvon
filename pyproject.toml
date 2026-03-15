@@ -1,0 +1,66 @@
+[project]
+name = "coxrathvon"
+version = "1.0.0"
+description = "The official website of Emily Cox and Henry Rathvon, aka Hex."
+readme = "README.md"
+requires-python = ">=3.12.8"
+
+[tool.poetry]
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+Flask = "^2.2.5"
+google-cloud-firestore = "^2.11.1"
+google-cloud-secret-manager = "*"
+google-cloud-storage = "^2.10.0"
+gunicorn = "^23.0.0"
+puzzle = { git = "https://github.com/lukwam/variety.git", subdirectory = "puzzle" }
+python = "^3.12.8"
+pyyaml = "*"
+
+[tool.poetry.group.dev.dependencies]
+djlint = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+ruff = "*"
+types-Flask = "*"
+types-PyYAML = "*"
+
+[tool.djlint]
+profile = "jinja"
+max_line_length = 120
+ignore = "H006,H021,H023,H031,J018"
+
+[tool.mypy]
+python_version = "3.12"
+explicit_package_bases = true
+warn_return_any = true
+warn_unused_configs = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "UP", # pyupgrade
+]
+ignore = [
+    "E501", # line too long (handled by formatter)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["puzzle", "package"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

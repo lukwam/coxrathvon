@@ -1,24 +1,23 @@
 """CoxRathvon app."""
+
 import datetime
 import json
 import os
 import shutil
 
-from flask import Flask
-from flask import make_response
-from flask import redirect
-from flask import render_template
-from flask import request
-from flask import send_file
-
+from flask import Flask, make_response, redirect, render_template, request, send_file
+from google.cloud import firestore, secretmanager, storage
 from google.oauth2 import service_account
-from google.cloud import firestore
-from google.cloud import secretmanager
-from google.cloud import storage
 
 from puzzle import Puzzle
 
 app = Flask(__name__)
+
+
+@app.context_processor
+def inject_current_year():
+    """Inject the current year into all templates."""
+    return {"current_year": datetime.datetime.now().year}
 
 
 def generate_signed_url(bucket_name, object_name, credentials):
@@ -87,9 +86,7 @@ def get_secret(secret_name):
     """Get secret from the secret manager."""
     secret_manager = secretmanager.SecretManagerServiceClient()
     name = f"projects/{os.environ['GOOGLE_CLOUD_PROJECT']}/secrets/{secret_name}/versions/latest"
-    response = secret_manager.access_secret_version(
-        request={"name": name}
-    )
+    response = secret_manager.access_secret_version(request={"name": name})
     return response.payload.data.decode("UTF-8")
 
 
@@ -148,7 +145,7 @@ def admin():
 
 @app.route("/puzzles/<id>")
 def puzzle_page(id):
-    """Display an indidivual puzzle."""
+    """Display an individual puzzle."""
     puzzle = get_puzzle_by_id(id)
     if not puzzle:
         return redirect("/")
@@ -265,7 +262,7 @@ def puzzle_view(id):
 
 @app.route("/solutions/<id>")
 def solution(id):
-    """Display an indidivual puzzle solution."""
+    """Display an individual puzzle solution."""
     puzzle = get_puzzle_by_id(id)
     if not puzzle:
         return redirect("/")
@@ -287,6 +284,7 @@ def solution(id):
         image_url=image_url,
     )
     return render_theme(body, title=puzzle["title"])
+
 
 @app.route("/solutions/<id>/view")
 def solution_view(id):
@@ -360,10 +358,7 @@ def update():
 
     for item in get_collection("puzzles", project="lukwam-hex"):
         pub = item.get("pub")
-        if pub not in [
-            "atlantic",
-            "wsj"
-        ]:
+        if pub not in ["atlantic", "wsj"]:
             continue
         if pub == "atlantic":
             atlantic += 1
@@ -381,7 +376,7 @@ def update():
             "year": int(year),
             "month": int(month),
             "day": int(day),
-            "hexgrid": hexgrids.get(item["id"])
+            "hexgrid": hexgrids.get(item["id"]),
         }
         puzzles.append(puzzle)
 

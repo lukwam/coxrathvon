@@ -21,7 +21,7 @@
     {% for row in puzzle.grid.grid %}
     {%- for cell in row if cell.value %}
     <use id="svg-square-{{ cell.row }}-{{ cell.col }}" xlink:href="#svg-square" fill="{{ cell.styles }}"
-        data-col="{{ cell.col }}" data-row="{{ cell.row }}" x="{{ cell.col * 50 + 4}}" y="{{ cell.row * 50 + 4 }}" />
+        data-col="{{ cell.col }}" data-row="{{ cell.row }}" x="{{ cell.col * 50 + 4 }}" y="{{ cell.row * 50 + 4 }}" />
     {%- endfor %}
     {% endfor %}
   </g>
@@ -126,11 +126,11 @@
     {%- for cell in row if cell.right_border or cell.bottom_border %}
     {%- if cell.right_border %}
     <line id="svg-acrossborder-{{ cell.row }}-{{ cell.col }}" data-col="{{ cell.col }}" data-row="{{ cell.row }}"
-      x1="{{ cell.col * 50 + 54}}" y1="{{ cell.row * 50 + 2 }}" x2="{{ cell.col * 50 + 54 }}" y2="{{ cell.row * 50 + 56 }}" />
+      x1="{{ cell.col * 50 + 54 }}" y1="{{ cell.row * 50 + 2 }}" x2="{{ cell.col * 50 + 54 }}" y2="{{ cell.row * 50 + 56 }}" />
     {% endif %}
     {% if cell.bottom_border %}
     <line id="svg-downborder-{{ cell.row }}-{{ cell.col }}" data-col="{{ cell.col }}" data-row="{{ cell.row }}"
-      x1="{{ cell.col * 50 + 2}}" y1="{{ cell.row * 50 + 54 }}" x2="{{ cell.col * 50 + 56 }}" y2="{{ cell.row * 50 + 54 }}" />
+      x1="{{ cell.col * 50 + 2 }}" y1="{{ cell.row * 50 + 54 }}" x2="{{ cell.col * 50 + 56 }}" y2="{{ cell.row * 50 + 54 }}" />
     {%- endif %}
     {%- endfor %}
     {%- endfor %}
