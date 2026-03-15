@@ -1,74 +1,88 @@
+<div class="d-flex justify-content-between mb-2">
+    <a href="/" class="text-decoration-none">← Back to all puzzles</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0YHpiQzQgUOi3p1nn7e5b-RPfolkWPjQ_cBBO1nSK59kMzA/viewform?usp=pp_url&entry.1911874640={{ puzzle.title }} ({{ puzzle.date.strftime('%Y-%m-%d') }})" class="text-decoration-none text-muted small" target="_blank" rel="noopener noreferrer"><i class="bi bi-chat-dots"></i> Feedback</a>
+</div>
 <h1 class="display-4">{{ puzzle.title }}</h1>
-
 <em class="fs-4" style="font-family: times;">a cryptic puzzle by <b>Emily Cox & Henry Rathvon</b></em>
-
-<hr>
-
+<p class="text-muted mt-1 mb-3" style="font-size: small;">
+    <em>
+        {%- if puzzle.publication == "atlantic" %}
+            Originally published in the <b>{{ puzzle.issue }}</b> issue of
+            <b>The Atlantic</b>.
+        {%- elif puzzle.publication == "wsj" %}
+            Originally published in <b>The Wall Street Journal</b> on
+            <b>{{ puzzle.date.strftime("%A, %B %d, %Y") }}</b>.
+        {%- endif %}
+    </em>
+</p>
 <div class="mb-3">
-
     <!-- Puzzle Dropdown -->
     <div class="btn-group">
         <div class="dropdown">
-            <a class="btn btn-sm btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Puzzle
-            </a>
-
+            <a class="btn btn-sm btn-primary dropdown-toggle"
+               href="#"
+               role="button"
+               data-bs-toggle="dropdown"
+               aria-expanded="false">Puzzle</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/puzzles/{{ puzzle.id }}/pdf?download=true">Download PDF</a></li>
-                <li><a class="dropdown-item" href="/puzzles/{{ puzzle.id }}/pdf" target="_pdf">View PDF</a></li>
+                <li>
+                    <a class="dropdown-item"
+                       href="/puzzles/{{ puzzle.id }}/pdf?download=true">Download PDF</a>
+                </li>
+                <li>
+                    <a class="dropdown-item"
+                       href="/puzzles/{{ puzzle.id }}/pdf"
+                       target="_pdf">View PDF</a>
+                </li>
                 {% if puzzle.hexgrid and puzzle.hexgrid.settings.status == "published" -%}
-                <li><a class="dropdown-item" href="/puzzles/{{ puzzle.id }}/view">View Web</a></li>
+                    <li>
+                        <a class="dropdown-item" href="/puzzles/{{ puzzle.id }}/view">View Web</a>
+                    </li>
                 {%- endif %}
             </ul>
         </div>
     </div>
-
     {% if solution_url %}
-    <!-- Solution Button -->
-    <div class="btn-group">
-        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#solutionModal">
-            Solution
-        </button>
-    </div>
-
-    <!-- Solution Modal -->
-    <div class="modal fade" id="solutionModal" tabindex="-1" aria-labelledby="solutionModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="solutionModalLabel">Solution for {{ puzzle.title }}</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img src="{{ solution_url }}" class="border img-fluid mx-auto d-block" alt="">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- Solution Button -->
+        <div class="btn-group">
+            <button type="button"
+                    class="btn btn-sm btn-danger"
+                    data-bs-toggle="modal"
+                    data-bs-target="#solutionModal">Solution</button>
+        </div>
+        <!-- Solution Modal -->
+        <div class="modal fade"
+             id="solutionModal"
+             tabindex="-1"
+             aria-labelledby="solutionModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="solutionModalLabel">Solution for {{ puzzle.title }}</h1>
+                        <button type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="{{ solution_url }}"
+                             class="border img-fluid mx-auto d-block"
+                             alt="Solution for {{ puzzle.title }} by Emily Cox and Henry Rathvon">
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between align-items-center">
+                        <small class="text-muted">&copy; {{ current_year }} Emily Cox &amp; Henry Rathvon. All rights reserved.</small>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     {% endif %}
-
 </div>
-
 {% if image_url %}
-<img src="{{ image_url }}" class="border img-fluid mx-auto d-block" alt="">
+    <a href="{{ image_url }}" class="glightbox" data-gallery="puzzle" data-description="{{ puzzle.title }} — cryptic crossword puzzle by Emily Cox and Henry Rathvon">
+  <img src="{{ image_url }}" class="border img-fluid mx-auto d-block" alt="{{ puzzle.title }} — cryptic crossword puzzle by Emily Cox and Henry Rathvon" style="cursor: zoom-in;">
+</a>
 {% else %}
-<p>No image available.</p>
+    <p>No image available.</p>
 {% endif %}
-<hr>
-
-<!-- Copyright Notice -->
-Copyright &copy; {{ current_year }} - Emily Cox & Henry Rathvon</br>
-
-<!-- Original Publisher and Publish Date -->
-<p style="font-size: x-small;"><em>
-{%- if puzzle.publication == "atlantic" %}
-    Originally published in the <b>{{ puzzle.issue }}</b> issue of
-    <b>The Atlantic</b>.
-{%- elif puzzle.publication == "wsj" %}
-    Originally published in <b>The Wall Street Journal</b> on
-    <b>{{ puzzle.date.strftime("%A, %B %d, %Y") }}</b>.<br>
-{%- endif %}
-</em></p>

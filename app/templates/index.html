@@ -1,53 +1,50 @@
-<h2 class="mb-3">Cryptic Puzzles by Emily Cox & Henry Rathvon</h2>
-<p>
-  To see what happens to crossword writers when they retire from the Cryptic Factory, visit
-  (and subscribe to!)
-  <a href="https://intothewords.substack.com/" target="_blank">https://intothewords.substack.com/</a>, where
-  you can browse among HR's Science Sonnets, Food Poems, and Comedy Sketches (as posted by EC
-  after giving herself a crash course in Substack).
+<h4 class="mb-1">Cryptic Puzzles by Emily Cox &amp; Henry Rathvon</h4>
+<p class="text-muted mb-1">
+  Official archive of variety cryptic crosswords from
+  <em>The Atlantic</em> ({{ pub_ranges.atlantic.first }}–{{ pub_ranges.atlantic.last }}) and
+  <em>The Wall Street Journal</em> ({{ pub_ranges.wsj.first }}–{{ pub_ranges.wsj.last }}).
 </p>
-<p>
-  This site exists largely due to the patient encouragement of Dan Chall and Lukas Karlsson,
-  who expressed an interest in making our pre-computer and previously published Atlantic Monthly
-  and Wall Street Journal variety cryptics available to aficionados. By the time we retired
-  from our puzzle-writing labors in December of 2023, Lukas had managed to convert them all
-  to downloadable files, posting them here for solvers' personal use with our blessing.
-</p>
-<p>
-  We blush to admit that our first published puzzles, starting in September of 1977, were created
-  in a state of cheerful ignorance. With no tools fancier than pencils, graph paper, and a few
-  desktop reference books, we did our best to imitate the cryptic crosswords of Stephen Sondheim
-  and Richard Maltby from New York magazine; but our efforts were guided less by discipline than
-  by enthusiasm. While we feel apologetic about the messiness of our early work, we regard this
-  trove as a fossil record. Anyone crazy enough to solve all our puzzles in chronological order
-  will see an evolution in style, with the strict "no-connectors" philosophy of Fraser Simpson
-  becoming evident toward the end. In any case, we welcome you all. We thank Dan and Lukas for
-  their persistent dedication to this project, we salute today's creators who continue to expand
-  on the cryptic form in their own styles, and we're grateful to devotees who are spreading the
-  word via media whose existence we never dreamed of when we were getting started. Cheers!
-</p>
-<p>—Emily Cox and Henry Rathvon (12/31/23)</p>
-<p>
-  P.S. Discussion about these and other cryptic crosswords take place here:
-  <a href="https://www.facebook.com/groups/74989506065" target="_blank">https://www.facebook.com/groups/74989506065</a>.
-</p>
+<p class="mb-3"><a href="/about">Learn more →</a></p>
 <!-- Search -->
-<div class="input-group mb-3">
+<div class="input-group input-group-lg mb-3 search-box">
+  <span class="input-group-text bg-white border-end-0" id="search-icon">
+    <i class="bi bi-search text-muted"></i>
+  </span>
   <input type="text"
-         class="form-control"
+         class="form-control border-start-0"
          onKeyUp="searchPuzzles();"
          onFocus="this.select();"
-         placeholder="Search titles"
+         placeholder="Search puzzles by title, date, or publication..."
          id="search-query"
-         aria-label="Search titles"
-         aria-describedby="search-query-button">
-  <!-- <button class="btn btn-outline-secondary" type="button" id="search-query-button">Search</button> -->
+         aria-label="Search puzzles"
+         aria-describedby="search-icon">
+</div>
+<!-- Filters -->
+<div class="row mb-3">
+  <div class="col-auto">
+    <select id="filter-publication" class="form-select form-select-sm" onchange="filterPuzzles();">
+      <option value="">All Publications</option>
+      <option value="atlantic">The Atlantic</option>
+      <option value="wsj">The Wall Street Journal</option>
+    </select>
+  </div>
+  <div class="col-auto">
+    <select id="filter-year" class="form-select form-select-sm" onchange="filterPuzzles();">
+      <option value="">All Years</option>
+      {% for year in years %}
+      <option value="{{ year }}">{{ year }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="col-auto d-flex align-items-center">
+    <span id="filter-count" class="text-muted small"></span>
+  </div>
 </div>
 <div id="puzzles" class="list-group mb-5">
   {% for puzzle in puzzles %}
     <!-- Puzzle -->
     <div id="puzzle-{{ puzzle.id }}"
-         class="justify-content-start list-group-item">
+         class="justify-content-start list-group-item list-group-item-action position-relative">
       <div class="row">
         <!-- Puzzle Date -->
         <div class="col col-sm-2 justify-content-start text-nowrap me-3"
@@ -57,10 +54,11 @@
         <!-- Puzzle Title -->
         <div class="col d-flex justify-content-start puzzle-title"
              data-title="{{ puzzle.title }}">
-          <a href="/puzzles/{{ puzzle.id }}">{{ puzzle.title }}</a>
+          <a href="/puzzles/{{ puzzle.id }}" class="stretched-link text-decoration-none">{{ puzzle.title }}</a>
         </div>
         <!-- Puzzle Publication -->
-        <div class="col d-flex justify-content-end"
+        <div class="col d-flex justify-content-end position-relative"
+             style="z-index: 2;"
              data-publication="{{ puzzle.publication }}">
           <div>
             {% if puzzle.publication == "atlantic" %}
@@ -74,15 +72,3 @@
     </div>
   {% endfor %}
 </div>
-<footer class="site-footer border-top mt-4 pt-4 pb-4 text-center">
-  <p class="footer-copyright mb-2">
-    &copy; {{ current_year }} Emily Cox and Henry Rathvon. All rights reserved.
-  </p>
-  <p class="footer-usage mb-2">
-    No content may be copied or disseminated on any media without prior written permission.
-    Puzzles may be copied or printed for personal use only but not for commercial purposes of any kind.
-  </p>
-  <p class="footer-credit mb-0">
-    Website designed and produced by <a href="https://github.com/lukwam" target="_blank" rel="noopener noreferrer">Lukas Karlsson</a>.
-  </p>
-</footer>

@@ -1,7 +1,5 @@
-/* exported getPuzzlesByID, getPuzzlesByYear, loadPuzzles, searchPuzzles */
-const desc = false;
-const order = null;
-const query = null;
+/* global GLightbox */
+/* exported getPuzzlesByID, getPuzzlesByYear, loadPuzzles, searchPuzzles, filterPuzzles */
 
 // get a url via http
 function get(url) {
@@ -88,32 +86,67 @@ function loadPuzzles(data = null) {
   }
 }
 
-// search puzzles
-function searchPuzzles() {
-  const query = document.getElementById("search-query").value.toLowerCase();
-  console.log("Search query: " + query);
+// Combined filter: text search + publication dropdown + year dropdown
+function filterPuzzles() {
+  const queryEl = document.getElementById("search-query");
+  const pubEl = document.getElementById("filter-publication");
+  const yearEl = document.getElementById("filter-year");
+
+  const query = queryEl ? queryEl.value.toLowerCase() : "";
+  const pubFilter = pubEl ? pubEl.value : "";
+  const yearFilter = yearEl ? yearEl.value : "";
 
   const titles = document.getElementsByClassName("puzzle-title");
+  let visible = 0;
+  const total = titles.length;
+
   for (let i = 0; i < titles.length; i++) {
     const titleDiv = titles[i];
     const title = titleDiv.dataset.title;
     const date = titleDiv.previousElementSibling.dataset.date;
     const publication = titleDiv.nextElementSibling.dataset.publication;
+    const year = date.substring(0, 4);
     const puzzleDiv = titleDiv.parentElement.parentElement;
-    // display all puzzles if no query
-    if (!query) {
+
+    // Check all filters
+    const matchesQuery =
+      !query ||
+      title.toLowerCase().includes(query) ||
+      date.toLowerCase().includes(query) ||
+      publication.toLowerCase().includes(query);
+    const matchesPub = !pubFilter || publication === pubFilter;
+    const matchesYear = !yearFilter || year === yearFilter;
+
+    if (matchesQuery && matchesPub && matchesYear) {
       puzzleDiv.style.display = "block";
-      // display puzzles that match on title
-    } else if (title.toLowerCase().includes(query)) {
-      puzzleDiv.style.display = "block";
-      // display puzzles that match on date
-    } else if (date.toLowerCase().includes(query)) {
-      puzzleDiv.style.display = "block";
-      // display puzzles that match on publication
-    } else if (publication.toLowerCase().includes(query)) {
-      puzzleDiv.style.display = "block";
+      visible++;
     } else {
       puzzleDiv.style.display = "none";
     }
   }
+
+  // Update count display
+  const countEl = document.getElementById("filter-count");
+  if (countEl) {
+    if (query || pubFilter || yearFilter) {
+      countEl.textContent = "Showing " + visible + " of " + total + " puzzles";
+    } else {
+      countEl.textContent = "";
+    }
+  }
+}
+
+// Alias for search input compatibility
+function searchPuzzles() {
+  filterPuzzles();
+}
+
+// Initialize GLightbox for puzzle images
+if (typeof GLightbox !== "undefined") {
+  GLightbox({
+    selector: ".glightbox",
+    touchNavigation: true,
+    zoomable: true,
+    draggable: true,
+  });
 }

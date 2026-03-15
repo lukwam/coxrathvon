@@ -129,11 +129,72 @@ def index():
     """Display the main index."""
     puzzles = get_data()
     puzzles = sorted(puzzles, key=lambda x: x["date"], reverse=True)
+
+    # Compute year ranges per publication
+    pub_years = {}
+    for puzzle in puzzles:
+        pub = puzzle.get("publication", "unknown")
+        year = puzzle["date"][:4]
+        if pub not in pub_years:
+            pub_years[pub] = []
+        pub_years[pub].append(year)
+    pub_ranges = {}
+    for pub, years in pub_years.items():
+        pub_ranges[pub] = {"first": min(years), "last": max(years)}
+
+    # Collect unique years (sorted descending) for filter dropdown
+    all_years = sorted({p["date"][:4] for p in puzzles}, reverse=True)
+
     body = render_template(
         "index.html",
         puzzles=puzzles,
+        pub_ranges=pub_ranges,
+        years=all_years,
     )
     return render_theme(body)
+
+
+@app.route("/about")
+def about():
+    """Display the about page."""
+    puzzles = get_data()
+
+    # Compute stats per publication
+    stats = {}
+    for puzzle in puzzles:
+        pub = puzzle.get("publication", "unknown")
+        if pub not in stats:
+            stats[pub] = {"count": 0, "dates": []}
+        stats[pub]["count"] += 1
+        stats[pub]["dates"].append(puzzle["date"])
+
+    # Compute date ranges with human-readable formatting
+    for pub in stats:
+        dates = sorted(stats[pub]["dates"])
+        first = datetime.datetime.strptime(dates[0], "%Y-%m-%d") if dates else None
+        last = datetime.datetime.strptime(dates[-1], "%Y-%m-%d") if dates else None
+        if pub == "atlantic":
+            # Monthly publication — just show Month Year
+            stats[pub]["first"] = first.strftime("%B %Y") if first else None
+            stats[pub]["last"] = last.strftime("%B %Y") if last else None
+        else:
+            # WSJ — show Month Day, Year
+            stats[pub]["first"] = first.strftime("%B %-d, %Y") if first else None
+            stats[pub]["last"] = last.strftime("%B %-d, %Y") if last else None
+        del stats[pub]["dates"]
+
+    total = len(puzzles)
+    all_dates = sorted(p["date"] for p in puzzles)
+    first_year = all_dates[0][:4] if all_dates else ""
+    last_year = all_dates[-1][:4] if all_dates else ""
+    body = render_template(
+        "about.html",
+        stats=stats,
+        total=total,
+        first_year=first_year,
+        last_year=last_year,
+    )
+    return render_theme(body, title="About")
 
 
 @app.route("/admin")
