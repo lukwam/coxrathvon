@@ -8,6 +8,9 @@ module "project" {
   project_name    = var.project_name
 
   iam_policy = {
+    "roles/appengine.appAdmin" = [
+      "serviceAccount:PROJECT_NUMBER@cloudbuild.gserviceaccount.com",
+    ]
     "roles/appengine.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@gcp-gae-service.iam.gserviceaccount.com",
     ]
@@ -34,6 +37,9 @@ module "project" {
     ]
     "roles/firestore.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@gcp-sa-firestore.iam.gserviceaccount.com",
+    ]
+    "roles/iam.serviceAccountUser" = [
+      "serviceAccount:PROJECT_NUMBER@cloudbuild.gserviceaccount.com",
     ]
     "roles/pubsub.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com",
