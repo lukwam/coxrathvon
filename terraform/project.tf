@@ -1,6 +1,6 @@
 module "project" {
   source          = "altissimo-hq/project/google"
-  version         = "1.0.6"
+  version         = "1.0.13"
   billing_account = "01CA85-FC3FC5-42D114"
   folder_id       = "175461412505"
   gcloud_command  = "gcloud"
@@ -11,11 +11,17 @@ module "project" {
     "roles/appengine.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@gcp-gae-service.iam.gserviceaccount.com",
     ]
+    "roles/artifactregistry.serviceAgent" = [
+      "serviceAccount:service-PROJECT_NUMBER@gcp-sa-artifactregistry.iam.gserviceaccount.com",
+    ]
     "roles/cloudbuild.builds.builder" = [
       "serviceAccount:PROJECT_NUMBER@cloudbuild.gserviceaccount.com",
     ]
     "roles/cloudbuild.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@gcp-sa-cloudbuild.iam.gserviceaccount.com",
+    ]
+    "roles/cloudsecuritycompliance.serviceAgent" = [
+      "serviceAccount:service-PROJECT_NUMBER@gcp-sa-csc-hpsa.iam.gserviceaccount.com",
     ]
     "roles/containerregistry.ServiceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@containerregistry.iam.gserviceaccount.com",
