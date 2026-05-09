@@ -50,28 +50,30 @@ module "project" {
     "roles/run.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@serverless-robot-prod.iam.gserviceaccount.com",
     ]
-    "roles/secretmanager.secretAccessor" = [
-      "serviceAccount:altissimo-coxrathvon@appspot.gserviceaccount.com",
-    ]
   }
 
   services = [
     "appengine.googleapis.com",
+    "appenginereporting.googleapis.com",
+    "artifactregistry.googleapis.com",
     "cloudbuild.googleapis.com",
-    # "compute.googleapis.com",
-    # "containerregistry.googleapis.com",
+    "cloudsecuritycompliance.googleapis.com",
+    "compute.googleapis.com",
+    "containeranalysis.googleapis.com",
+    "containerregistry.googleapis.com",
     "drive.googleapis.com",
+    "firebaserules.googleapis.com",
     "firestore.googleapis.com",
     "iam.googleapis.com",
     "iamcredentials.googleapis.com",
     "logging.googleapis.com",
     "monitoring.googleapis.com",
-    # "oslogin.googleapis.com",
-    # "pubsub.googleapis.com",
+    "oslogin.googleapis.com",
+    "pubsub.googleapis.com",
     "run.googleapis.com",
     "secretmanager.googleapis.com",
-    # "storage-api.googleapis.com",
-    # "storage-component.googleapis.com",
+    "storage-api.googleapis.com",
+    "storage-component.googleapis.com",
     "vision.googleapis.com",
   ]
 }
