@@ -5,12 +5,18 @@ import json
 import os
 import shutil
 
+import google.auth
+import google.auth.transport.requests
 from flask import Flask, make_response, redirect, render_template, request, send_file
 from google.cloud import firestore, storage
 
 from puzzle import Puzzle
 
 app = Flask(__name__)
+
+# Resolve the default service account email once at startup for IAM-based signing.
+_credentials, _project = google.auth.default()
+_auth_request = google.auth.transport.requests.Request()
 
 
 @app.context_processor
@@ -26,10 +32,16 @@ def generate_signed_url(bucket_name, object_name):
     blob = bucket.blob(object_name)
     if not blob.exists():
         return None
+
+    # Refresh credentials to ensure the access token is valid.
+    _credentials.refresh(_auth_request)
+
     url = blob.generate_signed_url(
         version="v4",
         expiration=datetime.timedelta(minutes=60),
         method="GET",
+        service_account_email=_credentials.service_account_email,
+        access_token=_credentials.token,
     )
     return url
 

@@ -38,6 +38,9 @@ module "project" {
     "roles/firestore.serviceAgent" = [
       "serviceAccount:service-PROJECT_NUMBER@gcp-sa-firestore.iam.gserviceaccount.com",
     ]
+    "roles/iam.serviceAccountTokenCreator" = [
+      "serviceAccount:altissimo-coxrathvon@appspot.gserviceaccount.com",
+    ]
     "roles/iam.serviceAccountUser" = [
       "serviceAccount:PROJECT_NUMBER@cloudbuild.gserviceaccount.com",
     ]
