@@ -6,8 +6,7 @@ import os
 import shutil
 
 from flask import Flask, make_response, redirect, render_template, request, send_file
-from google.cloud import firestore, secretmanager, storage
-from google.oauth2 import service_account
+from google.cloud import firestore, storage
 
 from puzzle import Puzzle
 
@@ -20,9 +19,9 @@ def inject_current_year():
     return {"current_year": datetime.datetime.now().year}
 
 
-def generate_signed_url(bucket_name, object_name, credentials):
+def generate_signed_url(bucket_name, object_name):
     """Generate a signed url for an object."""
-    storage_client = storage.Client(credentials=credentials)
+    storage_client = storage.Client()
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(object_name)
     if not blob.exists():
@@ -80,14 +79,6 @@ def get_puzzles_dict(key="id"):
         k = item[key]
         puzzles[k] = item
     return puzzles
-
-
-def get_secret(secret_name):
-    """Get secret from the secret manager."""
-    secret_manager = secretmanager.SecretManagerServiceClient()
-    name = f"projects/{os.environ['GOOGLE_CLOUD_PROJECT']}/secrets/{secret_name}/versions/latest"
-    response = secret_manager.access_secret_version(request={"name": name})
-    return response.payload.data.decode("UTF-8")
 
 
 def prepare_puzzle(id):
@@ -211,10 +202,6 @@ def puzzle_page(id):
     if not puzzle:
         return redirect("/")
 
-    # get service account key and create credentials
-    service_account_info = json.loads(get_secret("appengine-sa-key"))
-    credentials = service_account.Credentials.from_service_account_info(service_account_info)
-
     pub = puzzle["publication"]
 
     # generate signed url for the puzzle image
@@ -222,7 +209,6 @@ def puzzle_page(id):
     image_url = generate_signed_url(
         bucket_name="lukwam-hex-archive-images",
         object_name=image_name,
-        credentials=credentials,
     )
 
     # generate signed url for the solution image
@@ -230,7 +216,6 @@ def puzzle_page(id):
     solution_url = generate_signed_url(
         bucket_name="lukwam-hex-archive-images",
         object_name=solution_name,
-        credentials=credentials,
     )
 
     # generate signed url for the solution image
@@ -270,7 +255,7 @@ def puzzle_pdf(id):
     if request.args.get("download"):
         image_binary = get_object("lukwam-hex-archive", object_name)
         response = make_response(image_binary)
-        response.headers["Content-Type"] = "image/jpeg"
+        response.headers["Content-Type"] = "application/pdf"
         response.headers.set(
             "Content-Disposition",
             "attachment",
@@ -278,14 +263,9 @@ def puzzle_pdf(id):
         )
         return response
 
-    # get service account key and create credentials
-    service_account_info = json.loads(get_secret("appengine-sa-key"))
-    credentials = service_account.Credentials.from_service_account_info(service_account_info)
-
     object_url = generate_signed_url(
         bucket_name="lukwam-hex-archive",
         object_name=object_name,
-        credentials=credentials,
     )
     return redirect(object_url)
 
@@ -328,15 +308,11 @@ def solution(id):
     if not puzzle:
         return redirect("/")
 
-    # get service account key and create credentials
-    service_account_info = json.loads(get_secret("appengine-sa-key"))
-    credentials = service_account.Credentials.from_service_account_info(service_account_info)
     pub = puzzle["publication"]
     image_name = f"{pub}/{id}_solution.png"
     image_url = generate_signed_url(
         bucket_name="lukwam-hex-archive-images",
         object_name=image_name,
-        credentials=credentials,
     )
     puzzle["date"] = datetime.datetime.strptime(puzzle["date"], "%Y-%m-%d")
     body = render_template(
