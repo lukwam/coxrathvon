@@ -1,8 +1,8 @@
 module "cloudbuildv2-connection" {
   source  = "altissimo-hq/cloudbuildv2-connection/google"
-  version = "1.0.3"
+  version = "1.0.5"
 
-  github_app_installation_id = 267250
+  github_app_installation_id = 172559547
   github_login               = "lukwam"
   project                    = var.project_id
   region                     = "us-central1"
